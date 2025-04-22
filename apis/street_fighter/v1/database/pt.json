@@ -1,310 +1,983 @@
 [
     {
-        "nome": "Ryu",
-        "geração": "Street Fighter II",
-        "historia": "Ryu é um lutador vagante em busca de aperfeiçoamento e se tornar o maior do mundo. Criado sob a tutela de seu mestre Gouken, ele treinou intensamente para controlar seu poder interior e superar seus próprios limites. Sua jornada é marcada por desafios, onde busca não só a força física, mas também a paz interior. Ryu carrega consigo a determinação e o espírito de um verdadeiro guerreiro, enfrentando adversários para provar seu valor e alcançar a perfeição.",
-        "golpe_principal": "Hadouken",
-        "imagem": ""
-    },
-    {
-        "nome": "Ken",
-        "geração": "Street Fighter II",
-        "historia": "Ken é um mestre de karatê, herdeiro de uma grande fortuna, mas sua verdadeira paixão está em provar seu valor como lutador. Amigo e rival de Ryu, Ken compartilha uma relação de respeito e amizade, mas sua rivalidade amigável com Ryu o impulsiona a sempre buscar novos desafios. Apesar de sua vida privilegiada, ele não se contenta com a riqueza e busca, a cada combate, mostrar que sua habilidade e determinação são o que realmente definem seu legado no mundo das lutas.",
-        "golpe_principal": "Shoryuken",
-        "imagem": ""
-    },
-    {
-        "nome": "Chun-Li",
-        "geração": "Street Fighter II",
-        "historia": "Chun-Li é uma agente da Interpol determinada a vingar a morte de seu pai, assassinato cometido por M. Bison. Sua busca por justiça a leva a enfrentar poderosos inimigos, mas também a estabelece como uma das primeiras mulheres a se tornar protagonista na icônica série Street Fighter. Com habilidades excepcionais e uma determinação inabalável, Chun-Li é uma guerreira destemida, que luta não só pela vingança, mas para trazer paz e justiça ao mundo.",
-        "golpe_principal": "Spinning Bird Kick",
-        "imagem": ""
-    },
-    {
-        "nome": "Blanka",
-        "geração": "Street Fighter II",
-        "historia": "Blanka, antes um homem comum, foi transformado em uma criatura selvagem após um acidente misterioso na selva. Sua aparência bestial e comportamento imprevisível o tornaram um dos personagens mais incomuns da série. Apesar de sua aparência aterrorizante, Blanka possui um coração gentil e luta para se reconectar com sua humanidade. Sua habilidade elétrica, representada pelo golpe 'Electric Thunder', reflete a força bruta e a natureza selvagem que ele carrega dentro de si.",
-        "golpe_principal": "Electric Thunder",
-        "imagem": ""
-    },
-    {
-        "nome": "Guile",
-        "geração": "Street Fighter II",
-        "historia": "Guile é um dedicado soldado das Forças Aéreas dos EUA, que vive com a missão de vingar a morte de seu melhor amigo, Charlie Nash, assassinado por M. Bison. Impulsionado pelo desejo de justiça, Guile se envolve em batalhas intensas para derrotar Bison e sua organização criminosa, enquanto lida com o peso da perda. Seu golpe principal, o 'Sonic Boom', reflete sua disciplina militar e a força implacável com que busca honrar a memória de seu amigo caído.",
-        "golpe_principal": "Sonic Boom",
-        "imagem": ""
-    },
-    {
-        "nome": "Zangief",
-        "geração": "Street Fighter II",
-        "historia": "Zangief é um lutador russo e herói nacional, conhecido por sua força colossal e habilidades excepcionais na luta livre. Orgulhoso de seu país, ele utiliza seu estilo brutal e implacável para enfrentar seus inimigos, sempre com o objetivo de representar a Rússia com honra. Um dos maiores campeões de sua modalidade, Zangief é reverenciado por sua resistência e determinação. Seu golpe principal, o 'Spinning Piledriver', é temido por sua potência devastadora e precisão mortal.",
-        "golpe_principal": "Spinning Piledriver",
-        "imagem": ""
-    },
-    {
-        "nome": "Dhalsim",
-        "geração": "Street Fighter II",
-        "historia": "Dhalsim é um mestre de Yoga venerado por sua sabedoria e força espiritual. Em busca de paz interior, ele se dedica a manter o equilíbrio entre o bem e o mal, utilizando seus conhecimentos profundos da meditação e do controle energético. Como um dos mais poderosos lutadores espirituais, Dhalsim enfrenta adversários com uma combinação única de habilidades físicas e mentais, sempre com o objetivo de proteger os inocentes e preservar a harmonia no mundo.",
-        "golpe_principal": "Yoga Fire",
-        "imagem": ""
-    },
-    {
-        "nome": "E. Honda",
-        "geração": "Street Fighter II",
-        "historia": "E. Honda é um mestre de sumô determinado a levar sua arte tradicional a uma audiência global. Com um profundo respeito pela cultura do sumô, ele luta para ganhar o reconhecimento de sua habilidade e força em arenas internacionais. Sua imensa força física e seu domínio das técnicas de sumô o tornam um adversário formidável. Honda não apenas representa sua disciplina, mas também busca mostrar ao mundo o verdadeiro espírito e a grandeza de seu esporte ancestral.",
-        "golpe_principal": "Hyakuretsu Harite",
-        "imagem": ""
-    },
-    {
-        "nome": "Balrog",
-        "geração": "Street Fighter II",
-        "historia": "Balrog é um ex-campeão mundial de boxe, agora envolvido no submundo do crime como um dos principais capangas de M. Bison. Sua brutalidade e sede de poder o tornam um inimigo implacável, sempre pronto para esmagar qualquer um que se coloque em seu caminho. Desprezando a honra e a ética do esporte que um dia praticou, Balrog usa sua força imensa e suas habilidades no boxe para intimidar e derrotar seus adversários, com o objetivo de ganhar riquezas e respeito através da violência.",
-        "golpe_principal": "Dash Straight",
-        "imagem": ""
-    },
-    {
-        "nome": "Vega",
-        "geração": "Street Fighter II",
-        "historia": "Vega é um assassino espanhol, obcecado por sua aparência e vaidade, e serve como um dos capangas leais de M. Bison. Com um estilo de combate ágil e letal, ele utiliza suas garras afiadas para atacar com precisão mortal, misturando acrobacias e ataques rápidos. Sua obsessão por sua beleza e perfeição o torna ainda mais perigoso, já que ele não hesita em eliminar qualquer um que o ofenda ou ameace sua imagem. Sua frieza e habilidades fazem dele um adversário temido.",
-        "golpe_principal": "Sky High Claw",
-        "imagem": ""
-    },
-    {
-        "nome": "M. Bison",
-        "geração": "Street Fighter II",
-        "historia": "M. Bison é o temido líder da organização criminosa Shadaloo e o principal vilão da série. Movido por um desejo insaciável de poder, ele usa suas habilidades psíquicas e manipulação para controlar o mundo e eliminar qualquer um que se oponha a ele. Com uma visão de domínio global, Bison é implacável e disposto a sacrificar tudo para alcançar seus objetivos, comandando seu império com uma combinação de crueldade, inteligência estratégica e uma sede insaciável por controle.",
-        "golpe_principal": "Psycho Crusher",
-        "imagem": ""
-    },
-    {
-        "nome": "Akuma (Gouki)",
-        "geração": "Street Fighter Alpha",
-        "historia": "Akuma é um mestre do Ansatsuken, a técnica letal criada por seu irmão Gouken. Obcecado em se tornar o ser mais forte do mundo, ele busca poder absoluto e está disposto a eliminar qualquer um que interfira em sua jornada, até mesmo seu próprio irmão. Seu caráter implacável e seu domínio sobre o 'Shun Goku Satsu', a técnica assassina, o tornam um dos mais temidos lutadores da série, motivado pela busca incessante pela perfeição e pelo poder supremo.",
-        "golpe_principal": "Shun Goku Satsu",
-        "imagem": ""
-    },
-    {
-        "nome": "Sakura Kasugano",
-        "geração": "Street Fighter Alpha",
-        "historia": "Sakura é uma jovem estudante apaixonada por Ryu, e idolatra sua força e espírito de luta. Determinada a se tornar uma grande lutadora, ela treina intensamente, mostrando grande potencial e habilidade. Sua energia e entusiasmo a tornam uma lutadora promissora, com um estilo único que mistura a técnica de Ryu e sua própria paixão pelo combate. Com o 'Shouoken', ela busca conquistar seu lugar no mundo das artes marciais, sempre determinada a melhorar e aprender.",
-        "golpe_principal": "Shouoken",
-        "imagem": ""
-    },
-    {
-        "nome": "Cody Travers",
-        "geração": "Street Fighter Alpha",
-        "historia": "Cody é um ex-criminoso em busca de redenção, mas sua jornada para se reinventar é complicada pelas ações impetuosas de seu passado. Embora tente mudar, suas atitudes muitas vezes não refletem seu desejo de se redimir. Com um estilo de luta baseado em técnicas de rua, Cody mistura brutalidade e improvisação em combate. Seu golpe 'Bad Spray' é uma expressão de sua natureza selvagem, enquanto ele tenta, a seu modo, encontrar um caminho mais honroso para sua vida.",
-        "golpe_principal": "Bad Spray",
-        "imagem": ""
-    },
-    {
-        "nome": "Guy",
-        "geração": "Street Fighter Alpha",
-        "historia": "Guy é um mestre ninja e um dos últimos descendentes do clã Bushin. Com um forte senso de justiça, ele luta para proteger os inocentes e combater a injustiça. Seu compromisso com a honra e sua habilidade extraordinária fazem dele um defensor implacável. Como amigo de Cody, Guy também busca ajudá-lo a seguir um caminho mais nobre, enquanto mantém viva a tradição de seu clã. O 'Bushin Senpukyaku' é uma das suas técnicas mais mortais, refletindo sua destreza e disciplina ninja.",
-        "golpe_principal": "Bushin Senpukyaku",
-        "imagem": ""
-    },
-    {
-        "nome": "Rose",
-        "geração": "Street Fighter Alpha",
-        "historia": "Rose é uma mulher com poderosos dons psíquicos, que usa suas habilidades para combater as forças malignas de M. Bison. Seu objetivo é derrotá-lo e impedir que ele use seus poderes psíquicos para dominar o mundo. Profundamente conectada à energia espiritual, Rose luta com sabedoria e serenidade, mas sua missão contra Bison é pessoal e incansável. Seu 'Soul Spark' é uma manifestação de sua habilidade psíquica, sendo uma arma vital em sua luta contra o mal.",
-        "golpe_principal": "Soul Spark",
-        "imagem": ""
-    },
-    {
-        "nome": "Charlie Nash",
-        "geração": "Street Fighter Alpha",
-        "historia": "Charlie Nash é um soldado das Forças Aéreas dos EUA e amigo leal de Guile. Durante uma missão, ele é dado como morto após um confronto com M. Bison, mas retorna misteriosamente com novos poderes. Sua ressurreição traz consigo uma sede de vingança e uma missão pessoal para derrotar Bison e sua organização. Embora sua aparência tenha mudado, o espírito de justiça e o desejo de proteger os outros continuam a guiá-lo. Seu golpe 'Sonic Boom' é uma arma poderosa em seu retorno.",
-        "golpe_principal": "Sonic Boom",
-        "imagem": ""
-    },
-    {
-        "nome": "Ibuki",
-        "geração": "Street Fighter III",
-        "historia": "Ibuki é uma jovem ninja que leva uma vida dupla, equilibrando suas responsabilidades de ninja com sua vida escolar. Treinada no clã de ninjas, ela é habilidosa em artes marciais e tem uma inteligência aguçada, mas enfrenta os desafios de manter seu segredo enquanto tenta ser uma adolescente normal. Sua destreza e habilidades no combate, como o 'Tetsuzanko', refletem sua disciplina ninja, enquanto ela navega pelas complexidades da vida moderna e suas obrigações secretas.",
-        "golpe_principal": "Tetsuzanko",
-        "imagem": ""
-    },
-    {
-        "nome": "Makoto",
-        "geração": "Street Fighter III",
-        "historia": "Makoto é uma jovem e determinada lutadora, que luta para restaurar a honra de seu dojo após a perda de seu mestre. Ela enfrenta grandes dificuldades, mas sua paixão pelas artes marciais e seu desejo de reerguer o legado do dojo a impulsionam. Com um espírito indomável, ela usa seu estilo de luta único, como o 'Seichusen Godanzuki', para enfrentar desafios e adversários, sempre com a missão de recuperar o respeito perdido e proteger a tradição de seu mestre e dojo.",
-        "golpe_principal": "Seichusen Godanzuki",
-        "imagem": ""
-    },
-    {
-        "nome": "Sean Matsuda",
-        "geração": "Street Fighter III",
-        "historia": "Sean Matsuda é um estudante de artes marciais e discípulo de Ken, buscando aprimorar suas técnicas e alcançar a grandeza nos campos da luta. Determinado e cheio de energia, Sean tem um grande potencial, mas ainda está em uma jornada de autodescoberta e aprendizado. Inspirado por Ken, ele treina com dedicação, mas seu estilo ainda está em desenvolvimento. Seu golpe 'Hadou Burst' é uma demonstração de sua energia crescente, à medida que luta para se tornar um grande lutador.",
-        "golpe_principal": "Hadou Burst",
-        "imagem": ""
-    },
-    {
-        "nome": "Oro",
-        "geração": "Street Fighter III",
-        "historia": "Oro é um mestre de artes marciais recluso, que busca constantemente testar seus limites em combate. Com uma enorme experiência e sabedoria, ele desafia os mais fortes de maneira única, respeitando apenas os adversários que possam realmente oferecer desafios. Seu estilo de luta é imprevisível, e ele é conhecido por lutar com uma mão amarrada, como um meio de manter o equilíbrio em suas batalhas. O 'Tengu Stone' é um de seus golpes mais enigmáticos e mortais, refletindo sua habilidade incomparável.",
-        "golpe_principal": "Tengu Stone",
-        "imagem": ""
-    },
-    {
-        "nome": "Urien",
-        "geração": "Street Fighter III",
-        "historia": "Urien é o líder da organização secreta Illuminati, um homem de grande ambição e poder. Sua busca pelo domínio global o leva a manipular recursos e pessoas, visando controlar o mundo através da organização. Cruel e estrategista, Urien é impiedoso na busca de seus objetivos e não hesita em usar seu poder para destruir qualquer um que esteja em seu caminho. Seu golpe 'Aegis Reflector' reflete sua habilidade em manipular forças poderosas, transformando a luta em sua arena controlada.",
-        "golpe_principal": "Aegis Reflector",
-        "imagem": ""
-    },
-    {
-        "nome": "Alex",
-        "geração": "Street Fighter III",
-        "historia": "Alex é um lutador de rua com um grande coração e um sonho ambicioso: se tornar o maior campeão de luta do mundo. Determinado e persistente, ele busca desafios dignos para testar suas habilidades e provar seu valor no ringue. Embora ainda esteja em busca de seu lugar no mundo das artes marciais, sua coragem e caráter o tornam um adversário formidável. Seu golpe 'Hyper Bomb' é um reflexo de sua força bruta e determinação em enfrentar qualquer obstáculo em seu caminho.",
-        "golpe_principal": "Hyper Bomb",
-        "imagem": ""
-    },
-    {
-        "nome": "Juri Han",
-        "geração": "Street Fighter IV",
-        "historia": "Juri Han é uma assassina coreana que, após perder seu olho durante um ataque brutal a sua família, jurou vingança contra M. Bison. Com sede de justiça, ela usa seus poderes psíquicos e sua astúcia para se vingar daqueles que destruíram sua vida. Cruel e impiedosa, Juri se deleita em destruir seus inimigos enquanto busca o controle total sobre seu destino. Seu golpe 'Fuhajin' é um reflexo de seu domínio sobre o poder psíquico e sua habilidade em manipular os outros.",
-        "golpe_principal": "Fuhajin",
-        "imagem": ""
-    },
-    {
-        "nome": "Rufus",
-        "geração": "Street Fighter IV",
-        "historia": "Rufus é um lutador obeso, arrogante e extravagante, conhecido por seu desejo de derrotar Ken e provar ser o melhor lutador do mundo. Embora sua aparência e comportamento possam parecer cômicos, ele é um oponente sério e implacável. Além disso, Rufus tem uma obsessão por impressionar Chun-Li, o que o leva a tentar constantemente chamar sua atenção. Seu golpe 'Funky Kick' é uma expressão de sua personalidade excêntrica, misturando comédia e habilidade em combate.",
-        "golpe_principal": "Funky Kick",
-        "imagem": ""
-    },
-    {
-        "nome": "El Fuerte",
-        "geração": "Street Fighter IV",
-        "historia": "El Fuerte é um chef de cozinha mexicano e lutador apaixonado, que combina suas habilidades culinárias com sua destreza no ringue. Usando técnicas inspiradas na luta livre e no estilo acrobático, ele é tão ágil quanto criativo, aplicando movimentos rápidos e imprevisíveis. Seu estilo único mistura diversão e ferocidade, e seu golpe 'Run and Slide' é um exemplo de sua energia contagiante e sua habilidade em surpreender os adversários com sua velocidade e precisão.",
-        "golpe_principal": "Run and Slide",
-        "imagem": ""
-    },
-    {
-        "nome": "Abel",
-        "geração": "Street Fighter IV",
-        "historia": "Abel é um homem que sofre de amnésia, em uma busca constante para descobrir seu passado e entender sua verdadeira identidade. Seu estilo de luta, baseado em técnicas de luta livre, é altamente técnico e preciso, refletindo sua natureza analítica e estratégica. Com uma força impressionante e habilidades excepcionais, Abel combate com a esperança de revelar os segredos sobre sua origem, enquanto enfrenta os desafios de um mundo que ele não consegue recordar completamente. Seu golpe 'Change of Direction' é uma expressão de sua adaptabilidade.",
-        "golpe_principal": "Change of Direction",
-        "imagem": ""
-    },
-    {
-        "nome": "Vega (Claw)",
-        "geração": "Street Fighter IV",
-        "historia": "Vega, o assassino espanhol obcecado por sua aparência, é um dos capangas mais letais de M. Bison. Usando garras afiadas como suas principais armas, ele luta com extrema agilidade e um estilo venenoso, movendo-se com graça letal. Sua obsessão pela beleza e perfeição o torna implacável em combate, e ele se regozija em derrotar os inimigos de forma visualmente impressionante. Seu golpe 'Sky High Claw' reflete sua habilidade acrobática e sua natureza cruel e elegante.",
-        "golpe_principal": "Sky High Claw",
-        "imagem": ""
-    },
-    {
-        "nome": "Decapre",
-        "geração": "Street Fighter IV",
-        "historia": "Decapre é uma das 'muñecas', garotas programadas para serem assassinas pessoais de M. Bison. Treinada desde jovem para ser uma guerreira implacável, ela utiliza um estilo de luta baseado em garras afiadas e habilidades de manipulação psíquica, tornando-a uma oponente mortal. Seu passado é marcado por traições e controle mental, e ela busca se libertar das garras de Bison. O golpe 'Quick Scramble' reflete sua habilidade de manipular rapidamente a luta a seu favor.",
-        "golpe_principal": "Quick Scramble",
-        "imagem": ""
-    },
-    {
-        "nome": "Birdie",
-        "geração": "Street Fighter V",
-        "historia": "Birdie é um ex-ladrão de rua que se uniu à organização criminosa Shadaloo, onde se tornou um dos capangas mais temidos. Sua transformação em um personagem corpulento reflete sua busca por poder e lucro, e ele está sempre em busca de caos e destruição. A ganância e a violência o definem, tornando-o um adversário brutal. Seu golpe 'Bull Horn' é uma expressão de sua força física massiva, combinada com sua atitude despreocupada e foco no lucro pessoal.",
-        "golpe_principal": "Bull Horn",
-        "imagem": ""
-    },
-    {
-        "nome": "Karin Kanzuki",
-        "geração": "Street Fighter V",
-        "historia": "Karin Kanzuki é uma rica herdeira e mestre do estilo Kanzuki, possuindo um talento natural para as artes marciais. Desde jovem, ela tem dedicado sua vida ao aprimoramento de suas habilidades, utilizando sua vasta fortuna para treinar e equipar-se com o melhor que o mundo das artes marciais pode oferecer. Seu poder e técnica são incomparáveis, e ela busca sempre a perfeição. O 'Ressenkyaku' é uma das suas técnicas mais refinadas, mostrando sua maestria no combate.",
-        "golpe_principal": "Ressenkyaku",
-        "imagem": ""
-    },
-    {
-        "nome": "Nash (Charlie, ressurreto)",
-        "geração": "Street Fighter V",
-        "historia": "Charlie Nash, após ser ressuscitado por M. Bison, retorna com uma nova missão: buscar vingança e justiça. Sua morte original é uma das forças motivadoras por trás da busca incessante de Guile por Bison, e a perda de um amigo querido o transformou em um combatente implacável. Agora, com uma nova perspectiva e poder, ele busca confrontar aqueles que o fizeram sofrer. Seu golpe 'Sonic Boom' continua a ser uma das suas armas mais poderosas, representando seu desejo de justiça.",
-        "golpe_principal": "Sonic Boom",
-        "imagem": ""
-    },
-    {
-        "nome": "Laura Matsuda",
-        "geração": "Street Fighter V",
-        "historia": "Laura Matsuda é uma talentosa lutadora brasileira, especializada em Jiu-Jitsu, e irmã de Sean Matsuda. Usando sua herança familiar e uma conexão única com a eletricidade, Laura melhora suas habilidades no combate, tornando-se uma oponente formidável. Com um coração generoso e uma atitude descontraída, ela está sempre disposta a lutar por aquilo que acredita. Seu golpe 'Spark Field' utiliza eletricidade para amplificar suas técnicas de Jiu-Jitsu, tornando-a ainda mais imprevisível.",
-        "golpe_principal": "Spark Field",
-        "imagem": ""
-    },
-    {
-        "nome": "Menat",
-        "geração": "Street Fighter V",
-        "historia": "Menat é uma jovem vidente com habilidades psíquicas extraordinárias. Usando um orbe mágico como sua principal arma de combate, ela luta para proteger o futuro e combater as forças do mal. Embora seja jovem, Menat carrega uma sabedoria ancestral e está determinada a evitar os desastres que poderiam destruir o equilíbrio do mundo. Seu golpe 'Soul Sphere' é uma manifestação de sua habilidade psíquica, refletindo sua luta constante para preservar a harmonia entre as forças espirituais.",
-        "golpe_principal": "Soul Sphere",
-        "imagem": ""
-    },
-    {
-        "nome": "G",
-        "geração": "Street Fighter V",
-        "historia": "G é um homem misterioso que se autodenomina o Presidente do Mundo. Com uma aura enigmática e poderes desconhecidos, ele está em uma missão ambígua: salvar o mundo ou talvez dominá-lo por completo. Sua presença causa tanto fascínio quanto medo, e ele manipula forças poderosas para alcançar seus objetivos. Seu golpe 'G Impact' reflete a força de sua ambição e a energia que ele manipula para tentar impor sua visão de um novo mundo.",
-        "golpe_principal": "G Impact",
-        "imagem": ""
-    },
-    {
-        "nome": "Kolin",
-        "geração": "Street Fighter V",
-        "historia": "Kolin é uma agente secreta e uma das aliadas mais confiáveis de M. Bison, usando seus poderes gélidos para dominar os campos de batalha e congelar seus inimigos. Com uma aparência fria e calculista, ela é implacável em combate, utilizando seu controle sobre o gelo para desestabilizar seus adversários. Kolin é uma estrategista, sempre à frente de seus oponentes, e seu golpe 'Siberian Blizzard' é uma tempestade congelante que reflete sua força e seu controle absoluto",
-        "golpe_principal": "Siberian Blizzard",
-        "imagem": ""
-    },
-    {
-        "nome": "Ed",
-        "geração": "Street Fighter V",
-        "historia": "Ed é um ex-assassino treinado por M. Bison, mas após anos de manipulação, ele se rebela e busca se redescobrir. Possuindo habilidades psíquicas e uma natureza agressiva, ele está em uma jornada de autoconhecimento e busca de controle sobre seu próprio destino. Com um desejo de provar seu valor, Ed se torna um combatente formidável, e seu golpe 'Psycho Knuckle' reflete sua intensa energia psíquica, capaz de derrotar os oponentes mais poderosos.",
-        "golpe_principal": "Psycho Knuckle",
-        "imagem": ""
-    },
-    {
-        "nome": "Falke",
-        "geração": "Street Fighter V",
-        "historia": "Falke, uma das 'muñecas' de M. Bison, foi criada como uma assassina, mas se rebelou contra seu criador, buscando uma nova vida. Usando seus poderes psíquicos, ela se dedica a proteger os fracos e oprimidos, encontrando um propósito maior em sua jornada. Seu golpe 'Psycho Kugel' é uma manifestação de sua habilidade psíquica refinada, usada com precisão para combater aqueles que desejam causar destruição, refletindo sua luta interna por redenção.",
-        "golpe_principal": "Psycho Kugel",
-        "imagem": ""
-    },
-    {
-        "nome": "Zeku",
-        "geração": "Street Fighter V",
-        "historia": "Zeku é o mestre do estilo de luta Bushin-ryu, uma técnica de combate ágil e rápida. Após uma vida de treinamento intenso, ele busca um sucessor digno para sua arte, preocupado com o futuro do seu legado. Sua busca por um novo discípulo é mais do que apenas tradição; é um teste de sua própria evolução. Com um estilo de combate que combina velocidade e astúcia, Zeku é um adversário formidável. Seu golpe 'Bushinryu' reflete a eficiência e precisão de seu treinamento.",
-        "golpe_principal": "Bushinryu",
-        "imagem": ""
-    },
-    {
-        "nome": "Jamie",
-        "geração": "Street Fighter 6",
-        "historia": "Jamie é um dançarino de rua que mistura o ritmo das danças urbanas com seu estilo único de combate. Seus movimentos fluidos e dinâmicos tornam sua luta uma expressão artística, e ele busca não apenas dominar o poder da luta, mas também entender sua conexão com a dança. Sua jornada é uma busca por autodescoberta, enquanto almeja alcançar o topo do mundo da luta. O golpe 'Drink Mix' reflete sua habilidade de combinar energia e ritmo para criar um ataque imprevisível e poderoso.",
-        "golpe_principal": "Drink Mix",
-        "imagem": ""
-    },
-    {
-        "nome": "Kimberly",
-        "geração": "Street Fighter 6",
-        "historia": "Kimberly é uma jovem ninja conhecida por sua velocidade e agilidade excepcionais, trazendo um estilo de combate cheio de energia e ataques rápidos. Com uma disciplina implacável, ela combina a arte da ninjutsu com movimentos rápidos e letais, superando seus oponentes com precisão e destreza. Sempre em movimento, Kimberly é uma oponente difícil de prever. Seu golpe 'Kunoichi Rush' é uma demonstração do poder e velocidade de sua técnica ninja, capaz de dominar qualquer adversário.",
-        "golpe_principal": "Kunoichi Rush",
-        "imagem": ""
-    },
-    {
-        "nome": "Lilly",
-        "geração": "Street Fighter 6",
-        "historia": "Lilly é uma lutadora que utiliza técnicas indígenas com um forte foco no equilíbrio e no poder da natureza. Ela busca proteger sua terra e seu povo, defendendo tradições e valores ancestrais com sua força e sabedoria. Seu estilo de luta é imbuído de respeito pela natureza, sendo tanto defensivo quanto ofensivo, refletindo a harmonia do mundo natural. O 'Awa Reversal' é uma técnica que canaliza sua conexão com a terra, proporcionando um poderoso contra-ataque para desestabilizar seus inimigos.",
-        "golpe_principal": "Awa Reversal",
-        "imagem": ""
-    },
-    {
-        "nome": "JP",
-        "geração": "Street Fighter 6",
-        "historia": "JP é um lutador enigmático, dotado de poderes psíquicos que o tornam uma ameaça formidável. Sua presença é marcada por uma aura misteriosa e ameaçadora, e ele manipula suas habilidades psíquicas com precisão letal. Sua busca por poder e controle o coloca em constante conflito com aqueles que cruzam seu caminho. Seu golpe 'Psycho Inferno' é uma demonstração devastadora de sua habilidade, conjurando uma explosão psíquica que consome seus inimigos em chamas mentais.",
-        "golpe_principal": "Psycho Inferno",
-        "imagem": ""
-    },
-    {
+        "id": 1,
         "nome": "A.K.I.",
         "geração": "Street Fighter 6",
-        "historia": "A.K.I. é uma personagem misteriosa, com um estilo de luta único que combina ataques rápidos e precisos com poderes místicos e venenosos. Sua agilidade e destreza em combate são amplificadas por habilidades místicas que surpreendem seus oponentes. Com um domínio incomum de seu poder, ela é uma lutadora imprevisível e fatal. O 'Poison Fang' é um golpe mortal que usa sua energia venenosa para envenenar e derrotar qualquer adversário, deixando-os indefesos diante de seu ataque.",
-        "golpe_principal": "Poison Fang",
-        "imagem": ""
+        "historia": "",
+        "golpe_principal": "Toxico Shuriken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/aki.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 2,
+        "nome": "Akira Kazama",
+        "geração": "Street Fighter 6",
+        "historia": "",
+        "golpe_principal": "Shoryu Reppa",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/akira_kazama.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 3,
+        "nome": "Ryu",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Hadouken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/ryu.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 4,
+        "nome": "Ken",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Shoryuken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/ken.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 5,
+        "nome": "Retsu",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Koryu Rekka",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/retsu.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 6,
+        "nome": "Geki",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Ninjutsu",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/geki.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 7,
+        "nome": "Joe",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Nekketsu Punch",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/joe.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 8,
+        "nome": "Mike",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Mike Bash",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/mike.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 9,
+        "nome": "Lee",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Zutsuki",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/lee.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 10,
+        "nome": "Gen",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Shitenshu",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/gen.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 11,
+        "nome": "Birdie",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Bull Rush",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/birdie.jpeg",
+        "país": "Reino Unido"
+    },
+    {
+        "id": 12,
+        "nome": "Eagle",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Eagle Rush",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/eagle.jpeg",
+        "país": "Reino Unido"
+    },
+    {
+        "id": 13,
+        "nome": "Adon",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Jaguar Kick",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/adon.jpeg",
+        "país": "Tailândia"
+    },
+    {
+        "id": 14,
+        "nome": "Sagat",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Tiger Uppercut",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/sagat.jpeg",
+        "país": "Tailândia"
+    },
+    {
+        "id": 15,
+        "nome": "Scott e Max",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Max Power",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/scott_max.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 16,
+        "nome": "Chun-Li",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Spinning Bird Kick",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/chun_li.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 17,
+        "nome": "Blanka",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Electric Thunder",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/blanka.jpeg",
+        "país": "Brasil"
+    },
+    {
+        "id": 18,
+        "nome": "Zangief",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Spinning Piledriver",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/zangief.jpeg",
+        "país": "União Soviética (Rússia)"
+    },
+    {
+        "id": 19,
+        "nome": "Honda",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Sumo Headbutt",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/honda.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 20,
+        "nome": "Marisa",
+        "geração": "Street Fighter 6",
+        "historia": "",
+        "golpe_principal": "Brutal Impact",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/marisa.jpeg",
+        "país": "Itália"
+    },
+    {
+        "id": 21,
+        "nome": "Guile",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Sonic Boom",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/guile.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 22,
+        "nome": "Dhalsim",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Yoga Fire",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/dhalsim.jpeg",
+        "país": "Índia"
+    },
+    {
+        "id": 23,
+        "nome": "Balrog",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Turn Punch",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/balrog.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 24,
+        "nome": "Vega",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Flying Barcelona Attack",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/vega.jpeg",
+        "país": "Espanha"
+    },
+    {
+        "id": 25,
+        "nome": "M. Bison",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Psycho Crusher",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/m_bison.jpeg",
+        "país": "Desconhecido (líder de Shadaloo)"
+    },
+    {
+        "id": 26,
+        "nome": "T. Hawk",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Condor Dive",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/t_hawk.jpeg",
+        "país": "México"
+    },
+    {
+        "id": 27,
+        "nome": "Darun Mister",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Burning Dynamite",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/darun_mister.jpeg",
+        "país": "Índia"
+    },
+    {
+        "id": 28,
+        "nome": "Cammy",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Spiral Arrow",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/cammy.jpeg",
+        "país": "Reino Unido"
+    },
+    {
+        "id": 29,
+        "nome": "Fei Long",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Shienkyaku",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/fei_long.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 30,
+        "nome": "Dee Jay",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Jackknife Maximum",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/dee_jay.jpeg",
+        "país": "Jamaica"
+    },
+    {
+        "id": 31,
+        "nome": "Akuma",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Shun Goku Satsu",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/akuma.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 32,
+        "nome": "Charlie Nash",
+        "geração": "Street Fighter 2",
+        "historia": "",
+        "golpe_principal": "Sonic Boom",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/charlie_nash.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 33,
+        "nome": "Rose",
+        "geração": "Street Fighter Alpha",
+        "historia": "",
+        "golpe_principal": "Soul Satellite",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/rose.jpeg",
+        "país": "Itália"
+    },
+    {
+        "id": 34,
+        "nome": "Dan Hibiki",
+        "geração": "Street Fighter Alpha",
+        "historia": "",
+        "golpe_principal": "Dankukyaku",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/dan_hibiki.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 35,
+        "nome": "Sakura Kasugano",
+        "geração": "Street Fighter Alpha 2",
+        "historia": "",
+        "golpe_principal": "Shouoken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/sakura_kasugano.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 36,
+        "nome": "Evil Ryu",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Messatsu Hadouken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/evil_ryu.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 37,
+        "nome": "Rainbow Mika",
+        "geração": "Street Fighter Alpha 3",
+        "historia": "",
+        "golpe_principal": "Peach Beach",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/rainbow_mika.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 38,
+        "nome": "Luke",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Impact",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/luke.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 39,
+        "nome": "Karin Kanzuki",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Karin-ryu",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/karin_kanzuki.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 40,
+        "nome": "Juni e Juli",
+        "geração": "Street Fighter Alpha 3",
+        "historia": "",
+        "golpe_principal": "Killer Bee",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/juni_juli.jpeg",
+        "país": "Desconhecido (Shadaloo)"
+    },
+    {
+        "id": 41,
+        "nome": "Ingrid",
+        "geração": "Street Fighter Alpha 3",
+        "historia": "",
+        "golpe_principal": "Shining Claw",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/ingrid.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 42,
+        "nome": "Alex",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Hyper Bomb",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/alex.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 43,
+        "nome": "Yun Lee",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Lunge Punch",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/yun_lee.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 44,
+        "nome": "Yang Lee",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Senkyaku",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/yang_lee.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 45,
+        "nome": "Dudley",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Rolling Thunder",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/dudley.jpeg",
+        "país": "Reino Unido"
+    },
+    {
+        "id": 46,
+        "nome": "Ibuki",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Tsumuji",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/ibuki.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 47,
+        "nome": "Oro",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Tengu Stone",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/oro.jpeg",
+        "país": "Brasil"
+    },
+    {
+        "id": 48,
+        "nome": "Elena",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Spin Scythe",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/elena.jpeg",
+        "país": "Quênia"
+    },
+    {
+        "id": 49,
+        "nome": "Sean Matsuda",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Hadouken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/sean_matsuda.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 50,
+        "nome": "Necro",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Electric Snake",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/necro.jpeg",
+        "país": "Rússia"
+    },
+    {
+        "id": 51,
+        "nome": "Gill",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Pillar of Flame",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/gill.jpeg",
+        "país": "Desconhecido (Secret Society)"
+    },
+    {
+        "id": 52,
+        "nome": "Urien",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Aegis Reflector",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/urien.jpeg",
+        "país": "Desconhecido (Secret Society)"
+    },
+    {
+        "id": 53,
+        "nome": "Remy",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Tornado",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/remy.jpeg",
+        "país": "França"
+    },
+    {
+        "id": 54,
+        "nome": "Makoto",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "Tanden Renki",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/makoto.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 55,
+        "nome": "Twelve",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "X-Copy",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/twelve.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 56,
+        "nome": "Q",
+        "geração": "Street Fighter 3",
+        "historia": "",
+        "golpe_principal": "QCF+P",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/q.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 57,
+        "nome": "Crimson Viper",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Thunder Knuckle",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/crimson_viper.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 58,
+        "nome": "El Fuerte",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Guacamole",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/el_fuerte.jpeg",
+        "país": "México"
+    },
+    {
+        "id": 59,
+        "nome": "Rufus",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Ultra Combo",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/rufus.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 60,
+        "nome": "Seth",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Tanden Engine",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/seth.jpeg",
+        "país": "Desconhecido (Shadaloo)"
+    },
+    {
+        "id": 61,
+        "nome": "Gouken",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Denjin Hadouken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/gouken.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 62,
+        "nome": "Juri Han",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Senpusha",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/juri_han.jpeg",
+        "país": "Coreia do Sul"
+    },
+    {
+        "id": 63,
+        "nome": "Hakan",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Oiled Up",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/hakan.jpeg",
+        "país": "Turquia"
+    },
+    {
+        "id": 64,
+        "nome": "Oni",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Shun Goku Satsu",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/oni.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 65,
+        "nome": "Decapre",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Psycho Sting",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/decapre.jpeg",
+        "país": "Desconhecido (Shadaloo)"
+    },
+    {
+        "id": 66,
+        "nome": "Abel",
+        "geração": "Street Fighter 4",
+        "historia": "",
+        "golpe_principal": "Change of Direction",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/abel.jpeg",
+        "país": "França"
+    },
+    {
+        "id": 67,
+        "nome": "F.A.N.G.",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Noxious Poison",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/fang.jpeg",
+        "país": "China"
+    },
+    {
+        "id": 68,
+        "nome": "Laura",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Thunder Clap",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/laura.jpeg",
+        "país": "Brasil"
+    },
+    {
+        "id": 69,
+        "nome": "Necalli",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Rage Transform",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/necalli.jpeg",
+        "país": "México"
+    },
+    {
+        "id": 70,
+        "nome": "Rashid",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Vortex",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/rashid.jpeg",
+        "país": "Arábia Saudita"
+    },
+    {
+        "id": 71,
+        "nome": "Kolin",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Frost Touch",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/kolin.jpeg",
+        "país": "Rússia"
+    },
+    {
+        "id": 72,
+        "nome": "Ed",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Psycho Knuckle",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/ed.jpeg",
+        "país": "Desconhecido (Shadaloo)"
+    },
+    {
+        "id": 73,
+        "nome": "Menat",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Soul Sphere",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/menat.jpeg",
+        "país": "Egito"
+    },
+    {
+        "id": 74,
+        "nome": "Zeku",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Bushinryu",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/zeku.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 75,
+        "nome": "Falke",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Psycho Kugel",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/falke.jpeg",
+        "país": "Alemanha"
+    },
+    {
+        "id": 76,
+        "nome": "G",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Presidential Piledriver",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/g.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 77,
+        "nome": "Kage",
+        "geração": "Street Fighter 5",
+        "historia": "",
+        "golpe_principal": "Metsu Shoryuken",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/kage.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 78,
+        "nome": "Hokuto",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Shinjou Giga",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/hokuto.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 79,
+        "nome": "Cracker Jack",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Explosive",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/cracker_jack.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 80,
+        "nome": "Doctrine",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Tiger Shot",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/doctrine.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 81,
+        "nome": "Skullomania",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Skull Breaker",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/skullomania.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 82,
+        "nome": "Pullum Purna",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Phoenix",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/pullum_purna.jpeg",
+        "país": "Índia"
+    },
+    {
+        "id": 83,
+        "nome": "Allen Sneider",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Devil's Hand",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/allen_sneider.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 84,
+        "nome": "Blair Dame",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Tornado Kick",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/blair_dame.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 85,
+        "nome": "Garuda",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Raging Inferno",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/garuda.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 86,
+        "nome": "Kairi",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Tatsumaki Senpukyaku",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/kairi.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 87,
+        "nome": "Cycloids",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Cycloid Special",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/cycloids.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 88,
+        "nome": "Hayate",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Windmill Kick",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/hayate.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 89,
+        "nome": "Nanase",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Aqua Splash",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/nanase.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 90,
+        "nome": "Manon",
+        "geração": "Street Fighter 6",
+        "historia": "",
+        "golpe_principal": "Grace Strike",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/manon.jpeg",
+        "país": "França"
+    },
+    {
+        "id": 91,
+        "nome": "Shadowgeist",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Dark Shadow",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/shadowgeist.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 92,
+        "nome": "Sharon",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Sharon Slash",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/sharon.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 93,
+        "nome": "Area",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Area Attack",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/area.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 94,
+        "nome": "Vulcano Rosso",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Vulcan Punch",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/vulcano_rosso.jpeg",
+        "país": "Itália"
+    },
+    {
+        "id": 95,
+        "nome": "Ace",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Ace Shot",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/ace.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 96,
+        "nome": "Blade",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Blade Charge",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/blade.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 97,
+        "nome": "Capitão Sawada",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Sawada Smash",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/capitao_sawada.jpeg",
+        "país": "Brasil"
+    },
+    {
+        "id": 98,
+        "nome": "Arkane",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Arcane Slash",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/arkane.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 99,
+        "nome": "Khyber",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Khyber Slash",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/khyber.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 100,
+        "nome": "F7",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "F7 Charge",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/f7.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 101,
+        "nome": "Guy",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Bushin Senpukyaku",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/guy.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 102,
+        "nome": "Cody",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Bad Stone",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/cody.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 103,
+        "nome": "Maki Genryusai",
+        "geração": "Street Fighter EX",
+        "historia": "",
+        "golpe_principal": "Genryusai",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/maki_genryusai.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 104,
+        "nome": "Sodom",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Tengu Storm",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/sodom.jpeg",
+        "país": "Japão"
+    },
+    {
+        "id": 105,
+        "nome": "Rolento Schugerg",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Rolling Thunder",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/rolento.jpeg",
+        "país": "Brasil"
+    },
+    {
+        "id": 106,
+        "nome": "Hugo",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Hammer Mountain",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/hugo.jpeg",
+        "país": "Alemanha"
+    },
+    {
+        "id": 107,
+        "nome": "Poison",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Love Me Tender",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/poison.jpeg",
+        "país": "Desconhecido"
+    },
+    {
+        "id": 108,
+        "nome": "Abigail",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Abigail Bomber",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/abigail.jpeg",
+        "país": "Estados Unidos"
+    },
+    {
+        "id": 109,
+        "nome": "Lucia",
+        "geração": "Street Fighter",
+        "historia": "",
+        "golpe_principal": "Criminal Justice",
+        "imagem": "https://loo9.com.br/apis/street_fighter/v1/images/lucia.jpeg",
+        "país": "Estados Unidos"
     }
 ]
