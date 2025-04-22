@@ -1,5 +1,5 @@
 {
-  "name": "Street Fighter API",
+  "name": "v1",
   "version": "1.0.0",
   "main": "api.js",
   "scripts": {
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
