@@ -1,0 +1,13 @@
+{
+  "name": "Street Fighter API",
+  "version": "1.0.0",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "node api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
