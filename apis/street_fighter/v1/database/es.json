@@ -1,0 +1,983 @@
+[
+    {
+        "id": 1,
+        "name": "A.K.I.",
+        "generation": "Street Fighter 6",
+        "history": "Criada en las sombras por F.A.N.G., A.K.I. es una luchadora venenosa e impredecible proveniente de China. Su cuerpo y mente fueron moldeados para usar toxinas como extensión de su alma. Cruel, elegante y sádica, encuentra placer en el sufrimiento ajeno. Su golpe principal, el Toxico Shuriken, paraliza al enemigo lentamente, transformando el dolor en espectáculo. Para A.K.I., luchar es un arte — y el veneno, su tinta.",
+        "main_attack": "Toxico Shuriken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/aki.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 2,
+        "name": "Akira Kazama",
+        "generation": "Street Fighter 6",
+        "history": "Proveniente de Japón, Akira Kazama es una luchadora hábil y enfocada, que carga el espíritu de la justicia y la lealtad familiar. Ex miembro de una pandilla, lucha para proteger a quienes ama, especialmente a su hermano Daigo. Disciplinada y veloz, Akira mezcla técnicas de artes marciales con golpes explosivos. Su ataque principal, Shoryu Reppa, demuestra su fuerza y precisión, rompiendo defensas con furia y control.",
+        "main_attack": "Shoryu Reppa",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/akira_kazama.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 3,
+        "name": "Ryu",
+        "generation": "Street Fighter 2",
+        "history": "Ryu es un guerrero solitario de Japón, en constante búsqueda de la perfección en las artes marciales. Disciplinado y honorable, recorre el mundo entrenando y enfrentando oponentes para evolucionar como luchador y como persona. Su golpe icónico, Hadouken, simboliza el equilibrio entre fuerza y control. Con un fuerte sentido de la justicia, Ryu lucha no por gloria, sino para dominarse a sí mismo y entender el verdadero significado de la lucha.",
+        "main_attack": "Hadouken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ryu.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 4,
+        "name": "Ken",
+        "generation": "Street Fighter 2",
+        "history": "Ken es un luchador americano carismático e impulsivo, rival y amigo de larga data de Ryu. Entrenado en el mismo estilo de artes marciales, Ken desarrolló un estilo más agresivo y flamboyant, destacándose por el poderoso Shoryuken. A pesar de su naturaleza extrovertida, está dedicado a su familia y valora profundamente el honor. Ken lucha para probar su valía, equilibrando su vida como artista marcial y como padre y esposo dedicado.",
+        "main_attack": "Shoryuken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ken.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 5,
+        "name": "Retsu",
+        "generation": "Street Fighter",
+        "history": "Retsu es un monje japonés y maestro del Kempo, conocido por su disciplina y fuerza interior. Antiguo miembro del templo donde entrenó Ryu y Ken, fue expulsado por su naturaleza violenta. Tras años de reflexión y arrepentimiento, busca redención a través de la lucha justa y el autoconocimiento. Retsu regresa al mundo de las artes marciales para probar sus enseñanzas y guiar a nuevos luchadores por el camino del honor.",
+        "main_attack": "Koryu Rekka",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/retsu.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 6,
+        "name": "Geki",
+        "generation": "Street Fighter",
+        "history": "Geki es un enigmático ninja japonés, maestro del ninjutsu y técnicas de asesinato silencioso. Conocido por su velocidad, shurikens letales y ataques furtivos, representa el lado oscuro de las artes marciales. Poco se sabe sobre su pasado, pero rumores dicen que Geki actúa como mercenario para mantener viva la tradición de su clan. Su estilo de lucha es preciso e implacable, haciéndolo un adversario temido en las sombras.",
+        "main_attack": "Ninjutsu",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/geki.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 7,
+        "name": "Joe",
+        "generation": "Street Fighter",
+        "history": "Joe es un luchador norteamericano confiado e impulsivo, conocido por su estilo agresivo y el icónico Nekketsu Punch. Participó en el primer torneo World Warrior buscando fama y reconocimiento, pero terminó siendo derrotado temprano. Aun así, su energía y espíritu de lucha dejaron huella. Joe continúa entrenando incansablemente, determinado a probar que su pasión puede superar cualquier obstáculo en los rings.",
+        "main_attack": "Nekketsu Punch",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/joe.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 8,
+        "name": "Mike",
+        "generation": "Street Fighter",
+        "history": "Mike es un ex boxeador profesional de los Estados Unidos, famoso por su golpe poderoso, el “Mike Bash”. Tras un pasado turbulento en los rings, buscó redención al participar en el torneo Street Fighter, donde canalizó su fuerza y disciplina para superar su pasado. Carismático y determinado, Mike lucha no solo por la victoria, sino para inspirar a jóvenes a seguir el camino de la honestidad y la superación.",
+        "main_attack": "Mike Bash",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/mike.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 9,
+        "name": "Lee",
+        "generation": "Street Fighter",
+        "history": "Lee es un maestro de las artes marciales chinas, proveniente de una tradicional línea de luchadores. Conocido por su técnica precisa y su golpe “Zutsuki”, busca perfeccionar el cuerpo y la mente a través de la lucha. Discreto y disciplinado, entró al torneo Street Fighter no por fama, sino para probar su estilo contra los mejores del mundo. Su presencia serena esconde la fuerza de un verdadero guerrero del Oriente.",
+        "main_attack": "Zutsuki",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/lee.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 10,
+        "name": "Gen",
+        "generation": "Street Fighter 2",
+        "history": "Gen es un veterano maestro de las artes marciales, con una larga y difícil trayectoria de vida. Nacido en China, fue entrenado desde joven en las técnicas mortales del kung fu. Su golpe principal, el Shitenshu, refleja su destreza y precisión impresionantes. A pesar de su salud debilitada por la edad, Gen continúa luchando, motivado por la búsqueda constante de un oponente digno y por el deseo de cumplir su destino, encontrando paz a través de la batalla.",
+        "main_attack": "Shitenshu",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gen.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 11,
+        "name": "Birdie",
+        "generation": "Street Fighter",
+        "history": "Birdie es un ex miembro de una pandilla que se convirtió en un luchador imponente y salvaje. Nacido en el Reino Unido, era conocido por su tamaño y fuerza, lo que le garantizó respeto en el submundo. Su golpe principal, el Bull Rush, es un ataque devastador, en el que utiliza su masa corporal para aplastar a sus oponentes. A pesar de su apariencia ruda y actitud arrogante, Birdie posee una naturaleza inestable y siempre busca nuevos desafíos, queriendo probar su superioridad.",
+        "main_attack": "Bull Rush",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/birdie.jpeg",
+        "country": "Reino Unido"
+    },
+    {
+        "id": 12,
+        "name": "Eagle",
+        "generation": "Street Fighter 3",
+        "history": "Eagle es un luchador hábil originario del Reino Unido, conocido por su estilo de lucha basado en el uso de bastones y su golpe rápido, el Eagle Rush. Originalmente fue un vigilante de una prisión de máxima seguridad, donde su destreza con los bastones y las técnicas de combate corporal lo convirtieron en una figura imponente. Tras su fuga, Eagle busca mejorar sus habilidades en torneos de lucha, siempre en busca de adversarios dignos y la oportunidad de probar sus límites.",
+        "main_attack": "Eagle Rush",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/eagle.jpeg",
+        "country": "Reino Unido"
+    },
+    {
+        "id": 13,
+        "name": "Adon",
+        "generation": "Street Fighter",
+        "history": "Adon es un luchador tailandés, ex alumno de Sagat, que destaca por su estilo de combate inspirado en el Muay Thai. Inicialmente, Adon era un pupilo orgulloso y arrogante, creyéndose superior a su maestro, Sagat. Con el tiempo, esta arrogancia lo llevó a desafiar a su antiguo mentor, buscando constantemente probar su superioridad. Su golpe principal, el Jaguar Kick, refleja su agilidad y poder, convirtiéndolo en uno de los luchadores más temidos en cualquier torneo de Street Fighter.",
+        "main_attack": "Jaguar Kick",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/adon.jpeg",
+        "country": "Tailandia"
+    },
+    {
+        "id": 14,
+        "name": "Sagat",
+        "generation": "Street Fighter 2",
+        "history": "Sagat, el Rey del Muay Thai, es uno de los luchadores más icónicos de la franquicia Street Fighter. Originalmente un maestro de Muay Thai, se obsesionó con la fuerza y, en su búsqueda de poder, fue derrotado por Ryu, lo que dejó una cicatriz permanente en su pecho y un profundo deseo de venganza. Sagat es conocido por su golpe principal, el Tiger Uppercut, y su postura imponente en el ring. A pesar de su naturaleza brutal, mantiene un código de honor en combate, respetando a los adversarios fuertes.",
+        "main_attack": "Tiger Uppercut",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sagat.jpeg",
+        "country": "Tailandia"
+    },
+    {
+        "id": 15,
+        "name": "Scott e Max",
+        "generation": "Street Fighter EX",
+        "history": "Scott y Max son una pareja de hermanos originarios de los Estados Unidos, conocidos por su gran habilidad en artes marciales. Juntos, participan en competiciones de lucha para probar su fuerza y destreza. El golpe principal de Scott y Max es el Max Power, una poderosa técnica combinada que refleja su intensa unión y entrenamiento conjunto. A pesar de su apariencia robusta y estilo agresivo, están motivados por la amistad y el deseo de superar sus límites en combate.",
+        "main_attack": "Max Power",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/scott_max.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 16,
+        "name": "Chun-Li",
+        "generation": "Street Fighter 2",
+        "history": "Chun-Li es una de las luchadoras más icónicas de la serie Street Fighter y es conocida por su habilidad en artes marciales, siendo una experimentada oficial de la Interpol. Su principal motivación es vengar la muerte de su padre, quien fue asesinado por organizaciones criminales. Chun-Li posee una agilidad impresionante y su golpe principal, el Spinning Bird Kick, es uno de los ataques más emblemáticos de la serie, demostrando su destreza y poder en las batallas. Su fuerza y determinación la convierten en uno de los personajes más admirados.",
+        "main_attack": "Spinning Bird Kick",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/chun_li.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 17,
+        "name": "Blanka",
+        "generation": "Street Fighter 2",
+        "history": "Blanka, originalmente llamado Jimmy, es uno de los personajes más distintivos de Street Fighter. Nació en los Estados Unidos, pero se perdió en la selva amazónica cuando era niño, donde pasó a vivir como un salvaje. Su apariencia y habilidades extraordinarias, como el Electric Thunder, fueron el resultado de años de adaptación al entorno salvaje y experimentos científicos. Aunque inicialmente desconfiaba de los demás, Blanka desarrolla un fuerte sentido de la amistad y lucha por aquellos que ama. Su historia es de superación y resiliencia.",
+        "main_attack": "Electric Thunder",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blanka.jpeg",
+        "country": "Brasil"
+    },
+    {
+        "id": 18,
+        "name": "Zangief",
+        "generation": "Street Fighter 2",
+        "history": "Zangief es un luchador de lucha libre ruso conocido por su inmensa fuerza y habilidades en el ring. Nacido en la Unión Soviética, Zangief se convirtió en una leyenda en el mundo de las luchas gracias a su poder físico y al temido Spinning Piledriver. También es un defensor feroz de su país, representando el orgullo nacional en batallas alrededor del mundo. A pesar de su apariencia intimidante, Zangief tiene un corazón bondadoso y lucha para proteger a los débiles y oprimidos.",
+        "main_attack": "Spinning Piledriver",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/zangief.jpeg",
+        "country": "Unión Soviética"
+    },
+    {
+        "id": 19,
+        "name": "E. Honda",
+        "generation": "Street Fighter 2",
+        "history": "E. Honda es un maestro de sumo de Japón, conocido por su fuerza y habilidades imbatibles en el ring. Ganó fama mundial no solo por su destreza en el sumo, sino también por su dedicación a difundir el arte de esta tradicional lucha japonesa. Su golpe más famoso, el Sumo Headbutt, es un ataque devastador, con el que derriba a cualquier adversario. Honda está apasionado por su cultura y usa su fuerza para honrar el legado de sus antepasados.",
+        "main_attack": "Sumo Headbutt",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/honda.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 20,
+        "name": "Marisa",
+        "generation": "Street Fighter 6",
+        "history": "Marisa es una luchadora imponente de Italia, famosa por su fuerza aplastante y postura determinada. Está especializada en un estilo de lucha basado en fuerza bruta, utilizando su enorme musculatura para asestar golpes poderosos como el Brutal Impact. Proveniente de un linaje de guerreros, Marisa es una figura respetada en el escenario de las luchas, buscando constantemente probar sus límites y ser reconocida como una de las más fuertes. Su pasión por la lucha es incomparable.",
+        "main_attack": "Brutal Impact",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/marisa.jpeg",
+        "country": "Italia"
+    },
+    {
+        "id": 21,
+        "name": "Guile",
+        "generation": "Street Fighter 2",
+        "history": "Guile es un hábil y dedicado oficial de la Fuerza Aérea de los Estados Unidos, conocido por su poderosísimo Sonic Boom. Con una historia marcada por la búsqueda de justicia, entró en el torneo Street Fighter para vengar a su amigo Charlie Nash, quien murió durante una misión secreta. Guile posee una personalidad firme y un espíritu imbatible, siendo uno de los luchadores más respetados debido a su disciplina militar y habilidades extraordinarias.",
+        "main_attack": "Sonic Boom",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/guile.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 22,
+        "name": "Dhalsim",
+        "generation": "Street Fighter 2",
+        "history": "Dhalsim es un monje y maestro de yoga originario de la India. Posee habilidades sobrenaturales, como la capacidad de estirar sus miembros y lanzar poderosas llamas de yoga. Su lucha no es por venganza, sino para proteger a su familia y a su aldea de la violencia. Dhalsim entra en el torneo Street Fighter con el objetivo de ganar dinero para ayudar a los necesitados, manteniendo siempre su filosofía de paz y autocontrol.",
+        "main_attack": "Yoga Fire",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dhalsim.jpeg",
+        "country": "India"
+    },
+    {
+        "id": 23,
+        "name": "Balrog",
+        "generation": "Street Fighter 2",
+        "history": "Balrog, ex campeón mundial de boxeo, fue encarcelado por un crimen brutal y ahora, como luchador profesional, su sed de poder y riqueza lo lleva a participar en el torneo Street Fighter. Usando su estilo de boxeo imbatible, Balrog no tiene miedo de usar métodos sucios para ganar. Está motivado por la codicia y la búsqueda de más dinero, y su único objetivo es derrotar a todos los oponentes que se crucen en su camino.",
+        "main_attack": "Turn Punch",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/balrog.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 24,
+        "name": "Vega",
+        "generation": "Street Fighter 2",
+        "history": "Vega, también conocido como Claw, es un famoso luchador español que usa su habilidad acrobática y sus garras afiladas en combate. Además de ser un maestro de lucha, está obsesionado con la belleza y la vanidad. Vega busca la perfección estética, siendo cruel e implacable con aquellos que considera indignos. Su comportamiento excéntrico y su naturaleza sádica lo han convertido en uno de los enemigos más temidos del torneo Street Fighter.",
+        "main_attack": "Flying Barcelona Attack",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/vega.jpeg",
+        "country": "España"
+    },
+    {
+        "id": 25,
+        "name": "M. Bison",
+        "generation": "Street Fighter 2",
+        "history": "M. Bison, el villano más infame de la serie Street Fighter, es el líder de la organización criminal Shadaloo. Usando su vasto poder psíquico y el mando de una red de criminales internacionales, busca dominar el mundo y subyugar a todos los que se oponen a él. Su principal habilidad, el Psycho Crusher, es una demostración de su poder mental. M. Bison está obsesionado con la conquista y el control absoluto, siendo una amenaza implacable para cualquiera que lo desafíe.",
+        "main_attack": "Psycho Crusher",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/m_bison.jpeg",
+        "country": "Desconocido (líder de Shadaloo)"
+    },
+    {
+        "id": 26,
+        "name": "T. Hawk",
+        "generation": "Street Fighter 2",
+        "history": "T. Hawk es un guerrero poderoso de México, que busca venganza contra Shadaloo por la destrucción de su aldea y la muerte de su familia. Su golpe, el Condor Dive, refleja su fuerza y habilidad en combate, utilizando su gran altura y poder de impacto. T. Hawk no es solo un combatiente, sino también un líder de su pueblo, determinado a restaurar el honor y la justicia. Entra en el torneo Street Fighter con un único objetivo: derribar a M. Bison y a Shadaloo.",
+        "main_attack": "Condor Dive",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/t_hawk.jpeg",
+        "country": "México"
+    },
+    {
+        "id": 27,
+        "name": "Darun Mister",
+        "generation": "Street Fighter EX",
+        "history": "Darun Mister es un luchador indio con un estilo de combate único, basado en poderosos ataques de fuerza bruta. Exhibiendo una enorme resistencia y fuerza, usa el golpe Burning Dynamite para dominar a sus adversarios. Aunque inicialmente es un hombre de pocas palabras, Darun Mister posee una gran devoción por la justicia. Su objetivo en el torneo Street Fighter es proteger a los inocentes y confrontar cualquier amenaza con su impresionante físico y fuerza imbatible.",
+        "main_attack": "Burning Dynamite",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/darun_mister.jpeg",
+        "country": "India"
+    },
+    {
+        "id": 28,
+        "name": "Cammy",
+        "generation": "Street Fighter 2",
+        "history": "Cammy es una agente de élite del Reino Unido, cuyo pasado está envuelto en misterio. Entrenada para ser una asesina letal, usa el golpe Spiral Arrow como parte de su estilo de lucha rápido y técnico. Cammy fue víctima de manipulaciones y experimentos de control mental, pero ahora busca recuperar su identidad y su libertad. Participando en el torneo, lucha para descubrir la verdad sobre su pasado y, al mismo tiempo, buscar redención por sus pecados pasados.",
+        "main_attack": "Spiral Arrow",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cammy.jpeg",
+        "country": "Reino Unido"
+    },
+    {
+        "id": 29,
+        "name": "Fei Long",
+        "generation": "Street Fighter 2",
+        "history": "Fei Long, un talentoso actor y maestro de kung fu de China, es conocido por su destreza en combate y sus habilidades cinematográficas. Inspirado por iconos de acción, usa su golpe Shienkyaku, una poderosa combinación de patada aérea, para enfrentarse a cualquier adversario. Fei Long participa en el torneo Street Fighter no solo para probar sus habilidades, sino también para descubrir más sobre un misterioso villano que amenazó su ciudad.",
+        "main_attack": "Shienkyaku",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/fei_long.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 30,
+        "name": "Dee Jay",
+        "generation": "Street Fighter 2",
+        "history": "Dee Jay, un luchador jamaicano con una energía contagiosa, es conocido por su habilidad musical y su actitud positiva. Mezcla la pasión por la música con el combate, creando un estilo único y dinámico. Su golpe principal, el Jackknife Maximum, combina rapidez y potencia, reflejando su personalidad animada. Dee Jay participa en el torneo con la esperanza de conquistar la victoria y difundir alegría, creyendo que su música puede traer un poco de luz al mundo.",
+        "main_attack": "Jackknife Maximum",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dee_jay.jpeg",
+        "country": "Jamaica"
+    },
+    {
+        "id": 31,
+        "name": "Akuma",
+        "generation": "Street Fighter 2",
+        "history": "Akuma, uno de los luchadores más temidos de la serie Street Fighter, es un maestro de las artes marciales que se entregó a la búsqueda del poder absoluto. Con su golpe Shun Goku Satsu, Akuma puede eliminar a sus oponentes con una técnica mortal, reflejando su naturaleza implacable y sedienta de destrucción. Abandonó cualquier concepto de moralidad para alcanzar el máximo poder y desafiar el destino, buscando ser el luchador más fuerte del mundo, a cualquier costo.",
+        "main_attack": "Shun Goku Satsu",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/akuma.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 32,
+        "name": "Charlie Nash",
+        "generation": "Street Fighter 2",
+        "history": "Charlie Nash es un oficial de las Fuerzas Armadas de los Estados Unidos y uno de los aliados más cercanos de Guile. Es conocido por su habilidad con el Sonic Boom, una técnica de combate que se convirtió en su marca registrada. Después de ser dado por muerto, Charlie regresa con un objetivo claro: vengarse de la organización Shadaloo y de la muerte de su amigo. Determinado y con un nuevo propósito, entra en el torneo Street Fighter para confrontar a sus enemigos y resolver su pasado de una vez por todas.",
+        "main_attack": "Sonic Boom",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/charlie_nash.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 33,
+        "name": "Rose",
+        "generation": "Street Fighter Alpha",
+        "history": "Rose, una mística mujer de origen italiano, lleva el poder de controlar las almas. Como vidente, busca equilibrar la energía cósmica al utilizar el Soul Satellite, un ataque que manipula el poder espiritual. Rose fue destinada a luchar contra las fuerzas del mal que buscan corromper las almas. Aunque parece calma y serena, su misión es pesada, ya que necesita enfrentarse a adversarios poderosos mientras intenta evitar ser consumida por la propia energía espiritual que manipula.",
+        "main_attack": "Soul Satellite",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rose.jpeg",
+        "country": "Italia"
+    },
+    {
+        "id": 34,
+        "name": "Dan Hibiki",
+        "generation": "Street Fighter Alpha",
+        "history": "Dan Hibiki, un luchador excéntrico de Japón, es conocido tanto por su estilo de lucha como por su confianza excesiva, que, en la mayoría de los casos, se traduce en fallas cómicas. Entrenó en una escuela de lucha propia, con una filosofía de lucha basada en el orgullo y la exhibición. El Dankukyaku es su marca registrada, una patada torpe, pero con gran convicción. Dan participa en los torneos Street Fighter para probar que es el mejor, independientemente de su historial dudoso o de las críticas de los otros luchadores. Su sueño es convertirse en un gran maestro, al igual que el maestro de su padre.",
+        "main_attack": "Dankukyaku",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dan_hibiki.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 35,
+        "name": "Sakura Kasugano",
+        "generation": "Street Fighter Alpha 2",
+        "history": "Sakura Kasugano es una joven estudiante de Japón, admiradora de Ryu, a quien considera su héroe. Con una energía juvenil y un espíritu competitivo, entra en el torneo Street Fighter para probar sus habilidades y demostrar que tiene potencial para convertirse en una gran luchadora. Su golpe principal, el Shouoken, es una versión del de su héroe, Ryu. Aunque todavía está aprendiendo, Sakura es increíblemente determinada y siempre busca mejorar, demostrando que es capaz de luchar contra cualquier adversario con su corazón puro y fuerte.",
+        "main_attack": "Shouoken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sakura_kasugano.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 36,
+        "name": "Evil Ryu",
+        "generation": "Street Fighter 3",
+        "history": "Evil Ryu es la versión corrompida de Ryu, que sucumbió al poder del Satsui no Hado (Fuerza de la Voluntad Asesina). Evil Ryu utiliza el Messatsu Hadouken, un ataque devastador que refleja su entrega total a la fuerza bruta y al deseo de destrucción. El espíritu de Ryu está consumido por la rabia, y su humanidad se ha perdido. A diferencia del Ryu original, Evil Ryu busca la violencia y el caos, convirtiéndose en un adversario mucho más peligroso e implacable. Está en una búsqueda constante de poder, sin importarle el daño causado a su cuerpo y a su alma.",
+        "main_attack": "Messatsu Hadouken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/evil_ryu.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 37,
+        "name": "Rainbow Mika",
+        "generation": "Street Fighter Alpha 3",
+        "history": "Rainbow Mika, una luchadora japonesa llena de energía, sueña con convertirse en una estrella del wrestling y darse a conocer mundialmente. Con su actitud positiva y espíritu inquebrantable, entra en el ring para probar sus habilidades, tanto en el deporte como en el corazón de los fans. Su golpe principal, el Peach Beach, es una combinación de fuerza y espectáculo, reflejando su personalidad extrovertida. Rainbow Mika sueña con el reconocimiento y la fama, mientras difunde un mensaje de coraje y perseverancia, inspirando a otros a nunca rendirse en sus sueños, ya sea en el deporte o en la vida.",
+        "main_attack": "Peach Beach",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rainbow_mika.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 38,
+        "name": "Luke",
+        "generation": "Street Fighter 5",
+        "history": "Luke, uno de los personajes destacados de Street Fighter V, es un luchador estadounidense con un enfoque moderno y pragmático para el combate. Destaca por su habilidad única para luchar de manera dinámica y con fuerza, con el golpe principal Impact que es una representación del poder y la velocidad que aplica en sus enfrentamientos. Luke tiene un deseo ardiente de crecer, probar sus límites y ganarse el respeto de los mejores luchadores. Es una figura carismática, con un pasado ligado al ejército y un futuro centrado en convertirse en el campeón mundial.",
+        "main_attack": "Impact",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/luke.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 39,
+        "name": "Karin Kanzuki",
+        "generation": "Street Fighter 5",
+        "history": "Karin Kanzuki, una de las luchadoras más poderosas de Street Fighter V, proviene de una familia rica y tradicional de Japón. Fue criada para ser una líder natural, con un fuerte sentido del deber y una habilidad impresionante en artes marciales. El Karin-ryu, su golpe principal, refleja la precisión y el dominio de las técnicas que ha perfeccionado a lo largo de su vida. Karin no busca solo vencer, quiere demostrar que es superior a todos los demás luchadores, independientemente de sus orígenes humildes. Su historia está marcada por la búsqueda incesante de la perfección y por superar las expectativas impuestas por su familia y la sociedad.",
+        "main_attack": "Karin-ryu",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/karin_kanzuki.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 40,
+        "name": "Juni e Juli",
+        "generation": "Street Fighter Alpha 3",
+        "history": "Juni y Juli, dos luchadoras de Street Fighter Alpha 3, son agentes altamente entrenadas que sirven a M. Bison en su organización criminal Shadaloo. Son dos de sus asesinas más letales, con habilidades de combate intensamente refinadas y un entrenamiento brutal. Su golpe conjunto, Killer Bee, refleja la sincronización perfecta que tienen durante los combates, con ataques rápidos e implacables. Aunque trabajan como una unidad, tienen personalidades diferentes: Juli es más serena y enfocada, mientras que Juni es más intensa y explosiva. Ambas, sin embargo, son completamente leales a Shadaloo, cumpliendo sus órdenes sin cuestionar.",
+        "main_attack": "Killer Bee",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/juni_juli.jpeg",
+        "country": "Desconocido (Shadaloo)"
+    },
+    {
+        "id": 41,
+        "name": "Ingrid",
+        "generation": "Street Fighter Alpha 3",
+        "history": "Ingrid, de origen misterioso, apareció por primera vez en Street Fighter Alpha 3. Su verdadera identidad e intenciones están envueltas en misterio, con muchos especulando sobre sus orígenes y el motivo de su aparición en el universo de Street Fighter. El golpe Shining Claw refleja su estilo de lucha elegante, mezclando técnicas poderosas y precisión con un aura casi sobrenatural. Ingrid parece tener un poder divino y una conexión con el destino del mundo, pero mantiene sus propios objetivos secretos, desafiando incluso a los más fuertes para intentar entender su verdadera naturaleza.",
+        "main_attack": "Shining Claw",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ingrid.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 42,
+        "name": "Alex",
+        "generation": "Street Fighter 3",
+        "history": "Alex, un luchador americano que apareció en Street Fighter 3, es un personaje determinado y carismático, con un gran sentido de la justicia. Siempre lucha para proteger a los demás y mantener lo que es correcto. Su golpe principal, Hyper Bomb, es una demostración de su fuerza bruta y resistencia. Alex es un ejemplo de perseverancia, y su viaje por las calles de Nueva York lo lleva a buscar una verdad mayor, intentando probar que es más que un simple luchador, sino un héroe capaz de enfrentar cualquier desafío que se presente en su camino.",
+        "main_attack": "Hyper Bomb",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/alex.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 43,
+        "name": "Yun Lee",
+        "generation": "Street Fighter 3",
+        "history": "Yun Lee, de Street Fighter 3, es un joven luchador con gran habilidad y agilidad, originario de China. Es un especialista en artes marciales y usa su golpe Lunge Punch para atacar de forma rápida y precisa, siempre en movimiento. Yun es ambicioso y sueña con convertirse en el mejor luchador del mundo. A pesar de su juventud, posee una gran determinación y un fuerte deseo de proteger a su familia y amigos. Su estilo de lucha está marcado por una velocidad impresionante y un enfoque pragmático en combate, reflejando su personalidad centrada y dinámica.",
+        "main_attack": "Lunge Punch",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/yun_lee.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 44,
+        "name": "Yang Lee",
+        "generation": "Street Fighter 3",
+        "history": "Yang Lee, hermano gemelo de Yun, comparte muchas de sus habilidades, pero es más calmado y reservado. Yang es un maestro de las artes marciales y, mientras su hermano se centra en el ataque directo, él prefiere un enfoque más estratégico. Su golpe principal, Senkyaku, es un movimiento rápido y eficaz que causa gran daño a sus oponentes. Aunque los dos hermanos comparten un vínculo profundo, Yang siempre busca su propio camino, intentando superar los desafíos a su manera y con el máximo control sobre su cuerpo y mente.",
+        "main_attack": "Senkyaku",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/yang_lee.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 45,
+        "name": "Dudley",
+        "generation": "Street Fighter 3",
+        "history": "Dudley es un noble británico y un excelente boxeador, originario del Reino Unido. Su pasión por la nobleza y el arte del boxeo es visible en cada uno de sus golpes, siendo su Rolling Thunder la personificación de su habilidad y estilo exquisito. A pesar de su encanto elegante y apariencia sofisticada, Dudley tiene un corazón de guerrero y siempre está en busca de un buen desafío en el ring. También es conocido por su búsqueda incesante para encontrar al campeón mundial de boxeo y, lo que es más importante, para recuperar el coche de lujo de su padre, que fue robado. Dudley mantiene su clase y nobleza, incluso en combate.",
+        "main_attack": "Rolling Thunder",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dudley.jpeg",
+        "country": "Reino Unido"
+    },
+    {
+        "id": 46,
+        "name": "Ibuki",
+        "generation": "Street Fighter 3",
+        "history": "Ibuki, una joven ninja japonesa, es especialista en técnicas secretas y mortales. Su agilidad es uno de sus mayores activos, siendo capaz de moverse rápidamente a través de los campos de batalla con precisión y ligereza. El golpe Tsumuji, un movimiento rápido y devastador, ejemplifica su habilidad en ataques veloces y sorprendentes. Ibuki es un personaje vibrante y cautivador, pero también lucha contra los desafíos de la vida de una ninja, intentando equilibrar su vida de entrenamiento con los momentos más simples y felices de la vida cotidiana.",
+        "main_attack": "Tsumuji",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ibuki.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 47,
+        "name": "Oro",
+        "generation": "Street Fighter 3",
+        "history": "Oro, un maestro de las artes marciales, originario de Brasil, es uno de los personajes más peculiares de Street Fighter 3. Su estilo de combate único, caracterizado por su habilidad para luchar con un solo brazo, se refleja en su golpe Tengu Stone. Es un hombre sabio y experimentado, siempre en busca de nuevos aprendizajes y de probar sus límites. Su misión de encontrar un verdadero oponente para desafiar su habilidad es lo que lo impulsa, pero también tiene un profundo respeto por sus tradiciones y enseñanzas espirituales. Oro es un personaje enigmático, que mantiene un equilibrio entre sabiduría y lucha.",
+        "main_attack": "Tengu Stone",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/oro.jpeg",
+        "country": "Brasil"
+    },
+    {
+        "id": 48,
+        "name": "Elena",
+        "generation": "Street Fighter 3",
+        "history": "Elena, una luchadora keniana, es un personaje lleno de energía y alegría. Con un corazón puro y una actitud positiva, usa su danza tribal como parte de su técnica de lucha. Su golpe Spin Scythe es una poderosa combinación de movimientos fluidos y hábiles, permitiéndole derrotar a sus enemigos con gracia y fuerza. Elena es una representante de la bondad, siendo motivada por su deseo de proteger y ayudar a los demás. Su viaje no es solo uno de combate, sino también de autodescubrimiento, intentando equilibrar sus raíces culturales con el mundo que la rodea.",
+        "main_attack": "Spin Scythe",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/elena.jpeg",
+        "country": "Kenia"
+    },
+    {
+        "id": 49,
+        "name": "Sean Matsuda",
+        "generation": "Street Fighter 3",
+        "history": "Sean Matsuda es un joven luchador de Japón, discípulo de Ken y un estudiante dedicado de las artes marciales. Es una figura enérgica y motivada, con un gran amor por el entrenamiento y una curiosidad insaciable por aprender. Su golpe Hadouken, aunque similar al de Ryu y Ken, está adaptado con su propio estilo. Sean tiene una actitud optimista y está constantemente en busca de superación, siendo un personaje que busca tanto fortalecer sus habilidades como proteger a quienes ama. Su viaje de aprendizaje es uno de los más ricos entre los personajes, intentando crear su propio camino en las artes marciales.",
+        "main_attack": "Hadouken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sean_matsuda.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 50,
+        "name": "Necro",
+        "generation": "Street Fighter 3",
+        "history": "Necro, un ex humano transformado en un ser con habilidades eléctricas tras ser sometido a experimentos científicos, proviene de Rusia. Su golpe Electric Snake refleja su conexión con el poder de la electricidad, permitiéndole canalizar ataques devastadores. Aunque su transformación le ha dado poderes extraordinarios, Necro también carga con el peso de su condición, siempre en busca de una manera de liberarse de los experimentos que lo convirtieron en quien es. Su personalidad es compleja, marcada por la lucha interna entre la búsqueda de su humanidad y los poderes que debe dominar.",
+        "main_attack": "Electric Snake",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/necro.jpeg",
+        "country": "Rusia"
+    },
+    {
+        "id": 51,
+        "name": "Gill",
+        "generation": "Street Fighter 3",
+        "history": "Gill es el líder de la misteriosa y secreta sociedad Illuminati, un hombre con poderes extraordinarios. Su golpe Pillar of Flame es una demostración de su control sobre las fuerzas elementales, especialmente el fuego. Gill ve el mundo a través de una lente de destrucción y renacimiento, creyendo que solo a través de grandes cataclismos será posible alcanzar una verdadera nueva era. Como líder de su organización, manipula eventos y personas para alcanzar sus propios objetivos, siendo un personaje tanto visionario como manipulador, con una visión despiadada de su propósito.",
+        "main_attack": "Pillar of Flame",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gill.jpeg",
+        "country": "Desconocido (Sociedad Secreta)"
+    },
+    {
+        "id": 52,
+        "name": "Urien",
+        "generation": "Street Fighter 3",
+        "history": "Urien es el hermano de Gill y uno de los principales miembros de la sociedad secreta Illuminati. Su golpe Aegis Reflector es una defensa poderosa que también puede usarse ofensivamente, reflejando sus vastos conocimientos sobre las artes marciales y las energías elementales. Urien busca el poder absoluto, a menudo desafiando a su hermano Gill por el liderazgo de la organización y por la supremacía. Su personalidad está marcada por la ambición, y está dispuesto a hacer cualquier cosa para alcanzar sus objetivos, incluso si eso significa subvertir las leyes naturales o dañar a quienes lo rodean.",
+        "main_attack": "Aegis Reflector",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/urien.jpeg",
+        "country": "Desconocido (Sociedad Secreta)"
+    },
+    {
+        "id": 53,
+        "name": "Remy",
+        "generation": "Street Fighter 3",
+        "history": "Remy es un luchador francés marcado por su búsqueda de venganza y su rabia silenciosa. Lleva un dolor profundo, ya que su padre abandonó a la familia y él busca venganza por ello, lo que se refleja en su golpe Tornado, una técnica que gira en torno a su habilidad para manipular energía. Remy es un personaje melancólico e introspectivo, que busca un camino hacia la redención mientras lucha para superar su dolor y encontrar un propósito mayor. Su habilidad para controlar la energía a su alrededor refleja su estado emocional, a menudo alimentado por un deseo de retribución.",
+        "main_attack": "Tornado",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/remy.jpeg",
+        "country": "Francia"
+    },
+    {
+        "id": 54,
+        "name": "Makoto",
+        "generation": "Street Fighter 3",
+        "history": "Makoto es una joven luchadora de Japón, proveniente de una familia tradicional de maestros de artes marciales. Su personalidad es determinada y combativa, siempre buscando nuevos desafíos para probar sus habilidades. Su golpe Tanden Renki es una técnica poderosa que aumenta su fuerza física y le permite usar golpes devastadores. Makoto es conocida por su actitud implacable y su energía inquebrantable. Busca mantener vivo el honor de su familia y demostrar su valía como una luchadora excepcional, superando desafíos con coraje y perseverancia.",
+        "main_attack": "Tanden Renki",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/makoto.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 55,
+        "name": "Twelve",
+        "generation": "Street Fighter 3",
+        "history": "Twelve es un ser misterioso y desconocido, con habilidades que le permiten alterar su forma, como se ve en su golpe X-Copy. Su origen es enigmático, y forma parte de un experimento u organización desconocida. Twelve es uno de los personajes más extraños de Street Fighter, siendo incapaz de demostrar emociones o de comunicarse claramente, excepto por sus propios movimientos extraños y metamórficos. Su naturaleza y motivación siguen siendo un misterio, pero es un personaje intrigante, con habilidades únicas que desafían las leyes de la física y de la naturaleza humana.",
+        "main_attack": "X-Copy",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/twelve.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 56,
+        "name": "Q",
+        "generation": "Street Fighter 3",
+        "history": "Q es uno de los personajes más enigmáticos de Street Fighter 3, un luchador con una apariencia peculiar y comportamientos misteriosos. Su golpe QCF+P es una técnica simple, pero extremadamente eficaz. Poco se sabe sobre su origen o motivación, ya que Q no habla y rara vez expresa emociones. Parece ser una creación artificial o una víctima de circunstancias desconocidas, con un objetivo que permanece en secreto. La naturaleza de su lucha está marcada por el misterio, convirtiéndolo en uno de los personajes más intrigantes y perturbadores de la serie.",
+        "main_attack": "QCF+P",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/q.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 57,
+        "name": "Crimson Viper",
+        "generation": "Street Fighter 4",
+        "history": "Crimson Viper es una agente secreta de élite de los Estados Unidos, con una misión secreta que la coloca en el centro de varias operaciones peligrosas. Es conocida por sus habilidades avanzadas en combate y sus armas especiales. Su golpe Thunder Knuckle es una técnica de puñetazo electrificado, reflejando su naturaleza tecnológica y de alto nivel. Viper es enigmática, con una personalidad astuta y un control riguroso sobre sus emociones y estrategias. Su misión en Street Fighter 4 es compleja e involucra manipulación y espionaje, siendo un personaje misterioso con un papel crucial en las intrigas que rodean la historia del juego.",
+        "main_attack": "Thunder Knuckle",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/crimson_viper.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 58,
+        "name": "El Fuerte",
+        "generation": "Street Fighter 4",
+        "history": "El Fuerte es un chef de cocina y luchador profesional de México, con una personalidad única y excéntrica. Su pasión por cocinar es casi tan grande como su habilidad en combate, lo que se refleja en su golpe Guacamole, una técnica divertida y acrobática. El Fuerte es rápido e impredecible, usando su agilidad para confundir y derrotar a sus adversarios. Es carismático y optimista, siempre buscando perfeccionar su cocina y sus habilidades marciales. Su enfoque para luchar es ligero y divertido, pero no subestimes su habilidad para derrotar oponentes con su velocidad y creatividad.",
+        "main_attack": "Guacamole",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/el_fuerte.jpeg",
+        "country": "México"
+    },
+    {
+        "id": 59,
+        "name": "Rufus",
+        "generation": "Street Fighter 4",
+        "history": "Rufus es un luchador obeso y excéntrico de los Estados Unidos, conocido por su actitud confiada y su físico peculiar. Puede parecer torpe, pero es un competidor imbatible, con habilidades de lucha impresionantes. Su golpe Ultra Combo es una de sus técnicas más poderosas, que refleja su fuerza bruta y la confianza en sus habilidades. Rufus es autosuficiente, egocéntrico y siempre intenta demostrar ser el mejor, buscando constantemente nuevos desafíos. Tiene un estilo de combate único, basado en su velocidad y potencia, a pesar de su tamaño. Su humor y enfoque irreverente lo convierten en uno de los personajes más divertidos e inusuales de Street Fighter 4.",
+        "main_attack": "Ultra Combo",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rufus.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 60,
+        "name": "Seth",
+        "generation": "Street Fighter 4",
+        "history": "Seth es uno de los antagonistas principales de Street Fighter 4, siendo una creación artificial y una de las amenazas más poderosas en el universo de la franquicia. Su golpe Tanden Engine es una de sus técnicas más temidas, con el poder de absorber las habilidades de otros luchadores. Seth es el jefe de Shadaloo, una organización criminal que busca el dominio global, y sus intenciones son tan crueles como su poder. Es calculador, despiadado y manipulador, con un deseo insaciable de poder y control. Su habilidad para copiar los golpes de los otros luchadores lo convierte en un oponente imbatible, reflejando su papel de villano en la historia del juego.",
+        "main_attack": "Tanden Engine",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/seth.jpeg",
+        "country": "Desconocido (Shadaloo)"
+    },
+    {
+        "id": 61,
+        "name": "Gouken",
+        "generation": "Street Fighter 4",
+        "history": "Gouken es un maestro de artes marciales de Japón, siendo uno de los profesores más respetados en el universo de Street Fighter. Es el maestro de Ryu y Ken, transmitiéndoles las enseñanzas del Hadouken y otras técnicas poderosas. Su golpe Denjin Hadouken es una versión más poderosa del tradicional Hadouken, con mayor concentración de energía. Gouken es una figura de sabiduría y disciplina, siendo muy respetado por sus discípulos y sus enemigos. Su historia está entrelazada con la de Akuma, su hermano y principal adversario, con quien tiene una rivalidad de larga data. Gouken representa la bondad, mientras que Akuma personifica el mal.",
+        "main_attack": "Denjin Hadouken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gouken.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 62,
+        "name": "Juri Han",
+        "generation": "Street Fighter 4",
+        "history": "Juri Han es una de las villanas más peligrosas de Street Fighter 4, con una personalidad cruel y sádica. Es una especialista en Taekwondo y fue creada para ser una luchadora imbatible, poseyendo la habilidad de controlar el poder de su Feng Shui Engine. Su golpe Senpusha es una técnica rápida y devastadora, que muestra su habilidad para manipular su velocidad y energía de forma eficaz. Juri está motivada por la venganza tras perder la pierna en un incidente causado por M. Bison y por su sed de poder. Es conocida por su arrogancia, violencia y por el placer que siente al ver el sufrimiento de sus oponentes.",
+        "main_attack": "Senpusha",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/juri_han.jpeg",
+        "country": "Corea del Sur"
+    },
+    {
+        "id": 63,
+        "name": "Hakan",
+        "generation": "Street Fighter 4",
+        "history": "Hakan es un luchador excéntrico y alegre de Turquía, conocido por su estilo de lucha único, que involucra el uso de aceite para aumentar su movilidad y resistencia. Su golpe Oiled Up le permite cubrirse con aceite, volviéndose resbaladizo y más difícil de golpear. Hakan es un personaje carismático, siempre en busca de diversión y amor por la lucha. También está muy centrado en proteger a su familia y su aldea. A pesar de su comportamiento relajado, Hakan es un luchador imbatible cuando está en su mejor forma. Su estilo de lucha y personalidad lo convierten en uno de los personajes más inusuales y divertidos de Street Fighter 4.",
+        "main_attack": "Oiled Up",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hakan.jpeg",
+        "country": "Turquía"
+    },
+    {
+        "id": 64,
+        "name": "Oni",
+        "generation": "Street Fighter 4",
+        "history": "Oni es una versión demoníaca y más poderosa de Akuma, representando la forma más pura y destructiva del Satsui no Hado. Su apariencia es aterradora, con la piel morada y poderes extremadamente fuertes. Oni posee el golpe Shun Goku Satsu, una técnica mortal que refleja su poder destructivo. La diferencia entre Oni y Akuma radica en su nivel de poder, siendo Oni más inestable y salvaje, totalmente entregado al lado oscuro de las artes marciales. Aunque ha perdido parte de su humanidad, Oni todavía posee la habilidad de luchar de manera feroz e implacable, y su único objetivo es la destrucción.",
+        "main_attack": "Shun Goku Satsu",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/oni.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 65,
+        "name": "Decapre",
+        "generation": "Street Fighter 4",
+        "history": "Decapre es un personaje misterioso y uno de los miembros del ejército de Shadaloo. Fue creada como una de las varias copias de Cammy White, siendo una de las Dolls, una organización secreta usada por M. Bison. Decapre es una asesina habilidosa, con un estilo de lucha basado en artes marciales y uso de técnicas especiales como el Psycho Sting. Está marcada por una máscara que cubre su rostro, y su lealtad a Shadaloo es incuestionable. A pesar de su naturaleza como un arma de Shadaloo, Decapre tiene sus propios objetivos y motivaciones, que involucran su búsqueda de identidad y libertad.",
+        "main_attack": "Psycho Sting",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/decapre.jpeg",
+        "country": "Desconocido (Shadaloo)"
+    },
+    {
+        "id": 66,
+        "name": "Abel",
+        "generation": "Street Fighter 4",
+        "history": "Abel es un personaje enigmático que tiene una conexión directa con la organización Shadaloo. Es un luchador altamente entrenado, con habilidades de combate impresionantes. Su historia está marcada por amnesia, e intenta descubrir sus orígenes mientras lucha contra aquellos que lo controlaron. El golpe Change of Direction de Abel es una maniobra acrobática que le permite cambiar rápidamente de dirección, sorprendiendo a sus oponentes. Abel se encuentra en un viaje de autodescubrimiento, intentando recuperar sus recuerdos mientras se mantiene fiel a sus propios principios de justicia y lealtad.",
+        "main_attack": "Change of Direction",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/abel.jpeg",
+        "country": "Francia"
+    },
+    {
+        "id": 67,
+        "name": "F.A.N.G.",
+        "generation": "Street Fighter 5",
+        "history": "F.A.N.G. es uno de los principales villanos de Street Fighter 5 y sirve como uno de los subordinados más peligrosos de M. Bison. Es un maestro del veneno y utiliza técnicas letales de contaminación para derrotar a sus adversarios, siendo el responsable de la introducción del veneno en diversas luchas. Su golpe Noxious Poison es un ejemplo de su habilidad para crear efectos venenosos que afectan directamente a los oponentes, debilitándolos con el tiempo. F.A.N.G. es un personaje frío y calculador, siempre en busca de aumentar su poder dentro de Shadaloo y propagar el caos a través de sus habilidades venenosas.",
+        "main_attack": "Noxious Poison",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/fang.jpeg",
+        "country": "China"
+    },
+    {
+        "id": 68,
+        "name": "Laura",
+        "generation": "Street Fighter 5",
+        "history": "Laura es una luchadora brasileña conocida por su estilo de lucha basado en Jiu-Jitsu y sus habilidades con la electricidad. Usa su electricidad de forma única en combate, con el golpe Thunder Clap, que utiliza la energía eléctrica para desestabilizar a sus adversarios y obtener ventaja en las luchas. Laura tiene una personalidad extrovertida y confiada, siendo un personaje que combina fuerza y encanto. También es muy cercana a su hermano, Sean Matsuda, y busca honrar su nombre mientras lucha para proteger a sus seres queridos y su ciudad.",
+        "main_attack": "Thunder Clap",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/laura.jpeg",
+        "country": "Brasil"
+    },
+    {
+        "id": 69,
+        "name": "Necalli",
+        "generation": "Street Fighter 5",
+        "history": "Necalli es uno de los personajes más misteriosos de Street Fighter 5, un ser primal y feroz de México. Es una entidad salvaje y caótica, con un deseo insaciable de luchar contra los más fuertes. Cuando activa su golpe principal, Rage Transform, se transforma en una versión más poderosa de sí mismo, aumentando significativamente su fuerza y sus habilidades de combate. Necalli está movido únicamente por el deseo de batallar y devorar las almas de los luchadores más fuertes, lo que lo convierte en una amenaza formidable. Su naturaleza instintiva y su comportamiento agresivo son centrales en su historia.",
+        "main_attack": "Rage Transform",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/necalli.jpeg",
+        "country": "México"
+    },
+    {
+        "id": 70,
+        "name": "Rashid",
+        "generation": "Street Fighter 5",
+        "history": "Rashid es un personaje de Oriente Medio, más específicamente de Arabia Saudita, y es conocido por su estilo de lucha único que combina velocidad y técnicas aéreas. Rashid es un genio de la tecnología y un aventurero que siempre está en busca de nuevas experiencias y desafíos. Su golpe Vortex utiliza su habilidad para manipular el viento y crear un remolino que puede desorientar a sus adversarios. Rashid es un personaje alegre y optimista, con una naturaleza curiosa y amigable, siempre dispuesto a ayudar a quienes se cruzan en su camino.",
+        "main_attack": "Vortex",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rashid.jpeg",
+        "country": "Arabia Saudita"
+    },
+    {
+        "id": 71,
+        "name": "Kolin",
+        "generation": "Street Fighter 5",
+        "history": "Kolin es una luchadora rusa, ex asociada de M. Bison y miembro de la organización Secret Society. Es una maestra del hielo, utilizando sus habilidades para controlar el frío y usar ataques congelantes contra sus enemigos. Su golpe Frost Touch le permite crear ataques de hielo que debilitan a los oponentes al tocarlos, haciéndolos vulnerables. Kolin es una mujer fría y calculadora, y aunque fue una enemiga en su lucha contra los héroes, también tiene un complejo sentido de lealtad y honor. Su historia está íntimamente ligada a su pasado con la organización y su búsqueda de redención.",
+        "main_attack": "Frost Touch",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kolin.jpeg",
+        "country": "Rusia"
+    },
+    {
+        "id": 72,
+        "name": "Ed",
+        "generation": "Street Fighter 5",
+        "history": "Ed es un personaje con un pasado misterioso, originario de Shadaloo. Es un joven que posee habilidades psíquicas extraordinarias, pero también carga con el peso de ser manipulado por M. Bison y transformado en una poderosa arma psíquica. Su golpe Psycho Knuckle es un ataque basado en su energía psíquica, en el que concentra su poder mental en un puñetazo devastador. Ed busca encontrar su propio camino y entender su identidad, mientras lucha contra su pasado oscuro e intenta usar sus habilidades para el bien.",
+        "main_attack": "Psycho Knuckle",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ed.jpeg",
+        "country": "Desconocido (Shadaloo)"
+    },
+    {
+        "id": 73,
+        "name": "Menat",
+        "generation": "Street Fighter 5",
+        "history": "Menat es un personaje misterioso de Egipto, que posee habilidades místicas y espirituales. Es una vidente, con un gran conocimiento de las artes ocultas, y usa su Soul Sphere para atacar a sus enemigos. Las esferas pueden manipularse a distancia, permitiéndole controlar la lucha con una combinación de ataques rápidos y tácticas estratégicas. Menat es calma, inteligente y misteriosa, con una profunda conexión con las fuerzas espirituales que manipula. Busca aprender más sobre el destino y el futuro, mientras entrena para convertirse en una combatiente aún más poderosa.",
+        "main_attack": "Soul Sphere",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/menat.jpeg",
+        "country": "Egipto"
+    },
+    {
+        "id": 74,
+        "name": "Zeku",
+        "generation": "Street Fighter 5",
+        "history": "Zeku es un maestro de Bushinryu, el arte de lucha ninja, y uno de los personajes más complejos de Street Fighter 5. Viene de Japón y tiene una historia ligada a una larga jornada de autodescubrimiento. Zeku fue uno de los fundadores del estilo de lucha Bushinryu, pero abandonó el camino en busca de más poder y sabiduría. Su golpe principal, Bushinryu, es un reflejo de sus técnicas ancestrales y puede adaptarse a diferentes situaciones, permitiéndole transformarse en diferentes formas y estilos. Zeku es un hombre maduro, experimentado y dedicado a enseñar a la próxima generación de ninjas mientras continúa evolucionando y adaptándose al mundo moderno.",
+        "main_attack": "Bushinryu",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/zeku.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 75,
+        "name": "Falke",
+        "generation": "Street Fighter 5",
+        "history": "Falke es una luchadora de Alemania que fue criada por Shadaloo como un arma psíquica. Usa sus poderes psíquicos para controlar el flujo de energía y usar ataques de largo alcance, como su golpe Psycho Kugel. Falke tiene una historia triste, marcada por la manipulación y el abuso, pero lucha por liberarse del control de M. Bison y encontrar su propio camino. Su viaje es una búsqueda de la libertad y la paz interior, con el objetivo de usar sus habilidades para el bien. Falke es un personaje calmado, racional y centrado, que aún lucha contra las cicatrices dejadas por su pasado.",
+        "main_attack": "Psycho Kugel",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/falke.jpeg",
+        "country": "Alemania"
+    },
+    {
+        "id": 76,
+        "name": "G",
+        "generation": "Street Fighter 5",
+        "history": "G es una figura enigmática de Street Fighter 5, con un aspecto distintivo y una personalidad excéntrica. Es un personaje de origen misterioso, y su golpe principal, el Presidential Piledriver, es un movimiento de gran impacto y fuerza física. G se presenta como una figura que lucha por el pueblo y cree en su misión de traer cambios al mundo, siendo visto por muchos como una figura política o mesiánica. Su país de origen es desconocido, pero se le describe como un personaje carismático con una visión grandiosa de su papel en el mundo. Su apariencia de presidente y su ideología de transformación global lo convierten en una figura única en la serie.",
+        "main_attack": "Presidential Piledriver",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/g.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 77,
+        "name": "Kage",
+        "generation": "Street Fighter 5",
+        "history": "Kage es una versión corrompida de Ryu, creada por el poder de la Sombra que existe dentro de él. Representa la parte oscura del alma de Ryu, una manifestación de su lado más destructivo y agresivo. Su golpe principal, Metsu Shoryuken, es una versión aún más poderosa del tradicional Shoryuken, reflejando la oscuridad que se ha apoderado de su ser. Kage busca la libertad de su tormento interno, pero al mismo tiempo, está impulsado por una voluntad de destrucción. Se encuentra en una batalla constante con Ryu, intentando inculcar su lado oscuro en su antiguo maestro.",
+        "main_attack": "Metsu Shoryuken",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kage.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 78,
+        "name": "Hokuto",
+        "generation": "Street Fighter EX",
+        "history": "Hokuto es una luchadora de Street Fighter EX con habilidades de combate basadas en técnicas de lucha conocidas por su brutalidad y precisión. Su golpe principal, Shinjou Giga, es una técnica devastadora que refleja su estilo de lucha altamente disciplinado. Hokuto posee un espíritu fuerte y determinado, siempre buscando mejorar y superar sus propios límites. Su historia es una de crecimiento y superación continua, con un fuerte énfasis en el honor y el respeto, características que definen su personalidad.",
+        "main_attack": "Shinjou Giga",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hokuto.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 79,
+        "name": "Cracker Jack",
+        "generation": "Street Fighter EX",
+        "history": "Cracker Jack es un personaje de Street Fighter EX que viene de los Estados Unidos. Conocido por su estilo de lucha impredecible y su naturaleza explosiva, Cracker Jack usa su habilidad en combate para desorientar a sus enemigos con movimientos rápidos y potentes, como su golpe principal, Explosive. Es impulsivo y le gusta causar caos, utilizando su energía para dominar el campo de batalla. Su estilo es similar al de un boxeador agresivo, siempre listo para dar lo mejor de sí en cualquier situación.",
+        "main_attack": "Explosive",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cracker_jack.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 80,
+        "name": "Doctrine",
+        "generation": "Street Fighter EX",
+        "history": "Doctrine es un personaje misterioso de Street Fighter EX, cuya origen e historia permanecen desconocidas. Es conocido por su golpe Tiger Shot, que es una técnica de disparo diseñada para mantener a sus enemigos a distancia. Doctrine se presenta como un luchador que sigue un código secreto, con habilidades que son casi inalcanzables para otros. Su historia está envuelta en misterio, con pocos detalles sobre su verdadera motivación y objetivos. Su presencia en la serie añade un elemento de enigma, dejando a los jugadores intrigados sobre su verdadera identidad.",
+        "main_attack": "Tiger Shot",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/doctrine.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 81,
+        "name": "Skullomania",
+        "generation": "Street Fighter EX",
+        "history": "Skullomania es un personaje excéntrico de Street Fighter EX. Es un héroe enmascarado que fue creado como una parodia de los superhéroes japoneses. Con una apariencia de esqueleto y un estilo de lucha inspirado en acrobacias y golpes rápidos, su golpe principal, Skull Breaker, refleja su personalidad extravagante. Skullomania puede ser visto como un héroe que busca la fama y el reconocimiento, pero también tiene un lado más cómico, lo que lo convierte en uno de los personajes más memorables de esta generación.",
+        "main_attack": "Skull Breaker",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/skullomania.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 82,
+        "name": "Pullum Purna",
+        "generation": "Street Fighter EX",
+        "history": "Pullum Purna es una luchadora de Street Fighter EX originaria de la India. Es una joven y talentosa luchadora que utiliza movimientos fluidos y gráciles en su lucha, siendo su golpe principal el Phoenix, que refleja su agilidad y habilidades acrobáticas. Pullum Purna es un personaje con un estilo de lucha único, basado en su entrenamiento en danza y artes marciales, mezclando gracia con fuerza. Su historia está relacionada con la búsqueda de autosuperación y maestría en sus habilidades.",
+        "main_attack": "Phoenix",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/pullum_purna.jpeg",
+        "country": "India"
+    },
+    {
+        "id": 83,
+        "name": "Allen Sneider",
+        "generation": "Street Fighter EX",
+        "history": "Allen Sneider es un personaje de Street Fighter EX que viene de los Estados Unidos. Es un luchador con un estilo de combate violento e impredecible, siendo su golpe principal el Devil's Hand, que hace uso de movimientos bruscos y poderosos para subyugar a sus enemigos. Allen Sneider es un personaje enigmático, con un comportamiento intimidante y una fuerte presencia en el campo de batalla. Su habilidad y actitud lo convierten en una amenaza formidable para cualquier adversario.",
+        "main_attack": "Devil's Hand",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/allen_sneider.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 84,
+        "name": "Blair Dame",
+        "generation": "Street Fighter EX",
+        "history": "Blair Dame es una luchadora misteriosa de Street Fighter EX, con origen desconocido. Destaca por su velocidad y precisión, utilizando el Tornado Kick como su golpe principal, un ataque rápido y devastador. Blair Dame es conocida por su estilo de lucha refinado, que mezcla técnicas de lucha clásicas con movimientos más modernos. Su pasado y motivaciones están envueltos en misterio, pero es una adversaria formidable para cualquier luchador que se cruce en su camino.",
+        "main_attack": "Tornado Kick",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blair_dame.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 85,
+        "name": "Garuda",
+        "generation": "Street Fighter EX",
+        "history": "Garuda es un personaje misterioso y violento de la serie Street Fighter EX. Usa un estilo de lucha feroz y brutal, siendo su golpe principal el Raging Inferno, un ataque devastador. Garuda es uno de los villanos más icónicos del universo EX, y su origen permanece en gran parte desconocido. Su apariencia de guerrero con una máscara y un aura amenazante lo convierte en uno de los personajes más temidos de la franquicia.",
+        "main_attack": "Raging Inferno",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/garuda.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 86,
+        "name": "Kairi",
+        "generation": "Street Fighter EX",
+        "history": "Kairi es un personaje de Street Fighter EX con un estilo de lucha poderoso y amenazante. Su golpe principal, el Tatsumaki Senpukyaku, es una versión modificada del famoso movimiento de Ryu y Ken, haciéndolo aún más letal en sus manos. La historia de Kairi está envuelta en misterio, y su búsqueda de venganza y autosuperación es una de las motivaciones que lo impulsan en el torneo. Es un adversario formidable, con gran fuerza y habilidades de combate.",
+        "main_attack": "Tatsumaki Senpukyaku",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kairi.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 87,
+        "name": "Cycloids",
+        "generation": "Street Fighter EX",
+        "history": "Cycloids son personajes cibernéticos y enigmáticos que aparecen en Street Fighter EX. Son conocidos por su habilidad para manipular el Cycloid Special, un ataque que combina varios estilos de lucha y energía. Los Cycloids son figuras misteriosas con un diseño único, y su origen también se mantiene en secreto. Ofrecen un desafío distinto, con su habilidad de adaptación durante los combates.",
+        "main_attack": "Cycloid Special",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cycloids.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 88,
+        "name": "Hayate",
+        "generation": "Street Fighter EX",
+        "history": "Hayate es un luchador rápido y ágil de Street Fighter EX, originario de Japón. Su golpe principal, el Windmill Kick, es un movimiento que refleja su destreza y control en el combate. Hayate es un personaje elegante y estratégico, siempre buscando imponerse con su velocidad y precisión. Su habilidad en combate es una combinación de técnica y agilidad, lo que lo convierte en un oponente difícil de derrotar.",
+        "main_attack": "Windmill Kick",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hayate.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 89,
+        "name": "Nanase",
+        "generation": "Street Fighter EX",
+        "history": "Nanase es una luchadora de Street Fighter EX, originaria de Japón. Su golpe principal es el Aqua Splash, un movimiento ágil y fluido que utiliza agua en su técnica de ataque. Nanase es conocida por su destreza y la habilidad de adaptarse al flujo de combate, utilizando su velocidad y agilidad para confundir a sus adversarios. Su apariencia y estilo de lucha reflejan un personaje ligero y estratégico.",
+        "main_attack": "Aqua Splash",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/nanase.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 90,
+        "name": "Manon",
+        "generation": "Street Fighter 6",
+        "history": "Manon es un personaje que aparece en Street Fighter 6 y viene de Francia. Su golpe principal, Grace Strike, refleja su gracia y destreza en combate. Manon es un personaje elegante, con un estilo de lucha que destaca su fuerza física y táctica. Combina técnicas refinadas con poderosas habilidades de combate, lo que la convierte en una adversaria formidable.",
+        "main_attack": "Grace Strike",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/manon.jpeg",
+        "country": "Francia"
+    },
+    {
+        "id": 91,
+        "name": "Shadowgeist",
+        "generation": "Street Fighter EX",
+        "history": "Shadowgeist es un villano misterioso en Street Fighter EX. Su golpe principal, Dark Shadow, le permite atacar con una sombra enigmática y poderosa. El origen de Shadowgeist es un misterio, y su presencia en el torneo está envuelta en un aura de miedo e intriga. Su estilo de lucha está relacionado con las sombras y el uso de técnicas misteriosas que desafían las expectativas de los adversarios.",
+        "main_attack": "Dark Shadow",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/shadowgeist.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 92,
+        "name": "Sharon",
+        "generation": "Street Fighter EX",
+        "history": "Sharon es un personaje secreto de Street Fighter EX, con una historia igualmente misteriosa. Su golpe principal, el Sharon Slash, es un ataque rápido y letal. Sharon es una luchadora con habilidades de combate refinadas, y su estilo de lucha combina agilidad y fuerza, lo que la convierte en una oponente peligrosa en el campo de batalla.",
+        "main_attack": "Sharon Slash",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sharon.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 93,
+        "name": "Area",
+        "generation": "Street Fighter EX",
+        "history": "Area es un personaje de Street Fighter EX, con origen desconocido. Su golpe principal es el Area Attack, que es un ataque de área amplio, lo que le permite alcanzar a múltiples adversarios al mismo tiempo. El origen y el estilo de lucha de Area están envueltos en misterio, pero su habilidad para atacar a varios enemigos a la vez lo convierte en un oponente peligroso en combate.",
+        "main_attack": "Area Attack",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/area.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 94,
+        "name": "Vulcano Rosso",
+        "generation": "Street Fighter EX",
+        "history": "Vulcano Rosso es un luchador italiano de Street Fighter EX. Su golpe principal, el Vulcan Punch, es un ataque poderoso, donde Vulcano Rosso utiliza su fuerza física para asestar puñetazos devastadores. Su estilo de lucha combina velocidad y potencia, y es conocido por su vigor y destreza en el campo de batalla.",
+        "main_attack": "Vulcan Punch",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/vulcano_rosso.jpeg",
+        "country": "Italia"
+    },
+    {
+        "id": 95,
+        "name": "Ace",
+        "generation": "Street Fighter EX",
+        "history": "Ace es un luchador de Street Fighter EX, originario de los Estados Unidos. Su golpe principal es el Ace Shot, una técnica de ataque rápida y precisa. Ace destaca por su habilidad para realizar ataques a distancia con precisión letal, lo que lo convierte en un excelente combatiente de largo alcance.",
+        "main_attack": "Ace Shot",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ace.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 96,
+        "name": "Blade",
+        "generation": "Street Fighter EX",
+        "history": "Blade es un personaje misterioso de Street Fighter EX, con un origen desconocido. Su golpe principal, el Blade Charge, es un ataque poderoso y agresivo, con el que Blade usa su cuchilla (o una técnica relacionada) para asestar golpes fuertes y rápidos. Su habilidad para cargar y asestar ataques rápidos lo convierte en un luchador altamente eficaz.",
+        "main_attack": "Blade Charge",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blade.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 97,
+        "name": "Capitão Sawada",
+        "generation": "Street Fighter EX",
+        "history": "Capitão Sawada es un personaje brasileño de Street Fighter EX. Su golpe principal, el Sawada Smash, es un ataque de fuerza bruta donde el Capitão Sawada asesta golpes potentes, destacándose por su habilidad para controlar la fuerza física. Representa un estilo de lucha enfocado en la potencia y resistencia, siendo un verdadero pilar en el campo de batalla.",
+        "main_attack": "Sawada Smash",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/capitao_sawada.jpeg",
+        "country": "Brasil"
+    },
+    {
+        "id": 98,
+        "name": "Arkane",
+        "generation": "Street Fighter EX",
+        "history": "Arkane es un personaje misterioso de Street Fighter EX, con origen desconocido. Su golpe principal, el Arcane Slash, es un ataque basado en habilidades arcanas, involucrando golpes mágicos o energéticos. Arkane destaca por su conexión con las fuerzas sobrenaturales, lo que le confiere un estilo único e impresionante en combate.",
+        "main_attack": "Arcane Slash",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/arkane.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 99,
+        "name": "Khyber",
+        "generation": "Street Fighter EX",
+        "history": "Khyber también es un personaje con origen desconocido de Street Fighter EX. Su golpe principal, el Khyber Slash, involucra ataques rápidos y cortantes con una habilidad enfocada en agilidad y precisión. Khyber es un combatiente ágil que destaca en ataques rápidos y decisivos, combinando destreza y rapidez en su lucha.",
+        "main_attack": "Khyber Slash",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/khyber.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 100,
+        "name": "F7",
+        "generation": "Street Fighter EX",
+        "history": "F7 es otro personaje con una origen desconocido de Street Fighter EX. Su golpe principal, el F7 Charge, es una técnica que involucra cargar una gran cantidad de energía para asestar un ataque devastador. F7 destaca por su habilidad para acumular fuerza y liberarla en momentos decisivos, siendo un oponente difícil de predecir y enfrentar.",
+        "main_attack": "F7 Charge",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/f7.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 101,
+        "name": "Guy",
+        "generation": "Street Fighter",
+        "history": "Guy es un ninja maestro en Bushinryu, originario de Japón. Su golpe principal es el Bushin Senpukyaku, una técnica ágil y poderosa que combina patadas rápidas en un movimiento de rotación. Guy es conocido por su velocidad y habilidad de combate con un estilo ninja tradicional, siendo uno de los guerreros más rápidos y hábiles de la franquicia.",
+        "main_attack": "Bushin Senpukyaku",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/guy.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 102,
+        "name": "Cody",
+        "generation": "Street Fighter",
+        "history": "Cody es un luchador con un pasado turbulento, originario de los Estados Unidos. Su golpe principal, Bad Stone, es un lanzamiento de piedras con gran poder de impacto. Cody tiene una personalidad rebelde y fue una figura clave en la saga de Final Fight antes de unirse al elenco de Street Fighter. Su estilo de combate es una mezcla de agresividad e improvisación.",
+        "main_attack": "Bad Stone",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cody.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 103,
+        "name": "Maki Genryusai",
+        "generation": "Street Fighter EX",
+        "history": "Maki Genryusai es un personaje de la serie Street Fighter EX, también originario de Japón. Su golpe principal es el Genryusai, una técnica basada en agilidad y ataques rápidos con una variedad de movimientos de combate cuerpo a cuerpo. Maki es una especialista en artes marciales, conocida por su habilidad para moverse rápidamente por el campo de batalla.",
+        "main_attack": "Genryusai",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/maki_genryusai.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 104,
+        "name": "Sodom",
+        "generation": "Street Fighter",
+        "history": "Sodom es un personaje que también aparece en el universo Street Fighter, originario de Japón. Su golpe principal es el Tengu Storm, una técnica poderosa y masiva que involucra ataques en secuencia de gran fuerza. Sodom es un guerrero con un estilo de lucha único, combinando golpes pesados con movimientos de artes marciales tradicionales.",
+        "main_attack": "Tengu Storm",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sodom.jpeg",
+        "country": "Japón"
+    },
+    {
+        "id": 105,
+        "name": "Rolento Schugerg",
+        "generation": "Street Fighter",
+        "history": "Rolento Schugerg es uno de los villanos de la serie, originario de Brasil. Su golpe principal, Rolling Thunder, es un ataque poderoso en el que Rolento usa un bastón para asestar una serie de golpes rápidos y contundentes. Rolento es un líder militar con un estilo de lucha basado en agilidad y el uso de armas, siendo un personaje notable por su personalidad rígida y estrategia militar.",
+        "main_attack": "Rolling Thunder",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rolento.jpeg",
+        "country": "Brasil"
+    },
+    {
+        "id": 106,
+        "name": "Hugo",
+        "generation": "Street Fighter",
+        "history": "Hugo es un luchador gigantesco de Alemania, conocido por su enorme fuerza y tamaño. Su golpe principal, Hammer Mountain, involucra que derriba a su oponente con un movimiento de impacto masivo, usando su fuerza bruta. Hugo es uno de los personajes más grandes del juego y un verdadero peso pesado en el campo de batalla, generalmente acompañado de un estilo de combate agresivo.",
+        "main_attack": "Hammer Mountain",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hugo.jpeg",
+        "country": "Alemania"
+    },
+    {
+        "id": 107,
+        "name": "Poison",
+        "generation": "Street Fighter",
+        "history": "Poison tiene una presencia enigmática y viene de un origen misterioso. Su golpe principal, Love Me Tender, es una técnica que involucra su habilidad para manipular y controlar a sus enemigos con una combinación de golpes y encanto. Poison es conocida por su apariencia única y su enfoque astuto y manipulador, siendo uno de los personajes más cautivadores de la franquicia.",
+        "main_attack": "Love Me Tender",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/poison.jpeg",
+        "country": "Desconocido"
+    },
+    {
+        "id": 108,
+        "name": "Abigail",
+        "generation": "Street Fighter",
+        "history": "Abigail es un personaje inmenso de la serie, proveniente de los Estados Unidos. Su golpe principal, Abigail Bomber, es un ataque devastador que usa su fuerza descomunal para aplastar y destruir a cualquiera que se interponga en su camino. Abigail es un verdadero gigante y uno de los personajes más brutales del juego, con un estilo de combate basado en su impresionante fuerza física.",
+        "main_attack": "Abigail Bomber",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/abigail.jpeg",
+        "country": "Estados Unidos"
+    },
+    {
+        "id": 109,
+        "name": "Lucia",
+        "generation": "Street Fighter",
+        "history": "Lucia es un personaje de la serie Street Fighter originaria de los Estados Unidos. Su golpe principal, Criminal Justice, es un ataque de justicia y poder, donde aplica un ataque rápido e imponente a sus enemigos. Lucia tiene un enfoque de combate muy dinámico, mezclando habilidades de lucha con movimientos ágiles y eficaces. Es una policía y a menudo se la ve luchando para garantizar el orden y la justicia. Es una luchadora ágil con un estilo de combate que mezcla técnicas de artes marciales y movimientos rápidos. El personaje aporta un enfoque único al juego con su fuerte determinación y su sentido del deber.",
+        "main_attack": "Criminal Justice",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/lucia.jpeg",
+        "country": "Estados Unidos"
+    }
+]
