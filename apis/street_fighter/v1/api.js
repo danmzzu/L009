@@ -6,9 +6,9 @@ const path = require('path');
 const databaseDir = path.join(__dirname, 'database');
 const validLanguages = ['en', 'es', 'pt'];
 
-//http://localhost:3000/en/characters
-//http://localhost:3000/pt/characters
-//http://localhost:3000/es/characters
+// http://loo9-street-fighter-api-production.up.railway.app/en/characters
+// http://loo9-street-fighter-api-production.up.railway.app/pt/characters
+// http://loo9-street-fighter-api-production.up.railway.app/es/characters
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
