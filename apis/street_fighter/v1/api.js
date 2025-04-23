@@ -6,12 +6,30 @@ const path = require('path');
 const databaseDir = path.join(__dirname, 'database');
 const validLanguages = ['en', 'es', 'pt'];
 
+// Substitua 'SEU_RAPIDAPI_PROXY_SECRET' pelo valor real do seu API no RapidAPI
+const rapidAPIProxySecret = '0a2088e0-208c-11f0-b3a2-753d63741919';
+
+// Middleware para verificar o header X-RapidAPI-Proxy-Secret
+const checkRapidAPIProxySecret = (req, res, next) => {
+    const proxySecret = req.headers['x-rapidapi-proxy-secret'];
+
+    if (proxySecret === rapidAPIProxySecret) {
+        next(); // O header é válido, passa para o próximo middleware/rota
+    } else {
+        res.status(403).json({ message: 'Forbidden. Request not originating from RapidAPI.' });
+    }
+};
+
+// Middleware para configurar os headers de CORS
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET');
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, X-RapidAPI-Key, X-RapidAPI-Proxy-Secret'); // Inclua X-RapidAPI-Proxy-Secret
     next();
 });
+
+// Aplica o middleware de verificação do Proxy Secret a todas as rotas abaixo
+app.use(checkRapidAPIProxySecret);
 
 app.get('/:language/characters', async (req, res) => {
     const language = req.params.language;
@@ -23,7 +41,6 @@ app.get('/:language/characters', async (req, res) => {
             const data = await fs.readFile(filePath, 'utf8');
             characters = JSON.parse(data);
 
-            // Remover o campo 'image' de cada personagem antes de enviar a resposta
             const charactersWithoutImage = characters.map(character => {
                 const { image, ...characterWithoutImage } = character;
                 return characterWithoutImage;
@@ -51,7 +68,6 @@ app.get('/:language/characters/:id', async (req, res) => {
             const character = characters.find(char => char.id === characterId);
 
             if (character) {
-                // Remover o campo 'image' do personagem antes de enviar a resposta
                 const { image, ...characterWithoutImage } = character;
                 res.json(characterWithoutImage);
             } else {
