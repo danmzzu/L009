@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Street Fighter Characters</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h2 {
+      margin: 0 0 10px;
+      font-size: 1.4em;
+    }
+
+    .card-content p {
+      margin: 5px 0;
+    }
+
+    .card-content .main-attack {
+      font-weight: bold;
+      color: #c0392b;
+    }
+
+    .card-content .country {
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>Street Fighter Characters</h1>
+  <div class="container" id="characters-container"></div>
+
+  <script>
+    const language = 'en'; // Alterar para 'pt' ou 'es' se quiser
+    const apiURL = `https://loo9-street-fighter-api-production.up.railway.app/${language}/characters`;
+
+    fetch(apiURL)
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('characters-container');
+        data.forEach(character => {
+          const card = document.createElement('div');
+          card.className = 'card';
+
+          card.innerHTML = `
+            <img src="${character.image}" alt="${character.name}">
+            <div class="card-content">
+              <h2>${character.name}</h2>
+              <p><strong>Generation:</strong> ${character.generation}</p>
+              <p><strong>History:</strong> ${character.history}</p>
+              <p class="main-attack">Main Attack: ${character.main_attack}</p>
+              <p class="country">${character.country}</p>
+            </div>
+          `;
+
+          container.appendChild(card);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching characters:', error);
+      });
+  </script>
+</body>
+</html>

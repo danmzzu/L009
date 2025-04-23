@@ -5,7 +5,7 @@
         "generation": "Street Fighter 6",
         "history": "Raised in the shadows by F.A.N.G., A.K.I. is a poisonous and unpredictable fighter from China. Her body and mind have been molded to use toxins as an extension of her soul. Cruel, elegant, and sadistic, she finds pleasure in the suffering of others. Her main attack, the Toxico Shuriken, slowly paralyzes the enemy, turning pain into a spectacle. For A.K.I., fighting is an art — and poison, her paint.",
         "main_attack": "Toxico Shuriken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/aki.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/aki.jpeg",
         "country": "China"
     },
     {
@@ -14,7 +14,7 @@
         "generation": "Street Fighter 6",
         "history": "Hailing from Japan, Akira Kazama is a skilled and focused fighter who carries the spirit of justice and family loyalty. A former gang member, she fights to protect those she loves, especially her brother Daigo. Disciplined and swift, Akira blends martial arts techniques with explosive strikes. Her main attack, Shoryu Reppa, demonstrates her strength and precision, breaking through defenses with fury and control.",
         "main_attack": "Shoryu Reppa",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/akira.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/akira.jpeg",
         "country": "Japan"
     },
     {
@@ -23,7 +23,7 @@
         "generation": "Street Fighter 2",
         "history": "Ryu is a solitary warrior from Japan, constantly seeking perfection in martial arts. Disciplined and honorable, he travels the world training and facing opponents to evolve as a fighter and as a person. His iconic move, Hadouken, symbolizes the balance between strength and control. With a strong sense of justice, Ryu fights not for glory, but to master himself and understand the true meaning of fighting.",
         "main_attack": "Hadouken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ryu.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ryu.jpeg",
         "country": "Japan"
     },
     {
@@ -32,7 +32,7 @@
         "generation": "Street Fighter 2",
         "history": "Ken is a charismatic and impulsive American fighter, Ryu's longtime rival and friend. Trained in the same martial arts style, Ken developed a more aggressive and flamboyant style, highlighted by his powerful Shoryuken. Despite his outgoing nature, he is devoted to his family and deeply values honor. Ken fights to prove his worth, balancing his life as a martial artist and as a dedicated father and husband.",
         "main_attack": "Shoryuken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ken.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ken.jpeg",
         "country": "United States"
     },
     {
@@ -41,7 +41,7 @@
         "generation": "Street Fighter",
         "history": "Retsu is a Japanese monk and Kempo master, known for his discipline and inner strength. A former member of the temple where Ryu and Ken trained, he was expelled for his violent nature. After years of reflection and repentance, he seeks redemption through fair combat and self-knowledge. Retsu returns to the world of martial arts to test his teachings and guide new fighters on the path of honor.",
         "main_attack": "Koryu Rekka",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/retsu.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/retsu.jpeg",
         "country": "Japan"
     },
     {
@@ -50,7 +50,7 @@
         "generation": "Street Fighter",
         "history": "Geki is an enigmatic Japanese ninja, master of ninjutsu and silent assassination techniques. Known for his speed, lethal shurikens, and stealthy attacks, he represents the dark side of martial arts. Little is known about his past, but rumors say that Geki works as a mercenary to keep his clan's tradition alive. His fighting style is precise and relentless, making him a feared opponent in the shadows.",
         "main_attack": "Ninjutsu",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/geki.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/geki.jpeg",
         "country": "Japan"
     },
     {
@@ -59,7 +59,7 @@
         "generation": "Street Fighter",
         "history": "Joe is a confident and impulsive American fighter, known for his aggressive style and the iconic Nekketsu Punch. He participated in the first World Warrior tournament seeking fame and recognition but was defeated early on. Even so, his energy and fighting spirit left their mark. Joe continues to train tirelessly, determined to prove that his passion can overcome any obstacle in the ring.",
         "main_attack": "Nekketsu Punch",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/joe.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/joe.jpeg",
         "country": "United States"
     },
     {
@@ -68,7 +68,7 @@
         "generation": "Street Fighter",
         "history": "Mike is a former professional boxer from the United States, famous for his powerful punch, the “Mike Bash.” After a troubled past in the ring, he sought redemption by participating in the Street Fighter tournament, where he channeled his strength and discipline to overcome his past. Charismatic and determined, Mike fights not only for victory but to inspire young people to follow the path of honesty and overcoming challenges.",
         "main_attack": "Mike Bash",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/mike.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/mike.jpeg",
         "country": "United States"
     },
     {
@@ -77,7 +77,7 @@
         "generation": "Street Fighter",
         "history": "Lee is a master of Chinese martial arts, coming from a traditional lineage of fighters. Known for his precise technique and his “Zutsuki” strike, he seeks to perfect the body and mind through fighting. Discreet and disciplined, he entered the Street Fighter tournament not for fame, but to test his style against the best in the world. His serene presence hides the strength of a true warrior from the East.",
         "main_attack": "Zutsuki",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/lee.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/lee.jpeg",
         "country": "China"
     },
     {
@@ -86,7 +86,7 @@
         "generation": "Street Fighter 2",
         "history": "Gen is a veteran martial arts master with a long and difficult journey through life. Born in China, he was trained from a young age in the deadly techniques of kung fu. His main attack, the Shitenshu, reflects his impressive dexterity and precision. Despite his frail health due to age, Gen continues to fight, motivated by the constant search for a worthy opponent and the desire to fulfill his destiny, finding peace through battle.",
         "main_attack": "Shitenshu",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gen.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gen.jpeg",
         "country": "China"
     },
     {
@@ -95,7 +95,7 @@
         "generation": "Street Fighter",
         "history": "Birdie is a former gang member who became an imposing and savage fighter. Born in the United Kingdom, he was known for his size and strength, which earned him respect in the underworld. His main attack, the Bull Rush, is a devastating attack in which he uses his body mass to crush his opponents. Despite his rough appearance and arrogant attitude, Birdie has an unstable nature and is always looking for new challenges, wanting to prove his superiority.",
         "main_attack": "Bull Rush",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/birdie.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/birdie.jpeg",
         "country": "United Kingdom"
     },
     {
@@ -104,7 +104,7 @@
         "generation": "Street Fighter 3",
         "history": "Eagle is a skilled fighter originally from the United Kingdom, known for his fighting style based on the use of batons and his swift strike, the Eagle Rush. He was originally a warden at a maximum-security prison, where his dexterity with batons and hand-to-hand combat techniques made him an imposing figure. After his escape, Eagle seeks to improve his skills in fighting tournaments, always in search of worthy opponents and the chance to test his limits.",
         "main_attack": "Eagle Rush",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/eagle.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/eagle.jpeg",
         "country": "United Kingdom"
     },
     {
@@ -113,7 +113,7 @@
         "generation": "Street Fighter",
         "history": "Adon is a Thai fighter, former student of Sagat, who stands out for his combat style inspired by Muay Thai. Initially, Adon was a proud and arrogant pupil, believing himself superior to his master, Sagat. Over time, this arrogance led him to challenge his former mentor, constantly seeking to prove his superiority. His main attack, the Jaguar Kick, reflects his agility and power, making him one of the most feared fighters in any Street Fighter tournament.",
         "main_attack": "Jaguar Kick",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/adon.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/adon.jpeg",
         "country": "Thailand"
     },
     {
@@ -122,7 +122,7 @@
         "generation": "Street Fighter 2",
         "history": "Sagat, the Emperor of Muay Thai, is one of the most iconic fighters in the Street Fighter franchise. Originally a Muay Thai master, he became obsessed with strength and, in his pursuit of power, was defeated by Ryu, which left a permanent scar on his chest and a deep desire for revenge. Sagat is known for his main attack, the Tiger Uppercut, and his imposing stance in the ring. Despite his brutal nature, he maintains a code of honor in combat, respecting strong opponents.",
         "main_attack": "Tiger Uppercut",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sagat.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sagat.jpeg",
         "country": "Thailand"
     },
     {
@@ -131,7 +131,7 @@
         "generation": "Street Fighter EX",
         "history": "Scott and Max are a pair of brothers originally from the United States, known for their great skill in martial arts. Together, they participate in fighting competitions to prove their strength and dexterity. Scott and Max's main attack is the Max Power, a powerful combined technique that reflects their intense unity and joint training. Despite their robust appearance and aggressive style, they are motivated by friendship and the desire to overcome their limits in combat.",
         "main_attack": "Max Power",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/scott_max.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/scott_max.jpeg",
         "country": "United States"
     },
     {
@@ -140,7 +140,7 @@
         "generation": "Street Fighter 2",
         "history": "Chun-Li is one of the most iconic fighters in the Street Fighter series and is known for her martial arts skills, being an experienced Interpol officer. Her main motivation is to avenge the death of her father, who was murdered by criminal organizations. Chun-Li possesses impressive agility, and her main attack, the Spinning Bird Kick, is one of the most emblematic attacks in the series, demonstrating her dexterity and power in battles. Her strength and determination make her one of the most admired characters.",
         "main_attack": "Spinning Bird Kick",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/chun_li.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/chun_li.jpeg",
         "country": "China"
     },
     {
@@ -149,7 +149,7 @@
         "generation": "Street Fighter 2",
         "history": "Blanka, originally named Jimmy, is one of Street Fighter's most distinctive characters. He was born in the United States but was lost in the Amazon rainforest as a child, where he came to live as a savage. His appearance and extraordinary abilities, such as the Electric Thunder, were the result of years of adaptation to the wild environment and scientific experiments. Although initially distrustful of others, Blanka develops a strong sense of friendship and fights for those he loves. His story is one of overcoming challenges and resilience.",
         "main_attack": "Electric Thunder",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blanka.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blanka.jpeg",
         "country": "Brazil"
     },
     {
@@ -158,7 +158,7 @@
         "generation": "Street Fighter 2",
         "history": "Zangief is a Russian professional wrestler known for his immense strength and skills in the ring. Born in the Soviet Union, Zangief became a legend in the world of fighting thanks to his physical power and the feared Spinning Piledriver. He is also a fierce defender of his country, representing national pride in battles around the world. Despite his intimidating appearance, Zangief has a kind heart and fights to protect the weak and oppressed.",
         "main_attack": "Spinning Piledriver",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/zangief.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/zangief.jpeg",
         "country": "Soviet Union"
     },
     {
@@ -167,7 +167,7 @@
         "generation": "Street Fighter 2",
         "history": "E. Honda is a sumo master from Japan, known for his strength and unbeatable skills in the ring. He gained worldwide fame not only for his sumo prowess but also for his dedication to spreading the art of this traditional Japanese wrestling. His most famous move, the Sumo Headbutt, is a devastating attack with which he knocks down any opponent. Honda is passionate about his culture and uses his strength to honor the legacy of his ancestors.",
         "main_attack": "Sumo Headbutt",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/honda.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/honda.jpeg",
         "country": "Japan"
     },
     {
@@ -176,7 +176,7 @@
         "generation": "Street Fighter 6",
         "history": "Marisa is an imposing fighter from Italy, famous for her crushing strength and determined stance. She specializes in a fighting style based on brute force, using her enormous musculature to deliver powerful blows like the Brutal Impact. Coming from a lineage of warriors, Marisa is a respected figure in the fighting scene, constantly seeking to test her limits and be recognized as one of the strongest. Her passion for fighting is unparalleled.",
         "main_attack": "Brutal Impact",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/marisa.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/marisa.jpeg",
         "country": "Italy"
     },
     {
@@ -185,7 +185,7 @@
         "generation": "Street Fighter 2",
         "history": "Guile is a skilled and dedicated officer of the United States Air Force, known for his incredibly powerful Sonic Boom. With a history marked by the pursuit of justice, he entered the Street Fighter tournament to avenge his friend Charlie Nash, who was killed during a secret mission. Guile possesses a firm personality and an indomitable spirit, being one of the most respected fighters due to his military discipline and extraordinary abilities.",
         "main_attack": "Sonic Boom",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/guile.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/guile.jpeg",
         "country": "United States"
     },
     {
@@ -194,7 +194,7 @@
         "generation": "Street Fighter 2",
         "history": "Dhalsim is a monk and yoga master originally from India. He possesses supernatural abilities, such as the capacity to stretch his limbs and launch powerful yoga flames. His fight is not for revenge, but to protect his family and his village from violence. Dhalsim enters the Street Fighter tournament with the aim of earning money to help those in need, always maintaining his philosophy of peace and self-control.",
         "main_attack": "Yoga Fire",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dhalsim.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dhalsim.jpeg",
         "country": "India"
     },
     {
@@ -203,7 +203,7 @@
         "generation": "Street Fighter 2",
         "history": "Balrog, a former world boxing champion, was imprisoned for a brutal crime, and now, as a professional fighter, his thirst for power and wealth leads him to participate in the Street Fighter tournament. Using his unbeatable boxing style, Balrog is not afraid to use dirty methods to win. He is motivated by greed and the pursuit of more money, and his only goal is to defeat all opponents who cross his path.",
         "main_attack": "Turn Punch",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/balrog.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/balrog.jpeg",
         "country": "United States"
     },
     {
@@ -212,7 +212,7 @@
         "generation": "Street Fighter 2",
         "history": "Vega, also known as Claw, is a famous Spanish fighter who uses his acrobatic ability and sharp claws in combat. In addition to being a fighting master, he is obsessed with beauty and vanity. Vega seeks aesthetic perfection, being cruel and relentless with those he considers unworthy. His eccentric behavior and sadistic nature have made him one of the most feared enemies in the Street Fighter tournament.",
         "main_attack": "Flying Barcelona Attack",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/vega.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/vega.jpeg",
         "country": "Spain"
     },
     {
@@ -221,7 +221,7 @@
         "generation": "Street Fighter 2",
         "history": "M. Bison, the most infamous villain in the Street Fighter series, is the leader of the criminal organization Shadaloo. Using his vast psychic power and command of a network of international criminals, he seeks to dominate the world and subjugate all who oppose him. His main ability, the Psycho Crusher, is a demonstration of his mental power. M. Bison is obsessed with conquest and absolute control, being a relentless threat to anyone who challenges him.",
         "main_attack": "Psycho Crusher",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/m_bison.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/m_bison.jpeg",
         "country": "Unknown (leader of Shadaloo)"
     },
     {
@@ -230,7 +230,7 @@
         "generation": "Street Fighter 2",
         "history": "T. Hawk is a powerful warrior from Mexico who seeks revenge against Shadaloo for the destruction of his village and the death of his family. His move, the Condor Dive, reflects his strength and combat ability, utilizing his great height and impact power. T. Hawk is not just a fighter but also a leader of his people, determined to restore honor and justice. He enters the Street Fighter tournament with a single goal: to bring down M. Bison and Shadaloo.",
         "main_attack": "Condor Dive",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/t_hawk.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/t_hawk.jpeg",
         "country": "Mexico"
     },
     {
@@ -239,7 +239,7 @@
         "generation": "Street Fighter EX",
         "history": "Darun Mister is an Indian fighter with a unique combat style based on powerful brute force attacks. Exhibiting enormous endurance and strength, he uses the Burning Dynamite move to dominate his opponents. Although initially a man of few words, Darun Mister has a great devotion to justice. His goal in the Street Fighter tournament is to protect the innocent and confront any threat with his impressive physique and unbeatable strength.",
         "main_attack": "Burning Dynamite",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/darun_mister.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/darun_mister.jpeg",
         "country": "India"
     },
     {
@@ -248,7 +248,7 @@
         "generation": "Street Fighter 2",
         "history": "Cammy is an elite agent from the United Kingdom whose past is shrouded in mystery. Trained to be a lethal assassin, she uses the Spiral Arrow move as part of her fast and technical fighting style. Cammy was a victim of manipulation and mind control experiments, but now seeks to recover her identity and her freedom. Participating in the tournament, she fights to uncover the truth about her past and, at the same time, seek redemption for her past sins.",
         "main_attack": "Spiral Arrow",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cammy.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cammy.jpeg",
         "country": "United Kingdom"
     },
     {
@@ -257,7 +257,7 @@
         "generation": "Street Fighter 2",
         "history": "Fei Long, a talented actor and kung fu master from China, is known for his combat dexterity and his cinematic skills. Inspired by action icons, he uses his Shienkyaku move, a powerful aerial kick combination, to face any opponent. Fei Long participates in the Street Fighter tournament not only to test his skills but also to find out more about a mysterious villain who threatened his city.",
         "main_attack": "Shienkyaku",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/fei_long.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/fei_long.jpeg",
         "country": "China"
     },
     {
@@ -266,7 +266,7 @@
         "generation": "Street Fighter 2",
         "history": "Dee Jay, a Jamaican fighter with contagious energy, is known for his musical talent and his positive attitude. He mixes his passion for music with combat, creating a unique and dynamic style. His main attack, the Jackknife Maximum, combines speed and power, reflecting his lively personality. Dee Jay participates in the tournament hoping to achieve victory and spread joy, believing that his music can bring some light to the world.",
         "main_attack": "Jackknife Maximum",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dee_jay.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dee_jay.jpeg",
         "country": "Jamaica"
     },
     {
@@ -275,7 +275,7 @@
         "generation": "Street Fighter 2",
         "history": "Akuma, one of the most feared fighters in the Street Fighter series, is a martial arts master who has surrendered himself to the pursuit of absolute power. With his Shun Goku Satsu strike, Akuma can eliminate his opponents with a deadly technique, reflecting his relentless and destruction-thirsty nature. He abandoned any concept of morality to achieve maximum power and defy fate, seeking to be the strongest fighter in the world, at any cost.",
         "main_attack": "Shun Goku Satsu",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/akuma.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/akuma.jpeg",
         "country": "Japan"
     },
     {
@@ -284,7 +284,7 @@
         "generation": "Street Fighter 2",
         "history": "Charlie Nash is an officer of the United States Armed Forces and one of Guile's closest allies. He is known for his skill with the Sonic Boom, a combat technique that has become his trademark. After being presumed dead, Charlie returns with a clear objective: to avenge the Shadaloo organization and the death of his friend. Determined and with a new purpose, he enters the Street Fighter tournament to confront his enemies and resolve his past once and for all.",
         "main_attack": "Sonic Boom",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/charlie_nash.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/charlie_nash.jpeg",
         "country": "United States"
     },
     {
@@ -293,7 +293,7 @@
         "generation": "Street Fighter Alpha",
         "history": "Rose, a mystical woman of Italian origin, carries the power to control souls. As a seer, she seeks to balance cosmic energy by using the Soul Satellite, an attack that manipulates spiritual power. Rose was destined to fight against the forces of evil that seek to corrupt souls. Although she appears calm and serene, her mission is heavy, as she needs to face powerful adversaries while trying to avoid being consumed by the very spiritual energy she manipulates.",
         "main_attack": "Soul Satellite",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rose.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rose.jpeg",
         "country": "Italy"
     },
     {
@@ -302,7 +302,7 @@
         "generation": "Street Fighter Alpha",
         "history": "Dan Hibiki, an eccentric fighter from Japan, is known as much for his fighting style as for his excessive confidence, which most of the time translates into comical failures. He trained in his own fighting school, with a fighting philosophy based on pride and exhibition. The Dankukyaku is his trademark, a clumsy but highly confident kick. Dan participates in Street Fighter tournaments to prove that he is the best, regardless of his dubious record or the criticism of other fighters. His dream is to become a great master, just like his father's master.",
         "main_attack": "Dankukyaku",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dan_hibiki.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dan_hibiki.jpeg",
         "country": "Japan"
     },
     {
@@ -311,7 +311,7 @@
         "generation": "Street Fighter Alpha 2",
         "history": "Sakura Kasugano is a young student from Japan, an admirer of Ryu, whom she considers her hero. With youthful energy and a competitive spirit, she enters the Street Fighter tournament to test her skills and show that she has the potential to become a great fighter. Her main attack, the Shouoken, is a version of her hero's. Although she is still learning, Sakura is incredibly determined and always seeks to improve, showing that she is capable of fighting any opponent with her pure and strong heart.",
         "main_attack": "Shouoken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sakura_kasugano.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sakura_kasugano.jpeg",
         "country": "Japan"
     },
     {
@@ -320,7 +320,7 @@
         "generation": "Street Fighter 3",
         "history": "Evil Ryu is the corrupted version of Ryu, who succumbed to the power of the Satsui no Hado (Surge of Murderous Intent). Evil Ryu uses the Messatsu Hadouken, a devastating attack that reflects his total surrender to brute force and the desire for destruction. Ryu's spirit is consumed by rage, and his humanity has been lost. Unlike the original Ryu, Evil Ryu seeks violence and chaos, becoming a much more dangerous and relentless opponent. He is in a constant search for power, regardless of the damage caused to his body and soul.",
         "main_attack": "Messatsu Hadouken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/evil_ryu.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/evil_ryu.jpeg",
         "country": "Japan"
     },
     {
@@ -329,7 +329,7 @@
         "generation": "Street Fighter Alpha 3",
         "history": "Rainbow Mika, an energetic Japanese wrestler, dreams of becoming a wrestling star and making herself known worldwide. With her positive attitude and unwavering spirit, she enters the ring to prove her skills, both in the sport and in the hearts of fans. Her main attack, the Peach Beach, is a combination of strength and showmanship, reflecting her outgoing personality. Rainbow Mika dreams of recognition and fame, while spreading a message of courage and perseverance, inspiring others to never give up on their dreams, whether in sports or in life.",
         "main_attack": "Peach Beach",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rainbow_mika.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rainbow_mika.jpeg",
         "country": "Japan"
     },
     {
@@ -338,7 +338,7 @@
         "generation": "Street Fighter 5",
         "history": "Luke, one of the standout characters in Street Fighter V, is an American fighter with a modern and pragmatic approach to combat. He stands out for his unique ability to fight dynamically and with force, with his main strike Impact being a representation of the power and speed he applies in his confrontations. Luke has a burning desire to grow, test his limits, and earn the respect of the best fighters. He is a charismatic figure with a past linked to the military and a future focused on becoming the global champion.",
         "main_attack": "Impact",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/luke.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/luke.jpeg",
         "country": "United States"
     },
     {
@@ -347,7 +347,7 @@
         "generation": "Street Fighter 5",
         "history": "Karin Kanzuki, one of the most powerful fighters in Street Fighter V, comes from a wealthy and traditional family in Japan. She was raised to be a natural leader, with a strong sense of duty and an impressive ability in martial arts. Karin-ryu, her main strike, reflects the precision and mastery of the techniques she has perfected throughout her life. Karin seeks not only to win – she wants to prove that she is superior to all other fighters, regardless of their humble origins. Her story is marked by the relentless pursuit of perfection and the overcoming of expectations imposed by her family and society.",
         "main_attack": "Karin-ryu",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/karin_kanzuki.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/karin_kanzuki.jpeg",
         "country": "Japan"
     },
     {
@@ -356,7 +356,7 @@
         "generation": "Street Fighter Alpha 3",
         "history": "Juni and Juli, two fighters from Street Fighter Alpha 3, are highly trained agents who serve M. Bison in his criminal organization Shadaloo. They are two of his most lethal assassins, with intensely refined combat skills and brutal training. Their joint strike, Killer Bee, reflects the perfect synchronicity they have during combat, with fast and relentless attacks. Although they work as a unit, they have different personalities: Juli is more serene and focused, while Juni is more intense and explosive. Both, however, are completely loyal to Shadaloo, fulfilling their orders without question.",
         "main_attack": "Killer Bee",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/juni_juli.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/juni_juli.jpeg",
         "country": "Unknown (Shadaloo)"
     },
     {
@@ -365,7 +365,7 @@
         "generation": "Street Fighter Alpha 3",
         "history": "Ingrid, of mysterious origin, first appeared in Street Fighter Alpha 3. Her true identity and intentions are shrouded in mystery, with many speculating about her origins and the reason for her appearance in the Street Fighter universe. Her Shining Claw strike reflects her elegant fighting style, blending powerful techniques and precision with an almost supernatural aura. Ingrid seems to possess a divine power and a connection to the world's destiny, but she keeps her own secret objectives, challenging even the strongest to try and understand her true nature.",
         "main_attack": "Shining Claw",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ingrid.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ingrid.jpeg",
         "country": "Unknown"
     },
     {
@@ -374,7 +374,7 @@
         "generation": "Street Fighter 3",
         "history": "Alex, an American fighter who appeared in Street Fighter 3, is a determined and charismatic character with a strong sense of justice. He always fights to protect others and uphold what is right. His main attack, Hyper Bomb, is a demonstration of his brute strength and resilience. Alex is an example of perseverance, and his journey through the streets of New York leads him to seek a greater truth, trying to prove that he is more than just a fighter, but a hero capable of facing any challenge that comes his way.",
         "main_attack": "Hyper Bomb",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/alex.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/alex.jpeg",
         "country": "United States"
     },
     {
@@ -383,7 +383,7 @@
         "generation": "Street Fighter 3",
         "history": "Yun Lee, from Street Fighter 3, is a young fighter with great skill and agility, originally from China. He is a martial arts expert and uses his Lunge Punch strike to attack quickly and precisely, always on the move. Yun is ambitious and dreams of becoming the greatest fighter in the world. Despite his youth, he possesses great determination and a strong desire to protect his family and friends. His fighting style is marked by impressive speed and a pragmatic approach to combat, reflecting his focused and dynamic personality.",
         "main_attack": "Lunge Punch",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/yun_lee.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/yun_lee.jpeg",
         "country": "China"
     },
     {
@@ -392,7 +392,7 @@
         "generation": "Street Fighter 3",
         "history": "Yang Lee, Yun's twin brother, shares many of his abilities but is calmer and more reserved. Yang is a martial arts master, and while his brother focuses on direct attack, he prefers a more strategic approach. His main attack, Senkyaku, is a fast and effective move that deals great damage to his opponents. Although the two brothers share a deep bond, Yang always seeks his own path, trying to overcome challenges in his own way and with maximum control over his body and mind.",
         "main_attack": "Senkyaku",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/yang_lee.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/yang_lee.jpeg",
         "country": "China"
     },
     {
@@ -401,7 +401,7 @@
         "generation": "Street Fighter 3",
         "history": "Dudley is a British nobleman and an excellent boxer, originally from the United Kingdom. His passion for nobility and the art of boxing is visible in each of his blows, with his Rolling Thunder being the embodiment of his skill and refined style. Despite his elegant charm and sophisticated appearance, Dudley has a warrior's heart and is always in search of a good challenge in the ring. He is also known for his relentless pursuit to find the world boxing champion and, more importantly, to recover his father's stolen luxury car. Dudley maintains his class and nobility, even in combat.",
         "main_attack": "Rolling Thunder",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dudley.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/dudley.jpeg",
         "country": "United Kingdom"
     },
     {
@@ -410,7 +410,7 @@
         "generation": "Street Fighter 3",
         "history": "Ibuki, a young Japanese ninja, specializes in secret and deadly techniques. Her agility is one of her greatest assets, being able to move quickly through the battlefields with precision and lightness. The Tsumuji strike, a fast and devastating move, exemplifies her skill in swift and surprising attacks. Ibuki is a vibrant and captivating character but also struggles with the challenges of a ninja's life, trying to balance her training life with the simpler and happier moments of everyday life.",
         "main_attack": "Tsumuji",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ibuki.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ibuki.jpeg",
         "country": "Japan"
     },
     {
@@ -419,7 +419,7 @@
         "generation": "Street Fighter 3",
         "history": "Oro, a martial arts master originally from Brazil, is one of the most peculiar characters in Street Fighter 3. His unique fighting style, characterized by his ability to fight with only one arm, is reflected in his Tengu Stone strike. He is a wise and experienced man, always seeking new learning and to test his limits. His mission to find a true opponent to challenge his skill is what drives him, but he also has a deep respect for his traditions and spiritual teachings. Oro is an enigmatic character who maintains a balance between wisdom and fighting.",
         "main_attack": "Tengu Stone",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/oro.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/oro.jpeg",
         "country": "Brazil"
     },
     {
@@ -428,7 +428,7 @@
         "generation": "Street Fighter 3",
         "history": "Elena, a Kenyan fighter, is a character full of energy and joy. With a pure heart and a positive attitude, she uses her tribal dance as part of her fighting technique. Her Spin Scythe strike is a powerful combination of fluid and skillful movements, allowing her to defeat her enemies with grace and strength. Elena is a representative of kindness, being motivated by her desire to protect and help others. Her journey is not just one of combat but also of self-discovery, trying to balance her cultural roots with the world around her.",
         "main_attack": "Spin Scythe",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/elena.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/elena.jpeg",
         "country": "Kenya"
     },
     {
@@ -437,7 +437,7 @@
         "generation": "Street Fighter 3",
         "history": "Sean Matsuda is a young fighter from Japan, Ken's disciple and a dedicated student of martial arts. He is an energetic and motivated figure with a great love for training and an insatiable curiosity to learn. His Hadouken strike, although similar to Ryu's and Ken's, is adapted with his own style. Sean has an optimistic attitude and is constantly seeking improvement, being a character who seeks to strengthen his skills and protect those he loves. His learning journey is one of the richest among the characters, with him trying to create his own path in martial arts.",
         "main_attack": "Hadouken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sean_matsuda.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sean_matsuda.jpeg",
         "country": "Japan"
     },
     {
@@ -446,7 +446,7 @@
         "generation": "Street Fighter 3",
         "history": "Necro, a former human transformed into a being with electrical abilities after being subjected to scientific experiments, comes from Russia. His Electric Snake strike reflects his connection to the power of electricity, allowing him to channel devastating attacks. Although his transformation has given him extraordinary powers, Necro also carries the weight of his condition, always seeking a way to free himself from the experiments that made him who he is. His personality is complex, marked by the internal struggle between the search for his humanity and the powers he must master.",
         "main_attack": "Electric Snake",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/necro.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/necro.jpeg",
         "country": "Russia"
     },
     {
@@ -455,7 +455,7 @@
         "generation": "Street Fighter 3",
         "history": "Gill is the leader of the mysterious and secret society, the Illuminati, a man with extraordinary powers. His Pillar of Flame strike is a demonstration of his control over the elemental forces, especially fire. Gill sees the world through a lens of destruction and rebirth, believing that only through great cataclysms will it be possible to reach a true new era. As the leader of his organization, he manipulates events and people to achieve his own goals, being a character both visionary and manipulative, with a ruthless view of his purpose.",
         "main_attack": "Pillar of Flame",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gill.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gill.jpeg",
         "country": "Unknown (Secret Society)"
     },
     {
@@ -464,7 +464,7 @@
         "generation": "Street Fighter 3",
         "history": "Urien is Gill's brother and one of the main members of the secret society, the Illuminati. His Aegis Reflector strike is a powerful defense that can also be used offensively, reflecting his vast knowledge of martial arts and elemental energies. Urien seeks absolute power, often challenging his brother Gill for leadership of the organization and for supremacy. His personality is marked by ambition, and he is willing to do anything to achieve his goals, even if it means subverting natural laws or harming those around him.",
         "main_attack": "Aegis Reflector",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/urien.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/urien.jpeg",
         "country": "Unknown (Secret Society)"
     },
     {
@@ -473,7 +473,7 @@
         "generation": "Street Fighter 3",
         "history": "Remy is a French fighter marked by his quest for revenge and his silent rage. He carries a deep pain because his father abandoned the family, and he seeks revenge for this, which is reflected in his Tornado strike, a technique that revolves around his ability to manipulate energy. Remy is a melancholic and introspective character who seeks a path to redemption while fighting to overcome his pain and find a greater purpose. His ability to control the energy around him reflects his emotional state, often fueled by a desire for retribution.",
         "main_attack": "Tornado",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/remy.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/remy.jpeg",
         "country": "France"
     },
     {
@@ -482,7 +482,7 @@
         "generation": "Street Fighter 3",
         "history": "Makoto is a young fighter from Japan, coming from a traditional family of martial arts masters. Her personality is determined and combative, with her always seeking new challenges to test her skills. Her Tanden Renki strike is a powerful technique that increases her physical strength and allows her to use devastating blows. Makoto is known for her relentless attitude and her unwavering energy. She seeks to keep her family's honor alive and prove her worth as an exceptional fighter, overcoming challenges with courage and perseverance.",
         "main_attack": "Tanden Renki",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/makoto.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/makoto.jpeg",
         "country": "Japan"
     },
     {
@@ -491,7 +491,7 @@
         "generation": "Street Fighter 3",
         "history": "Twelve is a mysterious and unknown being with abilities that allow him to alter his form, as seen in his X-Copy strike. His origin is enigmatic, and he is part of an unknown experiment or organization. Twelve is one of the strangest characters in Street Fighter, being unable to show emotions or communicate clearly, except for his own strange and metamorphic movements. His nature and motivation remain a mystery, but he is an intriguing character with unique abilities that defy the laws of physics and human nature.",
         "main_attack": "X-Copy",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/twelve.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/twelve.jpeg",
         "country": "Unknown"
     },
     {
@@ -500,7 +500,7 @@
         "generation": "Street Fighter 3",
         "history": "Q is one of the most enigmatic characters in Street Fighter 3, a fighter with a peculiar appearance and mysterious behaviors. His QCF+P strike is a simple but extremely effective technique. Little is known about his origin or motivation, as Q does not speak and rarely expresses emotions. He appears to be an artificial creation or a victim of unknown circumstances, with a goal that remains secret. The nature of his fight is marked by mystery, making him one of the most intriguing and disturbing characters in the series.",
         "main_attack": "QCF+P",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/q.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/q.jpeg",
         "country": "Unknown"
     },
     {
@@ -509,7 +509,7 @@
         "generation": "Street Fighter 4",
         "history": "Crimson Viper is an elite secret agent from the United States with a secret mission that places her at the center of various dangerous operations. She is known for her advanced combat skills and her special weapons. Her Thunder Knuckle strike is an electrified punch technique, reflecting her technological and high-level nature. Viper is enigmatic, with an astute personality and a rigorous control over her emotions and strategies. Her mission in Street Fighter 4 is complex and involves manipulation and espionage, being a mysterious character with a crucial role in the intrigues surrounding the game's story.",
         "main_attack": "Thunder Knuckle",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/crimson_viper.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/crimson_viper.jpeg",
         "country": "United States"
     },
     {
@@ -518,7 +518,7 @@
         "generation": "Street Fighter 4",
         "history": "El Fuerte is a chef and professional wrestler from Mexico with a unique and eccentric personality. His passion for cooking is almost as great as his fighting ability, which is reflected in his Guacamole strike, a fun and acrobatic technique. El Fuerte is fast and unpredictable, using his agility to confuse and defeat his opponents. He is charismatic and optimistic, always seeking to perfect his cuisine and his martial arts skills. His approach to fighting is light and fun, but don't underestimate his ability to defeat opponents with his speed and creativity.",
         "main_attack": "Guacamole",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/el_fuerte.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/el_fuerte.jpeg",
         "country": "Mexico"
     },
     {
@@ -527,7 +527,7 @@
         "generation": "Street Fighter 4",
         "history": "Rufus is an obese and eccentric fighter from the United States, known for his confident attitude and peculiar physique. He may seem clumsy, but he is an unbeatable competitor with impressive fighting skills. His Ultra Combo strike is one of his most powerful techniques, reflecting his brute strength and confidence in his abilities. Rufus is self-sufficient, egocentric, and always tries to prove himself the best, constantly seeking new challenges. He has a unique fighting style based on his speed and power, despite his size. His humor and irreverent approach make him one of the funniest and most unusual characters in Street Fighter 4.",
         "main_attack": "Ultra Combo",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rufus.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rufus.jpeg",
         "country": "United States"
     },
     {
@@ -536,7 +536,7 @@
         "generation": "Street Fighter 4",
         "history": "Seth is one of the main antagonists of Street Fighter 4, being an artificial creation and one of the most powerful threats in the franchise's universe. His Tanden Engine strike is one of his most feared techniques, with the power to absorb the abilities of other fighters. Seth is the head of Shadaloo, a criminal organization seeking global domination, and his intentions are as cruel as his power. He is calculating, ruthless, and manipulative, with an insatiable desire for power and control. His ability to copy the moves of other fighters makes him an unbeatable opponent, reflecting his role as the villain in the game's story.",
         "main_attack": "Tanden Engine",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/seth.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/seth.jpeg",
         "country": "Unknown (Shadaloo)"
     },
     {
@@ -545,7 +545,7 @@
         "generation": "Street Fighter 4",
         "history": "Gouken is a martial arts master from Japan, being one of the most respected teachers in the Street Fighter universe. He is the master of Ryu and Ken, passing on to them the teachings of the Hadouken and other powerful techniques. His Denjin Hadouken strike is a more powerful version of the traditional Hadouken, with a greater concentration of energy. Gouken is a figure of wisdom and discipline, being highly respected by his disciples and his enemies. His history is intertwined with that of Akuma, his brother and main adversary, with whom he has a long-standing rivalry. Gouken represents goodness, while Akuma personifies evil.",
         "main_attack": "Denjin Hadouken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gouken.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/gouken.jpeg",
         "country": "Japan"
     },
     {
@@ -554,7 +554,7 @@
         "generation": "Street Fighter 4",
         "history": "Juri Han is one of the most dangerous villains in Street Fighter 4, with a cruel and sadistic personality. She is a Taekwondo specialist and was created to be an unbeatable fighter, possessing the ability to control the power of her Feng Shui Engine. Her Senpusha strike is a fast and devastating technique that shows her ability to manipulate her speed and energy effectively. Juri is motivated by revenge after losing her leg in an incident caused by M. Bison and by her thirst for power. She is known for her arrogance, violence, and the pleasure she feels in seeing the suffering of her opponents.",
         "main_attack": "Senpusha",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/juri_han.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/juri_han.jpeg",
         "country": "South Korea"
     },
     {
@@ -563,7 +563,7 @@
         "generation": "Street Fighter 4",
         "history": "Hakan is an eccentric and cheerful fighter from Turkey, known for his unique fighting style that involves the use of oil to increase his mobility and resistance. His Oiled Up strike allows him to cover himself in oil, making him slippery and harder to hit. Hakan is a charismatic character, always looking for fun and a love for fighting. He is also very focused on protecting his family and his village. Despite his laid-back demeanor, Hakan is an unbeatable fighter when he is at his best. His fighting style and personality make him one of the most unusual and fun characters in Street Fighter 4.",
         "main_attack": "Oiled Up",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hakan.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hakan.jpeg",
         "country": "Turkey"
     },
     {
@@ -572,7 +572,7 @@
         "generation": "Street Fighter 4",
         "history": "Oni is a demonic and more powerful version of Akuma, representing the purest and most destructive form of the Satsui no Hado. His appearance is terrifying, with purple skin and extremely strong powers. Oni possesses the Shun Goku Satsu strike, a deadly technique that reflects his destructive power. The difference between Oni and Akuma lies in his power level, with Oni being more unstable and savage, completely surrendered to the dark side of martial arts. Although he has lost part of his humanity, Oni still has the ability to fight fiercely and relentlessly, and his only goal is destruction.",
         "main_attack": "Shun Goku Satsu",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/oni.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/oni.jpeg",
         "country": "Japan"
     },
     {
@@ -581,7 +581,7 @@
         "generation": "Street Fighter 4",
         "history": "Decapre is a mysterious character and one of the members of Shadaloo's army. She was created as one of the several copies of Cammy White, being one of the Dolls, a secret organization used by M. Bison. Decapre is a skilled assassin with a fighting style based on martial arts and the use of special techniques like the Psycho Sting. She is marked by a mask that covers her face, and her loyalty to Shadaloo is unquestionable. Despite her nature as a weapon of Shadaloo, Decapre has her own goals and motivations, which involve her search for identity and freedom.",
         "main_attack": "Psycho Sting",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/decapre.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/decapre.jpeg",
         "country": "Unknown (Shadaloo)"
     },
     {
@@ -590,7 +590,7 @@
         "generation": "Street Fighter 4",
         "history": "Abel is an enigmatic character who has a direct connection to the Shadaloo organization. He is a highly trained fighter with impressive combat skills. His history is marked by amnesia, and he tries to discover his origins while fighting against those who controlled him. Abel's Change of Direction strike is an acrobatic maneuver that allows him to quickly change direction, surprising his opponents. Abel is on a journey of self-discovery, trying to recover his memories while remaining true to his own principles of justice and loyalty.",
         "main_attack": "Change of Direction",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/abel.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/abel.jpeg",
         "country": "France"
     },
     {
@@ -599,7 +599,7 @@
         "generation": "Street Fighter 5",
         "history": "F.A.N.G. is one of the main villains of Street Fighter 5 and serves as one of M. Bison's most dangerous subordinates. He is a master of poison and uses lethal contamination techniques to defeat his opponents, being responsible for the introduction of poison in various fights. His Noxious Poison strike is an example of his ability to create poisonous effects that directly affect opponents, weakening them over time. F.A.N.G. is a cold and calculating character, always seeking to increase his power within Shadaloo and spread chaos through his poisonous abilities.",
         "main_attack": "Noxious Poison",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/fang.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/fang.jpeg",
         "country": "China"
     },
     {
@@ -608,7 +608,7 @@
         "generation": "Street Fighter 5",
         "history": "Laura is a Brazilian fighter known for her fighting style based on Jiu-Jitsu and her electricity skills. She uses her electricity uniquely in combat, with the Thunder Clap strike, which uses electrical energy to destabilize her opponents and gain an advantage in fights. Laura has an outgoing and confident personality, being a character who combines strength and charm. She is also very close to her brother, Sean Matsuda, and seeks to bring honor to her name while fighting to protect her loved ones and her city.",
         "main_attack": "Thunder Clap",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/laura.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/laura.jpeg",
         "country": "Brazil"
     },
     {
@@ -617,7 +617,7 @@
         "generation": "Street Fighter 5",
         "history": "Necalli is one of the most mysterious characters in Street Fighter 5, a primal and ferocious being from Mexico. He is a wild and chaotic entity with an insatiable desire to fight the strongest. When he activates his main strike, Rage Transform, he transforms into a more powerful version of himself, significantly increasing his strength and combat abilities. Necalli is driven only by the desire to battle and devour the souls of the strongest fighters, which makes him a formidable threat. His instinctive nature and aggressive behavior are central to his story.",
         "main_attack": "Rage Transform",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/necalli.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/necalli.jpeg",
         "country": "Mexico"
     },
     {
@@ -626,7 +626,7 @@
         "generation": "Street Fighter 5",
         "history": "Rashid is a character from the Middle East, specifically Saudi Arabia, and is known for his unique fighting style that combines speed and aerial techniques. Rashid is a technology genius and an adventurer who is always looking for new experiences and challenges. His Vortex strike utilizes his ability to manipulate the wind to create a whirlwind that can disorient his opponents. Rashid is a cheerful and optimistic character with a curious and friendly nature, always willing to help those who cross his path.",
         "main_attack": "Vortex",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rashid.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rashid.jpeg",
         "country": "Saudi Arabia"
     },
     {
@@ -635,7 +635,7 @@
         "generation": "Street Fighter 5",
         "history": "Kolin is a Russian fighter, a former associate of M. Bison and a member of the Secret Society organization. She is a master of ice, using her abilities to control the cold and employ freezing attacks against her enemies. Her Frost Touch strike allows her to create ice attacks that weaken opponents upon contact, making them vulnerable. Kolin is a cold and calculating woman, and although she was an enemy in her fight against the heroes, she also has a complex sense of loyalty and honor. Her story is closely linked to her past with the organization and her search for redemption.",
         "main_attack": "Frost Touch",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kolin.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kolin.jpeg",
         "country": "Russia"
     },
     {
@@ -644,7 +644,7 @@
         "generation": "Street Fighter 5",
         "history": "Ed is a character with a mysterious past, originating from Shadaloo. He is a young man who possesses extraordinary psychic abilities but also carries the burden of being manipulated by M. Bison and transformed into a powerful psychic weapon. His Psycho Knuckle strike is an attack based on his psychic energy, in which he concentrates his mental power into a devastating punch. Ed seeks to find his own path and understand his identity while fighting against his dark past and trying to use his abilities for good.",
         "main_attack": "Psycho Knuckle",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ed.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ed.jpeg",
         "country": "Unknown (Shadaloo)"
     },
     {
@@ -653,7 +653,7 @@
         "generation": "Street Fighter 5",
         "history": "Menat is a mysterious character from Egypt who possesses mystical and spiritual abilities. She is a seer with great knowledge of the occult arts, and she uses her Soul Sphere to attack her enemies. The spheres can be manipulated from a distance, allowing her to control the fight with a combination of quick attacks and strategic tactics. Menat is calm, intelligent, and mysterious, with a deep connection to the spiritual forces she manipulates. She seeks to learn more about fate and the future while training to become an even more powerful combatant.",
         "main_attack": "Soul Sphere",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/menat.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/menat.jpeg",
         "country": "Egypt"
     },
     {
@@ -662,7 +662,7 @@
         "generation": "Street Fighter 5",
         "history": "Zeku is a master of Bushinryu, the ninja fighting art, and one of the most complex characters in Street Fighter 5. He comes from Japan and has a history linked to a long journey of self-discovery. Zeku was one of the founders of the Bushinryu fighting style but abandoned the path in search of more power and wisdom. His main strike, Bushinryu, is a reflection of his ancestral techniques and can adapt to different situations, allowing him to transform into different forms and styles. Zeku is a mature, experienced man dedicated to teaching the next generation of ninjas while continuing to evolve and adapt to the modern world.",
         "main_attack": "Bushinryu",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/zeku.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/zeku.jpeg",
         "country": "Japan"
     },
     {
@@ -671,7 +671,7 @@
         "generation": "Street Fighter 5",
         "history": "Falke is a fighter from Germany who was created by Shadaloo as a psychic weapon. She uses her psychic powers to control the flow of energy and use long-range attacks, such as her Psycho Kugel strike. Falke has a sad history marked by manipulation and abuse, but she fights to break free from M. Bison's control and find her own path. Her journey is a search for freedom and inner peace, with the goal of using her abilities for good. Falke is a calm, rational, and focused character who still fights against the scars left by her past.",
         "main_attack": "Psycho Kugel",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/falke.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/falke.jpeg",
         "country": "Germany"
     },
     {
@@ -680,7 +680,7 @@
         "generation": "Street Fighter 5",
         "history": "G is an enigmatic figure from Street Fighter 5 with a distinct look and an eccentric personality. He is a character of mysterious origin, and his main strike, the Presidential Piledriver, is a move of great impact and physical strength. G presents himself as a figure who fights for the people and believes in his mission to bring change to the world, being seen by many as a political or messianic figure. His country of origin is unknown, but he is described as a charismatic character with a grandiose vision of his role in the world. His presidential appearance and his ideology of global transformation make him a unique figure in the series.",
         "main_attack": "Presidential Piledriver",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/g.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/g.jpeg",
         "country": "Unknown"
     },
     {
@@ -689,7 +689,7 @@
         "generation": "Street Fighter 5",
         "history": "Kage is a corrupted version of Ryu, created by the power of the Shadow that exists within him. He represents the dark part of Ryu's soul, a manifestation of his most destructive and aggressive side. His main strike, Metsu Shoryuken, is an even more powerful version of the traditional Shoryuken, reflecting the darkness that has taken over his being. Kage seeks freedom from his inner torment, but at the same time, he is driven by a will to destruction. He is in a constant battle with Ryu, trying to instill his dark side into his former master.",
         "main_attack": "Metsu Shoryuken",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kage.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kage.jpeg",
         "country": "Japan"
     },
     {
@@ -698,7 +698,7 @@
         "generation": "Street Fighter EX",
         "history": "Hokuto is a fighter from Street Fighter EX with combat skills based on fighting techniques known for their brutality and precision. Her main strike, Shinjou Giga, is a devastating technique that reflects her highly disciplined fighting style. Hokuto possesses a strong and determined spirit, always seeking to improve and overcome her own limits. Her story is one of continuous growth and improvement, with a strong emphasis on honor and respect, characteristics that define her personality.",
         "main_attack": "Shinjou Giga",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hokuto.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hokuto.jpeg",
         "country": "Japan"
     },
     {
@@ -707,7 +707,7 @@
         "generation": "Street Fighter EX",
         "history": "Cracker Jack is a character from Street Fighter EX who comes from the United States. Known for his unpredictable fighting style and explosive nature, Cracker Jack uses his combat ability to disorient his enemies with fast and powerful movements, such as his main strike, Explosive. He is impulsive and likes to cause chaos, using his energy to dominate the battlefield. His style is similar to that of an aggressive boxer, always ready to give his best in any situation.",
         "main_attack": "Explosive",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cracker_jack.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cracker_jack.jpeg",
         "country": "United States"
     },
     {
@@ -716,7 +716,7 @@
         "generation": "Street Fighter EX",
         "history": "Doctrine is a mysterious character from Street Fighter EX whose origin and history remain unknown. He is known for his Tiger Shot strike, which is a shooting technique designed to keep his enemies at a distance. Doctrine presents himself as a fighter who follows a secret code, with abilities that are almost unattainable for others. His story is shrouded in mystery, with few details about his true motivation and objectives. His presence in the series adds an element of enigma, leaving players intrigued about his true identity.",
         "main_attack": "Tiger Shot",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/doctrine.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/doctrine.jpeg",
         "country": "Unknown"
     },
     {
@@ -725,7 +725,7 @@
         "generation": "Street Fighter EX",
         "history": "Skullomania is an eccentric character from Street Fighter EX. He is a masked hero who was created as a parody of Japanese superheroes. With a skeleton-like appearance and a fighting style inspired by acrobatics and fast strikes, his main attack, Skull Breaker, reflects his flamboyant personality. Skullomania can be seen as a hero seeking fame and recognition, but he also has a more comical side, making him one of the most memorable characters of that generation.",
         "main_attack": "Skull Breaker",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/skullomania.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/skullomania.jpeg",
         "country": "Japan"
     },
     {
@@ -734,7 +734,7 @@
         "generation": "Street Fighter EX",
         "history": "Pullum Purna is a fighter from Street Fighter EX originally from India. She is a young and talented fighter who uses fluid and graceful movements in her fighting, with her main attack being Phoenix, which reflects her agility and acrobatic skills. Pullum Purna is a character with a unique fighting style based on her dance and martial arts training, blending grace with strength. Her story is related to the pursuit of self-improvement and mastery of her abilities.",
         "main_attack": "Phoenix",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/pullum_purna.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/pullum_purna.jpeg",
         "country": "India"
     },
     {
@@ -743,7 +743,7 @@
         "generation": "Street Fighter EX",
         "history": "Allen Sneider is a character from Street Fighter EX who comes from the United States. He is a fighter with a violent and unpredictable combat style, with his main attack being Devil's Hand, which makes use of abrupt and powerful movements to subdue his enemies. Allen Sneider is an enigmatic character with an intimidating demeanor and a strong presence on the battlefield. His skill and attitude make him a formidable threat to any opponent.",
         "main_attack": "Devil's Hand",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/allen_sneider.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/allen_sneider.jpeg",
         "country": "United States"
     },
     {
@@ -752,7 +752,7 @@
         "generation": "Street Fighter EX",
         "history": "Blair Dame is a mysterious fighter from Street Fighter EX with an unknown origin. She stands out for her speed and precision, using the Tornado Kick as her main attack, a fast and devastating strike. Blair Dame is known for her refined fighting style, which blends classic fighting techniques with more modern movements. Her past and motivations are shrouded in mystery, but she is a formidable opponent for any fighter who crosses her path.",
         "main_attack": "Tornado Kick",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blair_dame.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blair_dame.jpeg",
         "country": "Unknown"
     },
     {
@@ -761,7 +761,7 @@
         "generation": "Street Fighter EX",
         "history": "Garuda is a mysterious and violent character from the Street Fighter EX series. He uses a fierce and brutal fighting style, with his main attack being Raging Inferno, a devastating strike. Garuda is one of the most iconic villains in the EX universe, and his origin remains largely unknown. His warrior-like appearance with a mask and a threatening aura makes him one of the most feared characters in the franchise.",
         "main_attack": "Raging Inferno",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/garuda.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/garuda.jpeg",
         "country": "Unknown"
     },
     {
@@ -770,7 +770,7 @@
         "generation": "Street Fighter EX",
         "history": "Kairi is a character from Street Fighter EX with a powerful and menacing fighting style. His main attack, the Tatsumaki Senpukyaku, is a modified version of Ryu and Ken's famous move, making it even more lethal in his hands. Kairi's story is shrouded in mystery, and his quest for revenge and self-improvement is one of the motivations that drive him in the tournament. He is a formidable opponent with great strength and combat skills.",
         "main_attack": "Tatsumaki Senpukyaku",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kairi.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/kairi.jpeg",
         "country": "Unknown"
     },
     {
@@ -779,7 +779,7 @@
         "generation": "Street Fighter EX",
         "history": "Cycloids are enigmatic cybernetic characters that appear in Street Fighter EX. They are known for their ability to manipulate the Cycloid Special, an attack that combines various fighting styles and energy. The Cycloids are mysterious figures with a unique design, and their origin is also kept secret. They offer a distinct challenge with their ability to adapt during combat.",
         "main_attack": "Cycloid Special",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cycloids.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cycloids.jpeg",
         "country": "Unknown"
     },
     {
@@ -788,7 +788,7 @@
         "generation": "Street Fighter EX",
         "history": "Hayate is a fast and agile fighter from Street Fighter EX, hailing from Japan. His main attack, the Windmill Kick, is a move that reflects his dexterity and control in combat. Hayate is an elegant and strategic character, always seeking to impose himself with his speed and precision. His combat ability is a combination of technique and agility, making him a difficult opponent to defeat.",
         "main_attack": "Windmill Kick",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hayate.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hayate.jpeg",
         "country": "Japan"
     },
     {
@@ -797,7 +797,7 @@
         "generation": "Street Fighter EX",
         "history": "Nanase is a fighter from Street Fighter EX, originally from Japan. Her main attack is the Aqua Splash, an agile and fluid move that utilizes water in her attack technique. Nanase is known for her dexterity and ability to adapt to the flow of combat, using her speed and agility to confuse her opponents. Her appearance and fighting style reflect a light and strategic character.",
         "main_attack": "Aqua Splash",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/nanase.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/nanase.jpeg",
         "country": "Japan"
     },
     {
@@ -806,7 +806,7 @@
         "generation": "Street Fighter 6",
         "history": "Manon is a character who appears in Street Fighter 6 and comes from France. Her main attack, Grace Strike, reflects her grace and dexterity in combat. Manon is an elegant character with a fighting style that highlights her physical strength and tactics. She combines refined techniques with powerful combat abilities, making her a formidable opponent.",
         "main_attack": "Grace Strike",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/manon.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/manon.jpeg",
         "country": "France"
     },
     {
@@ -815,7 +815,7 @@
         "generation": "Street Fighter EX",
         "history": "Shadowgeist is a mysterious villain in Street Fighter EX. His main attack, Dark Shadow, allows him to attack with an enigmatic and powerful shadow. Shadowgeist's origin is a mystery, and his presence in the tournament is shrouded in an aura of fear and intrigue. His fighting style is related to shadows and the use of mysterious techniques that defy opponents' expectations.",
         "main_attack": "Dark Shadow",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/shadowgeist.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/shadowgeist.jpeg",
         "country": "Unknown"
     },
     {
@@ -824,7 +824,7 @@
         "generation": "Street Fighter EX",
         "history": "Sharon is a secret character from Street Fighter EX, with an equally mysterious history. Her main attack, the Sharon Slash, is a fast and lethal strike. Sharon is a fighter with refined combat skills, and her fighting style combines agility and strength, making her a dangerous opponent on the battlefield.",
         "main_attack": "Sharon Slash",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sharon.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sharon.jpeg",
         "country": "Unknown"
     },
     {
@@ -833,7 +833,7 @@
         "generation": "Street Fighter EX",
         "history": "Area is a character from Street Fighter EX with an unknown origin. Her main attack is Area Attack, which is a wide area attack, allowing her to hit multiple opponents at the same time. Area's origin and fighting style are shrouded in mystery, but her ability to attack multiple enemies at once makes her a dangerous opponent in combat.",
         "main_attack": "Area Attack",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/area.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/area.jpeg",
         "country": "Unknown"
     },
     {
@@ -842,7 +842,7 @@
         "generation": "Street Fighter EX",
         "history": "Vulcano Rosso is an Italian fighter from Street Fighter EX. His main attack, the Vulcan Punch, is a powerful attack where Vulcano Rosso uses his physical strength to deliver devastating punches. His fighting style combines speed and power, and he is known for his vigor and dexterity on the battlefield.",
         "main_attack": "Vulcan Punch",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/vulcano_rosso.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/vulcano_rosso.jpeg",
         "country": "Italy"
     },
     {
@@ -851,7 +851,7 @@
         "generation": "Street Fighter EX",
         "history": "Ace is a fighter from Street Fighter EX, originally from the United States. His main attack is the Ace Shot, a fast and precise attack technique. Ace stands out for his ability to perform long-range attacks with lethal precision, making him an excellent long-range combatant.",
         "main_attack": "Ace Shot",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ace.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/ace.jpeg",
         "country": "United States"
     },
     {
@@ -860,7 +860,7 @@
         "generation": "Street Fighter EX",
         "history": "Blade is a mysterious character from Street Fighter EX with an unknown origin. His main attack, the Blade Charge, is a powerful and aggressive attack where Blade uses his blade (or a related technique) to deliver strong and fast blows. His ability to charge and deliver quick attacks makes him a highly effective fighter.",
         "main_attack": "Blade Charge",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blade.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/blade.jpeg",
         "country": "Unknown"
     },
     {
@@ -869,7 +869,7 @@
         "generation": "Street Fighter EX",
         "history": "Capitão Sawada is a Brazilian character from Street Fighter EX. His main attack, the Sawada Smash, is a brute force attack where Capitão Sawada delivers powerful blows, standing out for his ability to control physical strength. He represents a fighting style focused on power and resilience, being a true pillar on the battlefield.",
         "main_attack": "Sawada Smash",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/capitao_sawada.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/capitao_sawada.jpeg",
         "country": "Brazil"
     },
     {
@@ -878,7 +878,7 @@
         "generation": "Street Fighter EX",
         "history": "Arkane is a mysterious character from Street Fighter EX with an unknown origin. His main attack, the Arcane Slash, is an attack based on arcane abilities, involving magical or energetic strikes. Arkane stands out for his connection to supernatural forces, which gives him a unique and impressive style in combat.",
         "main_attack": "Arcane Slash",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/arkane.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/arkane.jpeg",
         "country": "Unknown"
     },
     {
@@ -887,7 +887,7 @@
         "generation": "Street Fighter EX",
         "history": "Khyber is also a character with an unknown origin from Street Fighter EX. His main attack, the Khyber Slash, involves fast and cutting attacks with a skill focused on agility and precision. Khyber is an agile combatant who excels in quick and decisive attacks, combining dexterity and speed in his fighting.",
         "main_attack": "Khyber Slash",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/khyber.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/khyber.jpeg",
         "country": "Unknown"
     },
     {
@@ -896,7 +896,7 @@
         "generation": "Street Fighter EX",
         "history": "F7 is another character with an unknown origin from Street Fighter EX. His main attack, the F7 Charge, is a technique that involves charging a large amount of energy to deliver a devastating attack. F7 stands out for his ability to accumulate strength and release it at decisive moments, being a difficult opponent to predict and face.",
         "main_attack": "F7 Charge",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/f7.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/f7.jpeg",
         "country": "Unknown"
     },
     {
@@ -905,7 +905,7 @@
         "generation": "Street Fighter",
         "history": "Guy is a ninja master in Bushinryu, originally from Japan. His main strike is the Bushin Senpukyaku, an agile and powerful technique that combines fast kicks in a spinning motion. Guy is known for his speed and combat ability with a traditional ninja style, being one of the fastest and most skilled warriors in the franchise.",
         "main_attack": "Bushin Senpukyaku",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/guy.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/guy.jpeg",
         "country": "Japan"
     },
     {
@@ -914,7 +914,7 @@
         "generation": "Street Fighter",
         "history": "Cody is a fighter with a turbulent past, originally from the United States. His main strike, Bad Stone, is a throw of rocks with great impact power. Cody has a rebellious personality and was a key figure in the Final Fight saga before joining the Street Fighter cast. His combat style is a mixture of aggression and improvisation.",
         "main_attack": "Bad Stone",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cody.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/cody.jpeg",
         "country": "United States"
     },
     {
@@ -923,7 +923,7 @@
         "generation": "Street Fighter EX",
         "history": "Maki Genryusai is a character from the Street Fighter EX series, also originally from Japan. Her main strike is the Genryusai, a technique based on agility and fast attacks with a variety of close-quarters combat moves. Maki is a martial arts expert known for her ability to move quickly across the battlefield.",
         "main_attack": "Genryusai",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/maki_genryusai.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/maki_genryusai.jpeg",
         "country": "Japan"
     },
     {
@@ -932,7 +932,7 @@
         "generation": "Street Fighter",
         "history": "Sodom is a character who also appears in the Street Fighter universe, originally from Japan. His main strike is the Tengu Storm, a powerful and massive technique that involves a sequence of high-force attacks. Sodom is a warrior with a unique fighting style, combining heavy blows with traditional martial arts movements.",
         "main_attack": "Tengu Storm",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sodom.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/sodom.jpeg",
         "country": "Japan"
     },
     {
@@ -941,7 +941,7 @@
         "generation": "Street Fighter",
         "history": "Rolento Schugerg is one of the villains of the series, originally from Brazil. His main strike, Rolling Thunder, is a powerful attack in which Rolento uses a baton to deliver a series of fast and forceful blows. Rolento is a military leader with a fighting style based on agility and the use of weapons, being a notable character for his rigid personality and military strategy.",
         "main_attack": "Rolling Thunder",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rolento.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/rolento.jpeg",
         "country": "Brazil"
     },
     {
@@ -950,7 +950,7 @@
         "generation": "Street Fighter",
         "history": "Hugo is a gigantic fighter from Germany, known for his enormous strength and size. His main strike, Hammer Mountain, involves him slamming his opponent down with a massive impact movement, using his brute force. Hugo is one of the largest characters in the game and a true heavyweight on the battlefield, usually accompanied by an aggressive combat style.",
         "main_attack": "Hammer Mountain",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hugo.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/hugo.jpeg",
         "country": "Germany"
     },
     {
@@ -959,7 +959,7 @@
         "generation": "Street Fighter",
         "history": "Poison has an enigmatic presence and comes from a mysterious origin. Her main strike, Love Me Tender, is a technique that involves her ability to manipulate and control her enemies with a combination of blows and charm. Poison is known for her unique appearance and her cunning and manipulative approach, being one of the most captivating characters in the franchise.",
         "main_attack": "Love Me Tender",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/poison.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/poison.jpeg",
         "country": "Unknown"
     },
     {
@@ -968,7 +968,7 @@
         "generation": "Street Fighter",
         "history": "Abigail is an immense character from the series, hailing from the United States. His main strike, Abigail Bomber, is a devastating attack that uses his tremendous strength to crush and destroy anyone in his path. Abigail is a true giant and one of the most brutal characters in the game, with a combat style based on his impressive physical strength.",
         "main_attack": "Abigail Bomber",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/abigail.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/abigail.jpeg",
         "country": "United States"
     },
     {
@@ -977,7 +977,7 @@
         "generation": "Street Fighter",
         "history": "Lucia is a character from the Street Fighter series originally from the United States. Her main strike, Criminal Justice, is an attack of justice and power, where she applies a fast and imposing attack to her enemies. Lucia has a very dynamic combat approach, mixing fighting skills with agile and effective movements. She is a police officer and is often seen fighting to ensure order and justice. She is an agile fighter with a combat style that blends martial arts techniques and fast movements. The character brings a unique approach to the game with her strong determination and sense of duty.",
         "main_attack": "Criminal Justice",
-        "image": "https://loo9.com.br/apis/street_fighter/v1/images/lucia.png",
+        "image": "https://loo9.com.br/apis/street_fighter/v1/images/lucia.jpeg",
         "country": "United States"
     }
 ]
