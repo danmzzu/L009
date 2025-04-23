@@ -6,8 +6,7 @@ const path = require('path');
 const databaseDir = path.join(__dirname, 'database');
 const validLanguages = ['en', 'es', 'pt'];
 
-// Substitua 'SEU_RAPIDAPI_PROXY_SECRET' pela variável de ambiente ou sistema de segredos
-const rapidAPIProxySecret = process.env.RAPIDAPI_PROXY_SECRET;
+const rapidAPIProxySecret = '0a2088e0-208c-11f0-b3a2-753d63741919';
 
 const checkRapidAPIProxySecret = (req, res, next) => {
     const proxySecret = req.headers['X-RapidAPI-Proxy-Secret'];
@@ -26,7 +25,6 @@ app.use((req, res, next) => {
     next();
 });
 
-// Middleware para verificar se o diretório do banco de dados existe
 const ensureDatabaseDirExists = async (req, res, next) => {
     try {
         await fs.mkdir(databaseDir, { recursive: true });
@@ -38,8 +36,6 @@ const ensureDatabaseDirExists = async (req, res, next) => {
 };
 
 app.use(ensureDatabaseDirExists);
-
-// Aplica o middleware de verificação do Proxy Secret às rotas de personagens
 app.use('/:language/characters', checkRapidAPIProxySecret);
 app.use('/:language/characters/:id', checkRapidAPIProxySecret);
 
@@ -49,7 +45,7 @@ app.get('/:language/characters', async (req, res) => {
     if (validLanguages.includes(language)) {
         const filePath = path.join(databaseDir, `${language}.json`);
         try {
-            await fs.access(filePath); // Verifica se o arquivo existe
+            await fs.access(filePath);
             const data = await fs.readFile(filePath, 'utf8');
             const characters = JSON.parse(data);
 

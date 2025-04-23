@@ -74,8 +74,13 @@
   <script>
     const language = 'en'; // Alterar para 'pt' ou 'es' se quiser
     const apiURL = `street-fighter-character-api.p.rapidapi.com${language}/characters`;
+    const rapidAPIKey = '0a2088e0-208c-11f0-b3a2-753d63741919';
 
-    fetch(apiURL)
+    fetch(apiURL, {
+        headers: {
+          'X-RapidAPI-Proxy-Secret': rapidAPIKey
+        }
+      })
       .then(response => response.json())
       .then(data => {
         const container = document.getElementById('characters-container');
