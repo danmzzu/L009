@@ -24,7 +24,7 @@ const checkRapidAPIProxySecret = (req, res, next) => {
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET');
-    res.header('Access-Control-Allow-Headers', 'Content-Type, X-RapidAPI-Key, X-RapidAPI-Proxy-Secret'); // Inclua X-RapidAPI-Proxy-Secret
+    res.header('Access-Control-Allow-Headers', 'Content-Type, X-RapidAPI-Proxy-Secret'); // Inclua X-RapidAPI-Proxy-Secret
     next();
 });
 
