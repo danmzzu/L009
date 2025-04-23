@@ -6,10 +6,6 @@ const path = require('path');
 const databaseDir = path.join(__dirname, 'database');
 const validLanguages = ['en', 'es', 'pt'];
 
-// http://loo9-street-fighter-api-production.up.railway.app/en/characters
-// http://loo9-street-fighter-api-production.up.railway.app/pt/characters
-// http://loo9-street-fighter-api-production.up.railway.app/es/characters
-
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET');
@@ -26,7 +22,14 @@ app.get('/:language/characters', async (req, res) => {
         try {
             const data = await fs.readFile(filePath, 'utf8');
             characters = JSON.parse(data);
-            res.json(characters);
+
+            // Remover o campo 'image' de cada personagem antes de enviar a resposta
+            const charactersWithoutImage = characters.map(character => {
+                const { image, ...characterWithoutImage } = character;
+                return characterWithoutImage;
+            });
+
+            res.json(charactersWithoutImage);
         } catch (error) {
             return res.status(500).json({ message: `Error reading language file for ${language}.` });
         }
@@ -48,7 +51,9 @@ app.get('/:language/characters/:id', async (req, res) => {
             const character = characters.find(char => char.id === characterId);
 
             if (character) {
-                res.json(character);
+                // Remover o campo 'image' do personagem antes de enviar a resposta
+                const { image, ...characterWithoutImage } = character;
+                res.json(characterWithoutImage);
             } else {
                 res.status(404).json({ message: 'Character not found' });
             }
