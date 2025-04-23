@@ -9,22 +9,20 @@ const validLanguages = ['en', 'es', 'pt'];
 // Substitua 'SEU_RAPIDAPI_PROXY_SECRET' pelo valor real do seu API no RapidAPI
 const rapidAPIProxySecret = '0a2088e0-208c-11f0-b3a2-753d63741919';
 
-// Middleware para verificar o header X-RapidAPI-Proxy-Secret
 const checkRapidAPIProxySecret = (req, res, next) => {
-    const proxySecret = req.headers['x-rapidapi-proxy-secret'];
+    const proxySecret = req.headers['X-RapidAPI-Proxy-Secret'];
 
     if (proxySecret === rapidAPIProxySecret) {
-        next(); // O header é válido, passa para o próximo middleware/rota
+        next();
     } else {
         res.status(403).json({ message: 'Forbidden. Request not originating from RapidAPI.' });
     }
 };
 
-// Middleware para configurar os headers de CORS
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET');
-    res.header('Access-Control-Allow-Headers', 'Content-Type, X-RapidAPI-Proxy-Secret'); // Inclua X-RapidAPI-Proxy-Secret
+    res.header('Access-Control-Allow-Headers', 'Content-Type, X-RapidAPI-Proxy-Secret');
     next();
 });
 
