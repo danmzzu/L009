@@ -13,7 +13,6 @@
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
-    "fast-levenshtein": "^3.0.0",
-    "natural": "^8.0.1"
+    "fast-levenshtein": "^3.0.0"
   }
 }
