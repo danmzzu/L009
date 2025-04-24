@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="styles/global/button.css">
 
         <!-- Dev Styles -->
-        <link rel="stylesheet" href="...">
+        <link rel="stylesheet" href="styles/dev/ia.css">
 
         <!-- Global Scripts -->
         <script defer src="scripts/global/security.js"></script>
@@ -55,16 +55,16 @@
         <main class="container col gap-30">
             <section class="col gap-15">
                 <div class="col gap-5">
-                    <h2 class="t-lh-small">LOO9-IA</h2>
+                    <h3 class="t-lh-small">LOO9-IA</h3>
                     <p>Quem sou eu, quem me criou, quais são meus serviços.</p>
                 </div>
-                <div class="col gap-10">
-                    <textarea id="loo9-ia-textarea" class="input" style="height: 200px; max-height: 300px;" readonly></textarea>
+                <form id="loo9-ia-form" class="col gap-10">
+                    <div id="loo9-ia-output" class="col gap-5 input" style="height: 200px; max-height: 300px; overflow-y: auto;"></div>
                     <div class="row gap-10">
                         <input id="loo9-ia-input" class="input" type="text" placeholder="Me pergunte algo...">
-                        <button id="loo9-ia-button" class="button" type="button">Perguntar</button>
+                        <button id="loo9-ia-button" class="button" type="submit">Perguntar</button>
                     </div>
-                </div>
+                </form>
             </section>
         </main>
 

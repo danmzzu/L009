@@ -12,7 +12,6 @@ async function sendQuestion(q) {
 
         if (!response.ok) {
             const erro = await response.json();
-            console.error('Erro na requisição:', erro);
             return `Erro ao obter resposta: ${response.status}\n`;
         }
 
@@ -24,50 +23,68 @@ async function sendQuestion(q) {
     }
 }
 
+const form = document.getElementById('loo9-ia-form');
 const input = document.getElementById('loo9-ia-input');
 const button = document.getElementById('loo9-ia-button');
-const textarea = document.getElementById('loo9-ia-textarea');
+const outputDiv = document.getElementById('loo9-ia-output');
 
-function typeWriterEffect(element, text, speed = 15) {
+function typeWriterEffect(element, text, className = '') {
     return new Promise((resolve) => {
         let i = 0;
+        const messageDiv = document.createElement('div');
+        if (className) {
+            messageDiv.classList.add(className);
+        }
+        element.appendChild(messageDiv);
+
         const timer = setInterval(() => {
             if (i < text.length) {
-                element.value += text.charAt(i);
+                messageDiv.innerHTML += text.charAt(i);
+                element.scrollTop = element.scrollHeight;
                 i++;
             } else {
                 clearInterval(timer);
                 element.scrollTop = element.scrollHeight;
                 resolve();
             }
-        }, speed);
+        }, 15);
     });
 }
 
-button.addEventListener('click', function () {
+form.addEventListener('submit', async function (e) {
+    e.preventDefault();
     const question = input.value;
     if (question.trim() !== "") {
         input.disabled = true;
         button.disabled = true;
-        textarea.value += (textarea.value ? '\n' : '') + "Você: " + question + '\nCarregando...\n';
-        textarea.scrollTop = textarea.scrollHeight;
 
-        sendQuestion(question)
-            .then(response => {
-                return typeWriterEffect(textarea, "LOO9-IA: " + response);
-            })
-            .then(() => {
-                input.value = "";
-                input.disabled = false;
-                button.disabled = false;
-            })
-            .catch(error => {
-                textarea.value += "LOO9-IA: Ocorreu um erro ao processar sua pergunta.\n";
-                textarea.scrollTop = textarea.scrollHeight;
-                button.disabled = false;
-            });
+        await typeWriterEffect(outputDiv, "Pergunta: " + question, 'ia-question');
+        outputDiv.scrollTop = outputDiv.scrollHeight;
+
+        const loadingDiv = document.createElement('div');
+        outputDiv.appendChild(loadingDiv);
+        await typeWriterEffect(loadingDiv, "Pensando...", 'ia-info');
+        outputDiv.scrollTop = outputDiv.scrollHeight;
+
+        try {
+            const response = await sendQuestion(question);
+            if (outputDiv.contains(loadingDiv)) {
+                outputDiv.removeChild(loadingDiv);
+            }
+            await typeWriterEffect(outputDiv, "LOO9-IA: " + response, 'ia-response');
+        } catch (error) {
+            if (outputDiv.contains(loadingDiv)) {
+                outputDiv.removeChild(loadingDiv);
+            }
+            await typeWriterEffect(outputDiv, "Ocorreu um erro ao processar sua pergunta.", 'ia-error');
+        } finally {
+            input.value = "";
+            input.disabled = false;
+            button.disabled = false;
+            input.focus();
+        }
     } else {
-        textarea.value += (textarea.value ? '\n' : '') + "Por favor, digite sua pergunta.\n";
-        textarea.scrollTop = textarea.scrollHeight;
+        await typeWriterEffect(outputDiv, "Por favor, digite sua pergunta.", 'ia-error');
+        input.focus();
     }
 });

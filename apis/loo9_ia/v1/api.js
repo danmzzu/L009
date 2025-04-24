@@ -10,18 +10,11 @@ app.use(bodyParser.json());
 
 const knowledgeBase = {
     // IA
-    "como você se chama": "Eu me chamo LOO9-IA.",
-    "quem criou você?": "Fui desenvolvida por Daniel Mazzeu, um programador autodidata, como um modelo de inteligência baseado em similaridade textual. Meu objetivo é responder às perguntas básicas sobre seus serviços e informações pessoais. Ainda estou em aprendizado, e as perguntas para as quais não tenho resposta são registradas para que meu criador possa me instruir.",
+    "qual como seu se voce nome chama": "Eu me chamo LOO9-IA.",
+    "quem voce foi por criou criado criada desenvolvida fez": "Fui desenvolvida por Daniel Mazzeu, um programador autodidata, como um modelo de inteligência baseado em similaridade textual. Meu objetivo é responder às perguntas básicas sobre seus serviços e informações pessoais. Ainda estou em aprendizado, e as perguntas para as quais não tenho resposta são registradas para que meu criador possa me instruir.",
 
     // Insultos
-    "você é burro?": "Burro? Eu ainda estou aprendendo, me dá um desconto!",
-    "você não sabe nada": "Calma lá! Meu conhecimento está em expansão, um dia chego lá.",
-    "sua resposta foi horrível": "Ouch! Anotado. Vou tentar melhorar na próxima.",
-    "você é inútil": "Inútil? Mas eu tento ajudar! O que posso fazer por você agora?",
-    "seu criador é ruim": "Ei, pega leve com o Daniel! Ele está se esforçando.",
-    "você é lento": "Estou processando o mais rápido que consigo, a internet hoje não está ajudando muito.",
-    "fala direito": "Desculpe se não fui claro. Posso tentar explicar de outra forma?",
-    "que IA ruim": "Sinto muito que não tenha atendido às suas expectativas. O feedback é importante para meu desenvolvimento."
+    "você voce é e burro horrível horrivel inútil inutil ruim lento péssimo pessimo terrível": "Não me insulte... Calma lá! Meu conhecimento está em expansão, um dia chego lá.",
 };
 
 const randomResponses = [
@@ -41,11 +34,11 @@ function findBestAnswer(question) {
 
     for (const key in knowledgeBase) {
         if (knowledgeBase.hasOwnProperty(key)) {
-            const keyWords = key.toLowerCase().trim().split(/\s+/);
+            const keyVariations = key.toLowerCase().trim().split(/\s+/);
             let matchingWords = 0;
 
             for (const qWord of questionWords) {
-                if (keyWords.includes(qWord)) {
+                if (keyVariations.includes(qWord)) {
                     matchingWords++;
                 }
             }
@@ -57,7 +50,7 @@ function findBestAnswer(question) {
         }
     }
 
-    if (bestMatch && maxMatchingWords > 0) {
+    if (bestMatch && maxMatchingWords >= 2) {
         return knowledgeBase[bestMatch];
     } else {
         return randomResponses[Math.floor(Math.random() * randomResponses.length)];
