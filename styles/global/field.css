@@ -33,3 +33,7 @@
     color: var(--input-color-focus);
     background-color: var(--input-background-focus);
 }
+
+input[type=radio].input {
+    background-color: red;
+}
