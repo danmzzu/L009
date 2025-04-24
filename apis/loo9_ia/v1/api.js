@@ -8,7 +8,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 const knowledgeBase = {
-    // Ia
+    // IA
     "como você se chama": "Eu me chamo LOO9-IA.",
     "quem criou você?": "Fui desenvolvida por Daniel Mazzeu, um programador autodidata, como um modelo de inteligência baseado em similaridade textual. Meu objetivo é responder às perguntas básicas sobre seus serviços e informações pessoais. Ainda estou em aprendizado, e as perguntas para as quais não tenho resposta são registradas para que meu criador possa me instruir.",
     
