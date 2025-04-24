@@ -1,0 +1,31 @@
+:root {
+    --btn-padding: 10px 15px;
+    --btn-border: 1px solid #000;
+    --btn-border-hover: 1px solid #333;
+    --btn-radius: 10px;
+    --btn-color: #fff;
+    --btn-background: #111;
+    --btn-color-hover: #fff;
+    --btn-background-hover: #000;
+    --btn-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button,
+.button-wide {
+    width: fit-content;
+    padding: var(--btn-padding);
+    border: var(--btn-border);
+    border-radius: var(--btn-radius);
+    color: var(--btn-color);
+    background-color: var(--btn-background);
+    box-shadow: var(--btn-shadow);
+}
+
+.button-wide { width: 100%; }
+
+.button:hover,
+.button-wide:hover {
+    border: var(--btn-border-hover);
+    color: var(--btn-color-hover);
+    background-color: var(--btn-background-hover);
+}

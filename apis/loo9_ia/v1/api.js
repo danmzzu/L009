@@ -23,7 +23,6 @@ const knowledgeBase = {
     "você é lento": "Estou processando o mais rápido que consigo, a internet hoje não está ajudando muito.",
     "fala direito": "Desculpe se não fui claro. Posso tentar explicar de outra forma?",
     "que IA ruim": "Sinto muito que não tenha atendido às suas expectativas. O feedback é importante para meu desenvolvimento."
-
 };
 
 const randomResponses = [

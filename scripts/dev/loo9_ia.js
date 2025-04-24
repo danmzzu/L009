@@ -1,34 +1,31 @@
-async function fazerPerguntaPost(pergunta) {
-    const url = 'http://localhost:3000/question';
+async function sendQuestion(q) {
+    const url = 'loo9-loo9-ia-api-production.up.railway.app/';
   
     try {
-      const resposta = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ question: pergunta }),
-      });
-  
-      if (!resposta.ok) {
-        const erro = await resposta.json();
-        console.error('Erro na requisição:', erro);
-        return `Erro ao obter resposta: ${resposta.status}`;
-      }
-  
-      const data = await resposta.json();
-      return data.answer;
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ question: q }),
+        });
+    
+        if (!response.ok) {
+            const erro = await response.json();
+            console.error('Erro na requisição:', erro);
+            return `Erro ao obter resposta: ${response.status}`;
+        }
+    
+        const data = await response.json();
+        return data.answer;
     } catch (error) {
-      console.error('Erro ao enviar requisição:', error);
-      return 'Ocorreu um erro ao se comunicar com o servidor.';
+        console.error('Erro ao enviar requisição:', error);
+        return 'Ocorreu um erro ao se comunicar com o servidor.';
     }
-  }
+}
   
-  // Exemplo de uso:
-  const perguntaUsuarioPost = 'qual a capital do brasil';
-  fazerPerguntaPost(perguntaUsuarioPost)
-    .then(resposta => console.log('Resposta (POST):', resposta));
-  
-  const perguntaUsuarioInsulto = 'você é burro?';
-  fazerPerguntaPost(perguntaUsuarioInsulto)
-    .then(resposta => console.log('Resposta (POST - Insulto):', resposta));
+const perguntaUsuarioPost = 'qual a capital do brasil';
+sendQuestion(perguntaUsuarioPost).then(response => console.log('resposta (POST):', response));
+
+const perguntaUsuarioInsulto = 'você é burro?';
+sendQuestion(perguntaUsuarioInsulto).then(response => console.log('resposta (POST - Insulto):', response));
