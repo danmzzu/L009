@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const levenshtein = require('fast-levenshtein');
 const cors = require('cors');
 
 const app = express();
@@ -13,7 +12,7 @@ const knowledgeBase = {
     // IA
     "como você se chama": "Eu me chamo LOO9-IA.",
     "quem criou você?": "Fui desenvolvida por Daniel Mazzeu, um programador autodidata, como um modelo de inteligência baseado em similaridade textual. Meu objetivo é responder às perguntas básicas sobre seus serviços e informações pessoais. Ainda estou em aprendizado, e as perguntas para as quais não tenho resposta são registradas para que meu criador possa me instruir.",
-    
+
     // Insultos
     "você é burro?": "Burro? Eu ainda estou aprendendo, me dá um desconto!",
     "você não sabe nada": "Calma lá! Meu conhecimento está em expansão, um dia chego lá.",
@@ -36,24 +35,29 @@ const randomResponses = [
 ];
 
 function findBestAnswer(question) {
-    const normalizedQuestion = question.toLowerCase().trim();
+    const questionWords = question.toLowerCase().trim().split(/\s+/);
     let bestMatch = null;
-    const threshold = 0.3;
+    let maxMatchingWords = 0;
 
     for (const key in knowledgeBase) {
         if (knowledgeBase.hasOwnProperty(key)) {
-            const normalizedKey = key.toLowerCase().trim();
-            const distance = levenshtein.get(normalizedQuestion, normalizedKey);
-            const maxLength = Math.max(normalizedQuestion.length, normalizedKey.length);
-            const similarity = 1 - (distance / maxLength);
+            const keyWords = key.toLowerCase().trim().split(/\s+/);
+            let matchingWords = 0;
 
-            if (similarity > threshold && similarity > (bestMatch ? 1 - (levenshtein.get(normalizedQuestion, bestMatch) / Math.max(normalizedQuestion.length, bestMatch.length)) : 0)) {
+            for (const qWord of questionWords) {
+                if (keyWords.includes(qWord)) {
+                    matchingWords++;
+                }
+            }
+
+            if (matchingWords > maxMatchingWords) {
+                maxMatchingWords = matchingWords;
                 bestMatch = key;
             }
         }
     }
 
-    if (bestMatch) {
+    if (bestMatch && maxMatchingWords > 0) {
         return knowledgeBase[bestMatch];
     } else {
         return randomResponses[Math.floor(Math.random() * randomResponses.length)];

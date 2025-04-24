@@ -1,13 +1,12 @@
 :root {
     --btn-padding: 10px 15px;
-    --btn-border: 1px solid #000;
-    --btn-border-hover: 1px solid #333;
+    --btn-border: 1px solid transparent;
+    --btn-border-hover: 1px solid transparent;
     --btn-radius: 10px;
     --btn-color: #fff;
-    --btn-background: #111;
     --btn-color-hover: #fff;
+    --btn-background: #333;
     --btn-background-hover: #000;
-    --btn-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .button,
@@ -17,8 +16,8 @@
     border: var(--btn-border);
     border-radius: var(--btn-radius);
     color: var(--btn-color);
+    font-size: clamp(1rem, 2vw, 1.125rem);
     background-color: var(--btn-background);
-    box-shadow: var(--btn-shadow);
 }
 
 .button-wide { width: 100%; }

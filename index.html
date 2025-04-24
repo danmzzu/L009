@@ -27,16 +27,22 @@
 
         <!-- Global Styles -->
         <link rel="stylesheet" href="styles/global/global.css">
+        <link rel="stylesheet" href="styles/global/typography.css">
+        <link rel="stylesheet" href="styles/global/container.css">
+        <link rel="stylesheet" href="styles/global/row.css">
+        <link rel="stylesheet" href="styles/global/col.css">
+        <link rel="stylesheet" href="styles/global/gap.css">
+        <link rel="stylesheet" href="styles/global/field.css">
+        <link rel="stylesheet" href="styles/global/button.css">
 
         <!-- Dev Styles -->
         <link rel="stylesheet" href="...">
 
         <!-- Global Scripts -->
         <script defer src="scripts/global/security.js"></script>
-        <script defer src="scripts/global/jquery.js"></script>
 
         <!-- Dev Scripts -->
-        <script defer src="..."></script>
+        <script defer src="scripts/dev/loo9_ia.js"></script>
     </head>
     <body>
         
@@ -46,17 +52,17 @@
         </nav>
 
         <!-- Main -->
-        <main>
-            <section>
+        <main class="container col gap-30">
+            <section class="col gap-15">
                 <div class="col gap-5">
-                    <h2>LOO9-IA</h2>
-                    <p>Descrição</p>
+                    <h2 class="t-lh-small">LOO9-IA</h2>
+                    <p>Quem sou eu, quem me criou, quais são meus serviços.</p>
                 </div>
                 <div class="col gap-10">
-                    <textarea>teste</textarea>
+                    <textarea id="loo9-ia-textarea" class="input" style="height: 200px; max-height: 300px;" readonly></textarea>
                     <div class="row gap-10">
-                        <input type="text" placeholder="Me pergunte algo...">
-                        <button class="button" type="button">Enviar</button>
+                        <input id="loo9-ia-input" class="input" type="text" placeholder="Me pergunte algo...">
+                        <button id="loo9-ia-button" class="button" type="button">Perguntar</button>
                     </div>
                 </div>
             </section>
