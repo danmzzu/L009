@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /styles/
-Disallow: /scripts/
-
-Sitemap: COLOQUE_A_URL_COMPLETA_DO_SEU_SITEMAP.XML_AQUI
