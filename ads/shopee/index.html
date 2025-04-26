@@ -10,7 +10,7 @@
         <meta name="author" content="Daniel Mazzeu">
         <meta name="robots" content="index, follow">
 
-        <!-- Social Metatags-->
+        <!-- Social Metatags -->
         <meta property="og:title" content="Análise Completa da Shopee: Guia para Vendedores e Compradores">
         <meta property="og:description" content="Descubra tudo sobre a Shopee: como vender, comprar, vantagens e dicas para aproveitar ao máximo a plataforma líder de e-commerce no Brasil.">
         <meta property="og:image" content="https://loo9.com.br/ads/shopee/images/thumbnail.jpg">
@@ -20,7 +20,7 @@
         <meta property="og:locale" content="pt_BR">
 
         <!-- Twitter/X Metatags -->
-        <meta name="twitter:card" content="https://loo9.com.br/ads/shopee/images/thumbnail.jpg"> 
+        <meta name="twitter:card" content="summary_large_image"> 
         <meta name="twitter:site" content="@SEU_USUARIO_TWITTER"> 
         <meta name="twitter:creator" content="@SEU_USUARIO_TWITTER">
         <meta name="twitter:title" content="Análise Completa da Shopee: Guia para Vendedores e Compradores">
@@ -38,42 +38,53 @@
         <link rel="stylesheet" href="styles/typography.css">
         <link rel="stylesheet" href="styles/grid.css">
         <link rel="stylesheet" href="styles/card.css">
+        <link rel="stylesheet" href="styles/popup.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/nav.css">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/alert.css">
+        <link rel="stylesheet" href="styles/footer.css">
 
         <!-- Scripts -->
-        <script src="scripts/update.js"></script>
-        <script src="scripts/security.js"></script>
+        <script src="scripts/update.js" defer></script>
+        <script src="scripts/security.js" defer></script>
+        <script src="scripts/popup.js" defer></script>
     </head>
     <body>
+
+        <!-- Popup -->
+        <section id="popup" class="popup" aria-label="Popup de acesso rápido à Shopee">
+            <h4><i class="bi bi-cart-check-fill" aria-hidden="true"></i>Vá direto para o site da Shopee!</h4>
+            <p>Não perca tempo e aproveite o melhor marketplace da atualidade.</p>
+            <a href="#" target="_blank" rel="noopener noreferrer" title="Visitar Shopee agora" aria-label="Botão para visitar Shopee">Ir para a Shopee</a>
+            <i id="popup-close" class="bi bi-x-square-fill" role="button" aria-label="Fechar popup"></i>
+        </section>
 
         <!-- Header -->
         <header>
             <div>
                 <h1>Análise Shopee</h1>
                 <p>A Shopee revolucionou o comércio online no Brasil e no mundo. Acompanhe nossa análise e saiba mais sobre sua história, quem a fundou, suas principais características, a vasta gama de produtos oferecidos e as oportunidades para compradores e vendedores.</p>
-                <a href="#" target="_blank">Compre na Shopee!</a>
+                <a href="#" target="_blank" title="Acesse a Shopee" aria-label="Acesse a Shopee">Ir para a Shopee</a>
             </div>
         </header>
 
         <!-- Nav -->
-        <nav>
+        <nav aria-label="Navegação principal">
             <div>
-                <h2 aria-label="Página principal da LOO9 sobre análise da Shopee">Análise Shopee</h2>
-                <p aria-label="Subtítulo da página: Análises e Insights do Mundo Digital">Análise e informações sobre o marketplace!</p>
+                <h2>Análise Shopee</h2>
+                <p>Análise e informações sobre o marketplace!</p>
                 <small>Atualizado em: <time datetime="2025-04-26">26 de abril de 2025</time> - 11:11 - Daniel Mazzeu</small>
             </div>
             <div>
                 <ul>
-                    <li><a href="#about" title="Saiba mais sobre a Shopee"><i class="bi bi-hash"></i>Sobre</a></li>
-                    <li><a href="#founders" title="Quem fundou a Shopee?"><i class="bi bi-hash"></i>Equipe</a></li>
-                    <li><a href="#features" title="Principais características da Shopee"><i class="bi bi-hash"></i>Características</a></li>
-                    <li><a href="#products" title="Tipos de produtos encontrados na Shopee"><i class="bi bi-hash"></i>Produtos</a></li>
-                    <li><a href="#affiliate" title="Links úteis sobre a Shopee"><i class="bi bi-hash"></i>Afiliado</li>
-                    <li><a href="terms.html" title="Leia nossos termos de uso"><i class="bi bi-link-45deg"></i>Termos de uso</a></li>
-                    <li><a href="policy.html" title="Confira nossa política de privacidade"><i class="bi bi-link-45deg"></i>Política de privacidade</a></li>
+                    <li><a href="#about" title="Saiba mais sobre a Shopee" aria-label="Seção sobre a Shopee"><i class="bi bi-hash" aria-hidden="true"></i>Sobre</a></li>
+                    <li><a href="#founders" title="Quem fundou a Shopee?" aria-label="Seção sobre a equipe fundadora"><i class="bi bi-hash" aria-hidden="true"></i>Equipe</a></li>
+                    <li><a href="#features" title="Principais características da Shopee" aria-label="Seção sobre as características da Shopee"><i class="bi bi-hash" aria-hidden="true"></i>Características</a></li>
+                    <li><a href="#products" title="Tipos de produtos na Shopee" aria-label="Seção sobre produtos da Shopee"><i class="bi bi-hash" aria-hidden="true"></i>Produtos</a></li>
+                    <li><a href="#affiliate" title="Links úteis sobre a Shopee" aria-label="Seção de afiliados e links úteis"><i class="bi bi-hash" aria-hidden="true"></i>Afiliado</a></li>
+                    <li><a href="terms.html" title="Leia nossos termos de uso" aria-label="Termos de uso da plataforma"><i class="bi bi-link-45deg" aria-hidden="true"></i>Termos de uso</a></li>
+                    <li><a href="policy.html" title="Confira nossa política de privacidade" aria-label="Política de privacidade"><i class="bi bi-link-45deg" aria-hidden="true"></i>Política de privacidade</a></li>
                 </ul>
             </div>
         </nav>
@@ -81,7 +92,7 @@
         <!-- Main -->
         <main>
             <!-- About -->
-            <section id="about">
+            <section id="about" aria-label="Sobre a Shopee">
                 <h3>Sobre a Shopee: O Marketplace Líder da América Latina</h3>
                 <small>Entenda o que é a Shopee e seu impacto no comércio eletrônico.</small>
                 <div class="grid g-2">
@@ -113,7 +124,7 @@
             </section>
 
             <!-- Founders -->
-            <section id="founders">
+            <section id="founders" aria-label="Equipe fundadora da Shopee">
                 <h3>A Equipe por Trás da Shopee</h3>
                 <small>Conheça alguns dos membros chave que impulsionam o sucesso da Shopee.</small>
                 <div class="grid g-3">
@@ -139,7 +150,7 @@
             </section>
 
             <!-- Features -->
-            <section id="features">
+            <section id="features" aria-label="Características da Shopee">
                 <h3>Por que escolher a Shopee? Descubra suas principais características</h3>
                 <small>Entenda os motivos que fazem deste marketplace um dos líderes no Brasil e no mundo.</small>
                 <div class="grid g-4">
@@ -195,7 +206,7 @@
             </section>
 
             <!-- Products -->
-            <section id="products">
+            <section id="products" aria-label="Categorias de produtos na Shopee">
                 <h3>Variedade de Produtos na Shopee: Encontre Tudo o Que Você Precisa</h3>
                 <small>Descubra a vasta gama de categorias de produtos disponíveis neste marketplace.</small>
                 <div class="grid g-3">
@@ -306,6 +317,24 @@
         <section class="alert">
             <p><i class="bi bi-cart-fill"></i>Este artigo contém links de afiliados. Ao clicar e fazer uma compra através desses links, posso receber uma pequena comissão, sem custo adicional para você.</p>
         </section>
+
+        <!-- Footer -->
+        <footer>
+            <div>
+                <ul>
+                    <li><a href="#about" title="Saiba mais sobre a Shopee" aria-label="Seção sobre a Shopee">Sobre</a></li>
+                    <li><a href="#founders" title="Quem fundou a Shopee?" aria-label="Seção sobre a equipe fundadora">Equipe</a></li>
+                    <li><a href="#features" title="Principais características da Shopee" aria-label="Seção sobre as características da Shopee">Características</a></li>
+                    <li><a href="#products" title="Tipos de produtos na Shopee" aria-label="Seção sobre produtos da Shopee">Produtos</a></li>
+                    <li><a href="#affiliate" title="Links úteis sobre a Shopee" aria-label="Seção de afiliados e links úteis">Afiliado</a></li>
+                    <li><a href="terms.html" title="Leia nossos termos de uso" aria-label="Termos de uso da plataforma">Termos de uso</a></li>
+                    <li><a href="policy.html" title="Confira nossa política de privacidade" aria-label="Política de privacidade">Política de privacidade</a></li>
+                </ul>
+            </div>
+            <div>
+                <small>Elaborado e desenvolvido por Daniel Mazzeu.<br>Todos direitos reservados 2025.</small>
+            </div>
+        </footer>
 
     </body>
 </html>
