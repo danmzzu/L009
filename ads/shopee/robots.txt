@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: /styles/
-Disallow: /scripts/
 
 Sitemap: https://loo9.com.br/ads/shopee/sitemap.xml
