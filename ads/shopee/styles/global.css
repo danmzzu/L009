@@ -19,13 +19,26 @@
 
 html { scroll-behavior: smooth; }
 
-body { background-color: #fff; }
+body { 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 0;
+    background-color: #fff; 
+}
 
 button { cursor: pointer; }
 
-textarea { 
-    resize: vertical; 
-    transition: none; 
+textarea { resize: vertical; }
+
+nav,
+header,
+section,
+main,
+footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 @media all and (max-width: 1200px) {

@@ -27,13 +27,80 @@
 
         <!-- Global Styles -->
         <link rel="stylesheet" href="styles/global/global.css">
+        <link rel="stylesheet" href="styles/global/field.css">
 
         <!-- Global Scripts -->
         <script defer src="scripts/global/security.js"></script>
     </head>
     <body>
         
-        ...
+        <div class="field">
+            <label>Teste</label>
+            <input type="text" placeholder="Teste">
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
+
+        <div class="field">
+            <label>Teste</label>
+            <div class="field-password">
+                <input type="password" placeholder="Teste">
+                <i class="bi bi-eye-fill"></i>
+            </div>
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
+
+        <div class="field">
+            <label>Teste</label>
+            <textarea placeholder="Teste"></textarea>
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
+
+        <div class="field">
+            <label>Teste</label>
+            <div class="field-select">
+                <select>
+                    <option selected disabled>Selecionar</option>
+                    <option>teste 2</option>
+                    <option>teste 3</option>
+                    <option>teste 4</option>
+                    <option>teste 5</option>
+                </select>
+                <i class="bi bi-caret-down-fill"></i>
+            </div>
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
+
+        <div class="field">
+            <div class="field-checkbox">
+                <input id="teste" type="checkbox" name="teste" value="teste">
+                <label for="teste">Teste</label>
+            </div>
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
+
+        <div class="field">
+            <div class="field-radio">
+                <input id="teste2" type="radio" name="teste" value="teste">
+                <label for="teste2">Teste</label>
+            </div>
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
+
+        <div class="field">
+            <label for="teste">Teste</label>
+            <div class="field-progress">
+                <div class="bar" data-percent="30"></div>
+            </div>
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
+
+        <div class="field">
+            <div class="field-file">
+                <label for="testex"><i class="bi bi-file-arrow-up-fill"></i>Selecionar arquivo</label>
+                <input id="testex" type="file" accept="image/*" multiple>
+            </div>
+            <small>Algum texto explicativo aqui para informar usuário de como preencher.</small>
+        </div>
 
     </body>
 </html>

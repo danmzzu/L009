@@ -1,0 +1,16 @@
+.alert {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: nowrap;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.alert i { 
+    color: #ee4d2d;
+    margin-right: 10px; 
+}

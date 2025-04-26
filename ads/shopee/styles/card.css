@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px dashed #ccc;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    width: 150px;
+    display: block;
+    border-radius: 50%;
+}
+
+.card a,
+.card visited { color: #ee4d2d; }
+
+.card a:hover { text-decoration: underline; }
