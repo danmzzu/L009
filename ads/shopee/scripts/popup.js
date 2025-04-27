@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function showPopup() {
         if (popupElement && !isPopupVisible) {
-            popupElement.style.display = 'block';
+            popupElement.style.display = 'flex';
             isPopupVisible = true;
         }
     }
