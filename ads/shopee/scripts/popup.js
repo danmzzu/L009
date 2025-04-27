@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (popupElement && isPopupVisible) {
             popupElement.style.display = 'none';
             isPopupVisible = false;
-            setTimeout(showPopup, 60000);
+            setTimeout(showPopup, 30000);
         }
     }
 
