@@ -31,6 +31,7 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
+    height: 100%;
     padding: 15px;
     border-radius: 15px;
     background-color: #777;
@@ -114,4 +115,42 @@
 
 .card-container a i {
     margin-right: 5px;
+}
+
+.card-feedback-client {
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-feedback-avatar {
+    width: 70px;
+    min-width: 70px;
+    height: 70px;
+    min-height: 70px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 5px solid #999;
+    margin-bottom: 15px;
+}
+
+.card-feedback-stars {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.card-feedback-stars i {
+    color: #54b3d6;
+    transform-origin: bottom;
+    animation: starJump 0.6s ease-in-out;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes starJump {
+    0% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-5px) scaleY(1.2); }
+    100% { transform: translateY(0) scale(1); }
 }

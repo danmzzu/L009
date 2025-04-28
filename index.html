@@ -36,7 +36,10 @@
         <link rel="stylesheet" href="styles/components/card.css">
 
         <!-- Global Scripts -->
-        <script defer src="scripts/security.js"></script>
+        <script defer src="scripts/global/security.js"></script>
+
+        <!-- Components Scripts -->
+        <script defer src="scripts/components/stars.js"></script>
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVJ5ZW3H2X"></script>
@@ -121,7 +124,7 @@
                     <div class="card-container">
                         <h2>Chatbots Inteligentes</h2>
                         <p>Eleve seu atendimento com chatbots 24/7! Respostas rápidas, suporte eficiente e mais leads. Reduza custos e impulsione a satisfação do cliente. Descubra o poder da IA conversacional para o seu negócio!</p>
-                        <a href="#" id="style-2" data-replace="Acessar">
+                        <a href="#" data-replace="Acessar">
                             <span><i class="bi bi-link-45deg"></i>Orçamento</span>
                         </a>
                     </div>
@@ -131,7 +134,7 @@
                     <div class="card-container">
                         <h2>Automação de Rotinas</h2>
                         <p>Maximize a produtividade automatizando tarefas repetitivas! Reduza erros, otimize o tempo da equipe e foque no estratégico. Acelere processos e impulsione a eficiência operacional da sua empresa.</p>
-                        <a href="#" id="style-2" data-replace="Acessar">
+                        <a href="#" data-replace="Acessar">
                             <span><i class="bi bi-link-45deg"></i>Orçamento</span>
                         </a>
                     </div>
@@ -141,7 +144,7 @@
                     <div class="card-container">
                         <h2>Desenvolvimento de API</h2>
                         <p>Integre sistemas e inove com APIs robustas e escaláveis! Permita a comunicação eficiente entre plataformas, troque dados facilmente e crie novas soluções para o seu negócio.</p>
-                        <a href="#" id="style-2" data-replace="Acessar">
+                        <a href="#" data-replace="Acessar">
                             <span><i class="bi bi-link-45deg"></i>Orçamento</span>
                         </a>
                     </div>
@@ -149,35 +152,107 @@
             </section>
             
             <!-- Feedback -->
-            <section class="grid g-3">
+            <section class="grid g-3" style="margin-bottom: 50px;">
                 <div class="card">
                     <div class="card-border"></div>
                     <div class="card-container">
-                        <h2>Chatbots Inteligentes</h2>
-                        <p>Eleve seu atendimento com chatbots 24/7! Respostas rápidas, suporte eficiente e mais leads. Reduza custos e impulsione a satisfação do cliente. Descubra o poder da IA conversacional para o seu negócio!</p>
-                        <a href="#" id="style-2" data-replace="Acessar">
-                            <span><i class="bi bi-link-45deg"></i>Orçamento</span>
-                        </a>
+                        <div class="card-feedback-client">
+                            <div class="card-feedback-avatar" style="background-image: url('https://randomuser.me/api/portraits/women/81.jpg');"></div>
+                            <h2>Fernanda L.</h2>
+                        </div>
+                        <div class="card-feedback-stars">
+                            <i class="bi bi-star-fill" style="--i:0"></i>
+                            <i class="bi bi-star-fill" style="--i:1"></i>
+                            <i class="bi bi-star-fill" style="--i:2"></i>
+                            <i class="bi bi-star-fill" style="--i:3"></i>
+                            <i class="bi bi-star-fill" style="--i:4"></i>
+                        </div>
+                        <p>Os chatbots inteligentes da L009 revolucionaram nosso atendimento! Nossos clientes estão mais satisfeitos com as respostas rápidas e eficientes.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-border"></div>
                     <div class="card-container">
-                        <h2>Automação de Rotinas</h2>
-                        <p>Maximize a produtividade automatizando tarefas repetitivas! Reduza erros, otimize o tempo da equipe e foque no estratégico. Acelere processos e impulsione a eficiência operacional da sua empresa.</p>
-                        <a href="#" id="style-2" data-replace="Acessar">
-                            <span><i class="bi bi-link-45deg"></i>Orçamento</span>
-                        </a>
+                        <div class="card-feedback-client">
+                            <div class="card-feedback-avatar" style="background-image: url('https://randomuser.me/api/portraits/men/45.jpg');"></div>
+                            <h2>Carlos P.</h2>
+                        </div>
+                        <div class="card-feedback-stars">
+                            <i class="bi bi-star-fill" style="--i:0"></i>
+                            <i class="bi bi-star-fill" style="--i:1"></i>
+                            <i class="bi bi-star-fill" style="--i:2"></i>
+                            <i class="bi bi-star-fill" style="--i:3"></i>
+                            <i class="bi bi-star-fill" style="--i:4"></i>
+                        </div>
+                        <p>A automação de rotinas implementada pela L009 otimizou muito o tempo da nossa equipe. Ganhamos produtividade e focamos em tarefas estratégicas.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-border"></div>
                     <div class="card-container">
-                        <h2>Desenvolvimento de API</h2>
-                        <p>Integre sistemas e inove com APIs robustas e escaláveis! Permita a comunicação eficiente entre plataformas, troque dados facilmente e crie novas soluções para o seu negócio.</p>
-                        <a href="#" id="style-2" data-replace="Acessar">
-                            <span><i class="bi bi-link-45deg"></i>Orçamento</span>
-                        </a>
+                        <div class="card-feedback-client">
+                            <div class="card-feedback-avatar" style="background-image: url('https://randomuser.me/api/portraits/women/29.jpg');"></div>
+                            <h2>Juliana A.</h2>
+                        </div>
+                        <div class="card-feedback-stars">
+                            <i class="bi bi-star-fill" style="--i:0"></i>
+                            <i class="bi bi-star-fill" style="--i:1"></i>
+                            <i class="bi bi-star-fill" style="--i:2"></i>
+                            <i class="bi bi-star-fill" style="--i:3"></i>
+                            <i class="bi bi-star-fill" style="--i:4"></i>
+                        </div>
+                        <p>O desenvolvimento da API foi essencial para integrar nossos sistemas. A comunicação entre plataformas agora é fluida e eficiente, graças à L009.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-border"></div>
+                    <div class="card-container">
+                        <div class="card-feedback-client">
+                            <div class="card-feedback-avatar" style="background-image: url('https://randomuser.me/api/portraits/men/71.jpg');"></div>
+                            <h2>Ricardo S.</h2>
+                        </div>
+                        <div class="card-feedback-stars">
+                            <i class="bi bi-star-fill" style="--i:0"></i>
+                            <i class="bi bi-star-fill" style="--i:1"></i>
+                            <i class="bi bi-star-fill" style="--i:2"></i>
+                            <i class="bi bi-star-fill" style="--i:3"></i>
+                            <i class="bi bi-star-fill" style="--i:4"></i>
+                        </div>
+                        <p>Impressionante a capacidade dos chatbots de aprender e evoluir. O suporte 24/7 melhorou significativamente a experiência dos nossos usuários.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-border"></div>
+                    <div class="card-container">
+                        <div class="card-feedback-client">
+                            <div class="card-feedback-avatar" style="background-image: url('https://randomuser.me/api/portraits/women/5.jpg');"></div>
+                            <h2>Patrícia O.</h2>
+                        </div>
+                        <div class="card-feedback-stars">
+                            <i class="bi bi-star-fill" style="--i:0"></i>
+                            <i class="bi bi-star-fill" style="--i:1"></i>
+                            <i class="bi bi-star-fill" style="--i:2"></i>
+                            <i class="bi bi-star-fill" style="--i:3"></i>
+                            <i class="bi bi-star-fill" style="--i:4"></i>
+                        </div>
+                        <p>A automação de processos da L009 nos permitiu reduzir custos operacionais e focar em inovação. Um investimento que trouxe ótimos resultados.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-border"></div>
+                    <div class="card-container">
+                        <div class="card-feedback-client">
+                            <div class="card-feedback-avatar" style="background-image: url('https://randomuser.me/api/portraits/men/93.jpg');"></div>
+                            <h2>Gustavo M.</h2>
+                        </div>
+                        <div class="card-feedback-stars">
+                            <i class="bi bi-star-fill" style="--i:0"></i>
+                            <i class="bi bi-star-fill" style="--i:1"></i>
+                            <i class="bi bi-star-fill" style="--i:2"></i>
+                            <i class="bi bi-star-fill" style="--i:3"></i>
+                            <i class="bi bi-star-fill" style="--i:4"></i>
+                        </div>
+                        <p>O time de desenvolvimento de API da L009 é altamente qualificado. Entregaram uma solução robusta e sob medida para as nossas necessidades de integração.</p>
                     </div>
                 </div>
             </section>
