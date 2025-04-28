@@ -1,0 +1,115 @@
+.card {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #999,
+                0 0 20px #777,
+                0 0 40px #777,
+                0 0 60px #777;
+}
+
+.card-border {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    right: -200px;
+    bottom: -200px;
+    z-index: 0;
+    background-image: conic-gradient(#fff 20deg, transparent 120deg);
+    border-radius: 10px;
+    animation: cardLeft 3s linear infinite;
+}
+
+.card-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #777;
+}
+
+.card-container h2 {
+    color: #fff;
+    font-size: clamp(14px, 3vw, 22px);
+}
+
+.card-container p {
+    color: #ddd;
+    font-size: clamp(10px, 2.5vw, 16px);
+}
+
+.card-container small {
+    color: #ddd;
+    font-size: clamp(8px, 2vw, 12px);
+}
+
+@keyframes cardLeft {
+    100% { transform: rotate(-360deg); }
+}
+
+@keyframes cardRight {
+    100% { transform: rotate(360deg); }
+}
+
+.card-container a,
+.card-container a:visited {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+}
+  
+.card-container a::before,
+.card-container a::after {
+   content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.card-container a::before {
+    background-color: #54b3d6;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.card-container a::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #fff;
+}
+  
+.card-container a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.card-container a:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+.card-container a span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+  
+.card-container a:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+
+.card-container a i {
+    margin-right: 5px;
+}

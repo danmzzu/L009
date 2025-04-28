@@ -1,0 +1,61 @@
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #777, #777, #777, #444, #777, #777, #777);
+	background-size: 300% 300%;
+	animation: infiniteBG 15s ease infinite;
+}
+
+@keyframes infiniteBG {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+#background p {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 350px;
+    line-height: 350px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #777;
+    opacity: 0.6;
+}
+
+#background p:nth-child(1) {
+    top: 30px;
+    animation: backgroundRight 10s linear infinite;
+}
+
+#background p:nth-child(2) { 
+    bottom: 30px;
+    animation: backgroundLeft 10s linear infinite;
+}
+
+@keyframes backgroundRight {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+@keyframes backgroundLeft {
+    0% { right: -100%; }
+    100% { right: 100%; }
+}
+
+@media all and (max-width: 800px) {
+    #background p { 
+        font-size: 200px;
+        line-height: 200px;
+    }
+}
