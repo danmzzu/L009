@@ -23,7 +23,7 @@
 html { scroll-behavior: smooth; }
 
 body { 
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #000; 
 }
 
