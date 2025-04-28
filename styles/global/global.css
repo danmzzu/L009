@@ -21,14 +21,14 @@
 }
 
 html { scroll-behavior: smooth; }
-html:hover ::-webkit-scrollbar { display: block; }
+html:hover ::-webkit-scrollbar { width: 10px; }
 
 body { 
     overflow-x: hidden;
     background-color: #777;
 }
 
-::-webkit-scrollbar { width: 10px; display: none; }
+::-webkit-scrollbar { width: 0; }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb { border-radius: 5px; }
 ::-webkit-scrollbar-track { background: #777; }
