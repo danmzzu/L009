@@ -38,17 +38,17 @@
 
 .card-container h2 {
     color: #fff;
-    font-size: clamp(14px, 3vw, 22px);
+    font-size: clamp(16px, 3vw, 22px);
 }
 
 .card-container p {
     color: #ddd;
-    font-size: clamp(10px, 2.5vw, 16px);
+    font-size: clamp(12px, 2.5vw, 16px);
 }
 
 .card-container small {
     color: #ddd;
-    font-size: clamp(8px, 2vw, 12px);
+    font-size: clamp(10px, 2vw, 12px);
 }
 
 @keyframes cardLeft {
@@ -65,7 +65,7 @@
     position: relative;
     display: inline-block;
     color: #fff;
-    font-size: clamp(10px, 2.5vw, 16px);
+    font-size: clamp(12px, 2.5vw, 16px);
     margin-top: 10px;
 }
   
