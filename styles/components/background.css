@@ -10,7 +10,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(-45deg, #777, #777, #777, #444, #777, #777, #777);
+    background: linear-gradient(-45deg, #777, #666, #555, #444, #555, #666, #777);
     background-size: 200% 200%;
     animation: infiniteBG 15s ease infinite;
     will-change: background-position;
@@ -30,7 +30,7 @@
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #777;
+    color: #555;
     opacity: 0.6;
 }
 

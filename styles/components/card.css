@@ -22,7 +22,6 @@
     background-image: conic-gradient(#fff 20deg, transparent 120deg);
     border-radius: 10px;
     animation: cardLeft 3s linear infinite;
-    will-change: transform;
 }
 
 .card-container {
@@ -35,7 +34,7 @@
     height: 100%;
     padding: 15px;
     border-radius: 15px;
-    background-color: #777;
+    background-color: #555;
 }
 
 .card-container h2 {
@@ -71,19 +70,21 @@
     font-size: clamp(12px, 2.5vw, 16px);
     margin-top: 10px;
 }
-
-.card-container a::before {
+  
+.card-container a::before,
+.card-container a::after {
    content: '';
     position: absolute;
     width: 100%;
     left: 0;
-    background-color: #555;
+}
+.card-container a::before {
+    background-color: #777;
     height: 2px;
     bottom: 0;
     transform-origin: 100% 50%;
     transform: scaleX(0);
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
-    will-change: transform;
 }
 .card-container a::after {
     content: attr(data-replace);
@@ -93,9 +94,8 @@
     transform: translate3d(200%, 0, 0);
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
     color: #fff;
-    will-change: transform;
 }
-
+  
 .card-container a:hover::before {
     transform-origin: 0% 50%;
     transform: scaleX(1);
@@ -103,13 +103,12 @@
 .card-container a:hover::after {
     transform: translate3d(0, 0, 0);
 }
-
+  
 .card-container a span {
     display: inline-block;
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
-    will-change: transform;
 }
-
+  
 .card-container a:hover span {
     transform: translate3d(-200%, 0, 0);
 }
@@ -133,7 +132,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 50%;
-    border: 4px solid #999;
+    border: 4px solid #777;
     margin-bottom: 15px;
     filter: grayscale(100%);
 }
@@ -146,18 +145,17 @@
 
 .card-feedback-stars i {
     font-size: 20px;
-    color: #555;
+    color: #777;
     transform-origin: bottom;
     animation: starJump 0.6s ease-in-out;
     animation-delay: calc(0.1s * var(--i));
-    will-change: transform, color, text-shadow;
 }
 
 @keyframes starJump {
-    0% {
-        transform: translateY(0) scale(1);
-        color: #fff !important;
-        text-shadow: 0 0 10px #fff !important;
+    0% { 
+        transform: translateY(0) scale(1); 
+        color: #fff;
+        text-shadow: 0 0 10px #fff;
     }
     50% { transform: translateY(-5px) scaleY(1.2); }
     100% { transform: translateY(0) scale(1); }
