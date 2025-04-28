@@ -38,7 +38,8 @@
 
 .card-container h2 {
     color: #fff;
-    font-size: clamp(16px, 3vw, 22px);
+    text-transform: uppercase;
+    font-size: clamp(14px, 2.7vw, 20px);
 }
 
 .card-container p {
