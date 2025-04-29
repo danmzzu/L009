@@ -20,7 +20,7 @@
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #949494;
+    color: #808080;
     opacity: 0.2;
     font-style: italic;
 }
@@ -51,6 +51,5 @@
     #background p {
         font-size: 300px;
         line-height: 300px;
-        opacity: 0.1;
     }
 }
