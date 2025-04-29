@@ -94,7 +94,7 @@ header #infinite .infinite-container .infinite-circle:nth-child(2) span::before 
 }
 
 @media all and (max-width: 800px) {
-    header { background-size: 300% 200%; }
+    header { height: 400px; }
     header p { font-size: 14px; }
     header #infinite .infinite-letter { font-size: 90px; }
     header #infinite .infinite-container { 
