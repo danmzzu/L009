@@ -17,16 +17,18 @@ h2 {
     font-size: clamp(14px, 2.7vw, 20px);
 }
 
+p { color: #999; }
+
 p,
 a,
 a:visited {
-    color: #999;
     font-size: clamp(12px, 2.5vw, 16px);
 }
 
+a { color: #fff; }
+
 a i {
     margin-right: 10px;
-    color: #fff;
     font-size: clamp(14px, 2.7vw, 20px);
 }
 
