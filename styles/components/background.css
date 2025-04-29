@@ -52,4 +52,6 @@
         font-size: 300px;
         line-height: 300px;
     }
+    #background p:nth-child(1) { top: 50px; }
+    #background p:nth-child(2) { bottom: 5px; }
 }
