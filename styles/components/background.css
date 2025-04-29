@@ -48,7 +48,7 @@
 
 @media all and (max-width: 800px) {
     #background p {
-        font-size: 200px;
-        line-height: 200px;
+        font-size: 300px;
+        line-height: 300px;
     }
 }
