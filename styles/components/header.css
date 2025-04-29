@@ -9,14 +9,6 @@ header {
     justify-content: center;
 }
 
-header p {
-    font-size: 14px;
-    color: #fff;
-    font-style: italic;
-    text-shadow: 0 0 10px #222,
-                0 0 20px #222;
-}
-
 header #infinite {
     display: flex;
     flex-direction: row;
