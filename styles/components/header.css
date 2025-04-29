@@ -1,7 +1,6 @@
 header {
     width: 100%;
-    height: 100vh;
-    min-height: 400px;
+    height: 400px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -23,9 +22,9 @@ header #infinite .infinite-letter {
     font-family: "Saira", sans-serif !important;
     font-weight: 500;
     text-shadow: 0 0 10px #222,
-                0 0 20px #222,
-                0 0 40px #222,
-                0 0 60px #222;
+                 0 0 20px #222,
+                 0 0 40px #222,
+                 0 0 60px #222;
 }
 
 header #infinite .infinite-container {
@@ -84,7 +83,7 @@ header #infinite .infinite-container .infinite-circle:nth-child(2) span::before 
 }
 
 @keyframes infiniteCircle {
-    0% { transform: scale(1); }
+    0% { transform: scale(1.2); }
     50%, 100% { transform: scale(0.1); }
 }
 
