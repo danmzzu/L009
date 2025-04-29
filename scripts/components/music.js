@@ -15,7 +15,7 @@ const bufferLength = analyser.frequencyBinCount;
 const dataArray = new Uint8Array(bufferLength);
 
 const volumeThreshold = 120;
-const peakDetectionDelay = 150;
+const peakDetectionDelay = 180;
 let lastPeakTime = 0;
 
 function analisarAudio() {
