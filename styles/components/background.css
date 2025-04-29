@@ -61,11 +61,11 @@
         line-height: 150px;
     }
     @keyframes backgroundRight {
-        0% { left: -200%; }
+        0% { left: -250%; }
         100% { left: 100%; }
     }
     @keyframes backgroundLeft {
-        0% { right: -200%; }
+        0% { right: -250%; }
         100% { right: 100%; }
     }
 }
