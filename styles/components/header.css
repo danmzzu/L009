@@ -84,7 +84,7 @@ header #infinite .infinite-container .infinite-circle:nth-child(2) span::before 
 }
 
 @keyframes infiniteCircle {
-    0% { transform: scale(1.2); }
+    0% { transform: scale(1); }
     50%, 100% { transform: scale(0.1); }
 }
 
