@@ -151,11 +151,17 @@
 }
 
 @keyframes starJump {
-    0% { transform: translateY(0) scale(1); }
+    0% { 
+        color:orange;
+        transform: translateY(0) scale(1);
+    }
     50% { 
         transform: translateY(-5px) scaleY(1.2);
         color: #fff;
         text-shadow: 0 0 5px #fff;
     }
-    100% { transform: translateY(0) scale(1); }
+    100% { 
+        color: #777;
+        transform: translateY(0) scale(1); 
+    }
 }
