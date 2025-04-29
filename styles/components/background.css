@@ -55,11 +55,11 @@
     #background p:nth-child(1) { top: 50px; }
     #background p:nth-child(2) { bottom: 5px; }
     @keyframes backgroundRight {
-        0% { left: -400%; }
-        100% { left: 100%; }
+        0% { left: -600%; }
+        100% { left: 110%; }
     }
     @keyframes backgroundLeft {
-        0% { right: -400%; }
-        100% { right: 100%; }
+        0% { right: -600%; }
+        100% { right: 110%; }
     }
 }
