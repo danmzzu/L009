@@ -154,7 +154,6 @@
 @keyframes starJump {
     0% { 
         color:#fff;
-        text-shadow: 0 0 10px #fff;
         transform: translateY(0) scale(1);
     }
     50% { 
