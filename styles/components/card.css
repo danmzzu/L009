@@ -17,7 +17,7 @@
     right: -200px;
     bottom: -200px;
     z-index: 0;
-    background-image: conic-gradient(#fff 20deg, transparent 120deg);
+    background-image: conic-gradient(var(--theme) 20deg, transparent 120deg);
     border-radius: 10px;
     animation: cardLeft 3s linear infinite;
 }
@@ -117,22 +117,28 @@
 }
 
 .card-feedback-client {
-    display: inline-block;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 15px;
     width: 100%;
 }
 
+.card-feedback-client h2 {
+    width: 100%;
+    text-align: left;
+}
+
 .card-feedback-avatar {
-    width: 70px;
-    min-width: 70px;
-    height: 70px;
-    min-height: 70px;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 50%;
     border: 4px solid #333;
-    margin-bottom: 15px;
     filter: grayscale(100%);
 }
 

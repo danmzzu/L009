@@ -13,8 +13,8 @@ header p {
     font-size: 14px;
     color: #fff;
     font-style: italic;
-    text-shadow: 0 0 10px #888,
-                0 0 20px #888;
+    text-shadow: 0 0 10px #222,
+                0 0 20px #222;
 }
 
 header #infinite {
@@ -30,11 +30,13 @@ header #infinite .infinite-letter {
     color: #fff;
     font-family: "Saira", sans-serif !important;
     font-weight: 400;
-    text-shadow: 0 0 10px #999,
-                0 0 20px #999,
-                0 0 40px #999,
-                0 0 60px #999;
+    text-shadow: 0 0 10px #222,
+                0 0 20px #222,
+                0 0 40px #222,
+                0 0 60px #222;
 }
+
+header #infinite .infinite-letter:last-child { color: var(--theme); }
 
 header #infinite .infinite-container {
     display: flex;
@@ -76,10 +78,10 @@ header #infinite .infinite-container .infinite-circle span::before {
     height: 15px;
     border-radius: 50%;
     background-color: #fff;
-    box-shadow: 0 0 10px #999,
-                0 0 20px #999,
-                0 0 40px #999,
-                0 0 60px #999;
+    box-shadow: 0 0 10px #222,
+                0 0 20px #222,
+                0 0 40px #222,
+                0 0 60px #222;
     transform: scale(0.1);
     animation: infiniteCircle 4s linear infinite;
     animation-delay: calc(0.1s * var(--i));

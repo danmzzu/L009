@@ -3,7 +3,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root {
-    --theme: #0acf76;
+    --theme: #00ffa2;
 }
 
 *,
@@ -26,14 +26,13 @@
 }
 
 html { scroll-behavior: smooth; }
-html:hover ::-webkit-scrollbar { width: 10px; }
 
 body { 
     overflow-x: hidden;
     background-color: #000;
 }
 
-::-webkit-scrollbar { width: 0; }
+::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb { border-radius: 5px; }
 ::-webkit-scrollbar-track { background: #777; }
