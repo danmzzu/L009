@@ -3,13 +3,18 @@
     top: 0;
     left: 0;
     z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
     width: 100%;
     height: 100vh;
     rotate: 90deg;
 }
 
 #background p {
-    position: absolute;
+    position: relative;
     white-space: nowrap;
     font-size: 250px;
     line-height: 250px;
@@ -21,15 +26,23 @@
 }
 
 #background p:nth-child(1) {
-    top: 50%;
     animation: backgroundRight 10s linear infinite;
     will-change: left;
 }
 
 #background p:nth-child(2) {
-    bottom: 50%;
     animation: backgroundLeft 10s linear infinite;
     will-change: right;
+}
+
+#background p:nth-child(3) {
+    animation: backgroundRight 15s linear infinite;
+    will-change: left;
+}
+
+#background p:nth-child(4) {
+    animation: backgroundLeft 15s linear infinite;
+    will-change: left;
 }
 
 @keyframes backgroundRight {
