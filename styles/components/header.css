@@ -11,8 +11,10 @@ header {
 
 header p {
     font-size: 14px;
-    color: #ccc;
-    text-shadow: 0 0 10px #eee;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 0 0 10px #888,
+                0 0 20px #888;
 }
 
 header #infinite {
@@ -26,13 +28,12 @@ header #infinite {
 header #infinite .infinite-letter {
     font-size: 130px;
     color: #fff;
+    font-family: "Saira", sans-serif !important;
     font-weight: 400;
-    text-shadow: 0 0 10px #eee,
-                0 0 20px #eee,
-                0 0 40px #eee,
-                0 0 60px #eee,
-                0 0 80px #eee,
-                0 0 100px #eee;
+    text-shadow: 0 0 10px #999,
+                0 0 20px #999,
+                0 0 40px #999,
+                0 0 60px #999;
 }
 
 header #infinite .infinite-container {
@@ -74,13 +75,11 @@ header #infinite .infinite-container .infinite-circle span::before {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #eee;
-    box-shadow: 0 0 10px #eee,
-                0 0 20px #eee,
-                0 0 40px #eee,
-                0 0 60px #eee,
-                0 0 80px #eee,
-                0 0 100px #eee;
+    background-color: #fff;
+    box-shadow: 0 0 10px #999,
+                0 0 20px #999,
+                0 0 40px #999,
+                0 0 60px #999;
     transform: scale(0.1);
     animation: infiniteCircle 4s linear infinite;
     animation-delay: calc(0.1s * var(--i));
