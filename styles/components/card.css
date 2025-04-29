@@ -5,10 +5,10 @@
     width: 100%;
     overflow: hidden;
     padding: 2px;
+    opacity: 0.7;
     border-radius: 20px;
     box-shadow: 0 0 30px #222,
                 0 0 70px #222;
-    opacity: 0.7;
 }
 
 .card-border {
@@ -43,12 +43,12 @@
 }
 
 .card-container p {
-    color: #ddd;
+    color: #999;
     font-size: clamp(12px, 2.5vw, 16px);
 }
 
 .card-container small {
-    color: #ddd;
+    color: #ffd000;
     font-size: clamp(10px, 2vw, 12px);
 }
 
@@ -78,7 +78,7 @@
     left: 0;
 }
 .card-container a::before {
-    background-color: #fff;
+    background-color: #ffd000;
     height: 2px;
     bottom: 0;
     transform-origin: 100% 50%;
@@ -139,25 +139,25 @@
 .card-feedback-stars {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     width: fit-content;
 }
 
 .card-feedback-stars i {
     font-size: 20px;
     color: #555;
-    transform-origin: bottom;
+    transform-origin: center;
     animation: starJump 1s ease-in-out;
     animation-delay: calc(0.1s * var(--i));
 }
 
 @keyframes starJump {
     0% { 
-        color:#fff;
+        color: #ffd000;
         transform: translateY(0) scale(1);
     }
     50% { 
-        transform: translateY(-5px) scaleY(1.2);
+        transform: translateY(-5px) scale(1.2);
     }
     100% { 
         transform: translateY(0) scale(1); 
