@@ -1,0 +1,14 @@
+.category {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto 30px auto;
+}
+
+.category h1 {
+    text-align: center;
+    color: #888;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: clamp(15px, 3vw, 20px);
+}

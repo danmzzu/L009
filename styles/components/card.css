@@ -112,6 +112,7 @@
 .card-container a i {
     margin-right: 10px;
     color: var(--theme);
+    font-size: clamp(14px, 2.7vw, 20px);
 }
 
 .card-feedback-client {
