@@ -5,6 +5,8 @@ const audioContext = new (window.AudioContext || window.AudioContext)();
 const analyser = audioContext.createAnalyser();
 const source = audioContext.createMediaElementSource(audio);
 
+audio.volume = 1;
+
 source.connect(analyser);
 analyser.connect(audioContext.destination);
 
