@@ -34,22 +34,6 @@
     background-color: #000;
 }
 
-.card-container h2 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: clamp(14px, 2.7vw, 20px);
-}
-
-.card-container p {
-    color: #999;
-    font-size: clamp(12px, 2.5vw, 16px);
-}
-
-.card-container small {
-    color: var(--theme);
-    font-size: clamp(11px, 2vw, 13px);
-}
-
 @keyframes cardLeft {
     100% { transform: rotate(-360deg); }
 }
@@ -109,12 +93,6 @@
     transform: translate3d(-200%, 0, 0);
 }
 
-.card-container a i {
-    margin-right: 10px;
-    color: var(--theme);
-    font-size: clamp(14px, 2.7vw, 20px);
-}
-
 .card-feedback-client {
     display: flex;
     flex-direction: row-reverse;
@@ -149,7 +127,7 @@
 }
 
 .card-feedback-stars i {
-    font-size: 18px;
+    font-size: clamp(14px, 2.7vw, 20px);
     color: var(--theme);
     transform-origin: center;
     animation: starJump 1s ease-in-out;
