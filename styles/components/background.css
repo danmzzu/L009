@@ -26,13 +26,13 @@
 }
 
 #background p:nth-child(1) {
-    top: 30px;
+    top: 40px;
     animation: backgroundRight 10s linear infinite;
     will-change: left;
 }
 
 #background p:nth-child(2) {
-    bottom: 30px;
+    bottom: 40px;
     animation: backgroundLeft 10s linear infinite;
     will-change: right;
 }
