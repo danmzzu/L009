@@ -37,6 +37,7 @@
         <link rel="preload" href="styles/components/card.css" as="style">
         <link rel="preload" href="styles/components/category.css" as="style">
         <link rel="preload" href="styles/components/footer.css" as="style">
+        <link rel="preload" href="styles/components/music.css" as="style">
 
         <!-- Styles Global -->
         <link rel="stylesheet" href="styles/global/global.css">
@@ -50,12 +51,14 @@
         <link rel="stylesheet" href="styles/components/card.css">
         <link rel="stylesheet" href="styles/components/category.css">
         <link rel="stylesheet" href="styles/components/footer.css">
+        <link rel="stylesheet" href="styles/components/music.css">
 
         <!-- Scripts Global -->
         <script defer src="scripts/global/security.js"></script>
 
         <!-- Scripts Components -->
         <script defer src="scripts/components/stars.js"></script>
+        <script defer src="scripts/components/music.js"></script>
 
         <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVJ5ZW3H2X"></script>
@@ -67,6 +70,9 @@
         </script>
     </head>
     <body>
+
+        <!-- Music -->
+        <audio id="music" src="musics/music.mp3" controls></audio>
 
         <!-- Background -->
         <div id="background">
@@ -82,7 +88,7 @@
         <header>
             <section id="infinite">
                 <div class="infinite-letter">L</div>
-                <div class="infinite-container">
+                <div id="infinite-pulse" class="infinite-container">
                     <div class="infinite-circle">
                         <span style="--i:0"></span>
                         <span style="--i:1"></span>
