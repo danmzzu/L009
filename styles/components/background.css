@@ -5,6 +5,7 @@
     z-index: -1;
     width: 100%;
     height: 100vh;
+    rotate: 90deg;
 }
 
 #background p {
@@ -32,12 +33,12 @@
 }
 
 @keyframes backgroundRight {
-    0% { left: -200%; }
+    0% { left: -100%; }
     100% { left: 110%; }
 }
 
 @keyframes backgroundLeft {
-    0% { right: -200%; }
+    0% { right: -100%; }
     100% { right: 110%; }
 }
 
@@ -47,11 +48,11 @@
         line-height: 150px;
     }
     @keyframes backgroundRight {
-        0% { left: -300%; }
+        0% { left: -200%; }
         100% { left: 100%; }
     }
     @keyframes backgroundLeft {
-        0% { right: -300%; }
+        0% { right: -200%; }
         100% { right: 100%; }
     }
 }
