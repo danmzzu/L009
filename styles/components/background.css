@@ -38,12 +38,12 @@
 }
 
 @keyframes backgroundRight {
-    0% { left: -100%; }
+    0% { left: -200%; }
     100% { left: 100%; }
 }
 
 @keyframes backgroundLeft {
-    0% { right: -100%; }
+    0% { right: -200%; }
     100% { right: 100%; }
 }
 
