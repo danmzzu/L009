@@ -20,8 +20,9 @@
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #999;
+    color: #888;
     opacity: 0.2;
+    font-style: italic;
 }
 
 #background p:nth-child(1) {
@@ -50,5 +51,6 @@
     #background p {
         font-size: 300px;
         line-height: 300px;
+        opacity: 0.1;
     }
 }
