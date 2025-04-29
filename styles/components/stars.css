@@ -1,0 +1,28 @@
+.star {
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #fff,
+                0 0 60px #fff,
+                0 0 80px #fff,
+                0 0 100px #fff;
+    animation: twinkle 2s infinite alternate;
+}
+  
+@keyframes twinkle {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        scale: 1.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,30 +1,22 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const starContainers = document.querySelectorAll('.card-feedback-stars');
+function createStars(numStars) {
+    const body = document.body;
+    for (let i = 0; i < numStars; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * window.innerHeight;
+        const size = Math.random() * 2 + 1;
+        const delay = Math.random() * 2;
 
-    starContainers.forEach(container => {
-        const stars = container.querySelectorAll('i');
-        const animationStyle = stars[0].style.animation;
+        star.style.left = `${x}px`;
+        star.style.top = `${y}px`;
+        star.style.width = `${size}px`;
+        star.style.height = `${size}px`;
+        star.style.animationDelay = `${delay}s`;
 
-        function disableAnimation() {
-            stars.forEach(star => {
-                star.style.animation = 'none';
-            });
-        }
-
-        function enableAnimation() {
-            stars.forEach((star, index) => {
-                star.style.animation = animationStyle;
-            });
-        }
-
-        function triggerAnimationCycle() {
-            enableAnimation();
-            setTimeout(() => {
-                disableAnimation();
-                setTimeout(triggerAnimationCycle, 2000);
-            }, (0.1 * stars.length * 1000) + 600);
-        }
-
-        triggerAnimationCycle();
-    });
-});
+        body.appendChild(star);
+    }
+}
+  
+const numberOfStars = 30;
+createStars(numberOfStars);
