@@ -6,9 +6,13 @@
 
 .category h1 {
     text-align: center;
-    color: #888;
+    color: #666;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: clamp(15px, 3vw, 20px);
+    text-shadow: 0 0 10px #222,
+                0 0 20px #222,
+                0 0 40px #222,
+                0 0 60px #222;
 }
