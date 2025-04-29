@@ -6,8 +6,7 @@
     overflow: hidden;
     padding: 2px;
     border-radius: 20px;
-    box-shadow: 0 0 30px #222,
-                0 0 70px #222;
+    box-shadow: 0 0 10px 5px #111;
 }
 
 .card-border {
