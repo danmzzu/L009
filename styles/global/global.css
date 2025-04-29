@@ -25,7 +25,10 @@
     -webkit-tap-highlight-color: transparent !important;
 }
 
-html { scroll-behavior: smooth; }
+html { 
+    overflow-x: hidden;
+    scroll-behavior: smooth; 
+}
 
 body { 
     overflow-x: hidden;

@@ -1,6 +1,7 @@
-const audio = document.getElementById('music');
+const audio = document.getElementById('music-player');
 const infinitePulse = document.querySelector('body');
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const playPauseIcon = document.getElementById('play-pause-icon');
+const audioContext = new (window.AudioContext || window.AudioContext)();
 const analyser = audioContext.createAnalyser();
 const source = audioContext.createMediaElementSource(audio);
 
@@ -41,3 +42,25 @@ audio.onplay = () => {
     audioContext.resume();
     analisarAudio();
 };
+
+playPauseIcon.addEventListener('click', () => {
+    if (audio.paused) {
+        audio.play();
+        playPauseIcon.classList.remove('bi-play-circle-fill');
+        playPauseIcon.classList.add('bi-pause-circle-fill');
+    } else {
+        audio.pause();
+        playPauseIcon.classList.remove('bi-pause-circle-fill');
+        playPauseIcon.classList.add('bi-play-circle-fill');
+    }
+});
+
+audio.addEventListener('play', () => {
+    playPauseIcon.classList.remove('bi-play-circle-fill');
+    playPauseIcon.classList.add('bi-pause-circle-fill');
+});
+
+audio.addEventListener('pause', () => {
+    playPauseIcon.classList.remove('bi-pause-circle-fill');
+    playPauseIcon.classList.add('bi-play-circle-fill');
+});
