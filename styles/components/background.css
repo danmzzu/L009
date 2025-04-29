@@ -39,12 +39,12 @@
 
 @keyframes backgroundRight {
     0% { left: -200%; }
-    100% { left: 100%; }
+    100% { left: 110%; }
 }
 
 @keyframes backgroundLeft {
     0% { right: -200%; }
-    100% { right: 100%; }
+    100% { right: 110%; }
 }
 
 @media all and (max-width: 800px) {
@@ -56,10 +56,10 @@
     #background p:nth-child(2) { bottom: 5px; }
     @keyframes backgroundRight {
         0% { left: -600%; }
-        100% { left: 110%; }
+        100% { left: 100%; }
     }
     @keyframes backgroundLeft {
         0% { right: -600%; }
-        100% { right: 110%; }
+        100% { right: 100%; }
     }
 }
