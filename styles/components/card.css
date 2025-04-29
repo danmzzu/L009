@@ -6,6 +6,7 @@
     overflow: hidden;
     padding: 2px;
     border-radius: 20px;
+    opacity: 0.9;
 }
 
 .card-border {
@@ -30,7 +31,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 20px;
-    background-color: #090909;
+    background-color: #000;
 }
 
 @keyframes cardLeft {
