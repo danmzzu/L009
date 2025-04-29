@@ -4,5 +4,6 @@ main {
     gap: 200px;
     width: 100%;
     max-width: 1200px;
+    margin-top: 50px;
     margin-inline: auto;
 }
