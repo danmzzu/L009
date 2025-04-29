@@ -140,6 +140,7 @@
     display: flex;
     flex-direction: row;
     gap: 5px;
+    width: fit-content;
 }
 
 .card-feedback-stars i {
