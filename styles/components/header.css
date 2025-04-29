@@ -36,8 +36,6 @@ header #infinite .infinite-letter {
                 0 0 60px #222;
 }
 
-header #infinite .infinite-letter:last-child { color: var(--theme); }
-
 header #infinite .infinite-container {
     display: flex;
     width: 180px;
