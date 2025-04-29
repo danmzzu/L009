@@ -1,5 +1,5 @@
 const audio = document.getElementById('music-player');
-const infinitePulse = document.querySelector('body');
+const infinitePulse = document.querySelector('.infinite-container');
 const playPauseIcon = document.getElementById('play-pause-icon');
 const audioContext = new (window.AudioContext || window.AudioContext)();
 const analyser = audioContext.createAnalyser();
@@ -14,8 +14,8 @@ analyser.fftSize = 256;
 const bufferLength = analyser.frequencyBinCount;
 const dataArray = new Uint8Array(bufferLength);
 
-const volumeThreshold = 120;
-const peakDetectionDelay = 180;
+const volumeThreshold = 130;
+const peakDetectionDelay = 200;
 let lastPeakTime = 0;
 
 function analisarAudio() {
