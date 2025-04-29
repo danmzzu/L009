@@ -20,8 +20,7 @@
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #707070;
-    opacity: 0.2;
+    color: #111;
     font-style: italic;
 }
 
@@ -53,11 +52,11 @@
         line-height: 150px;
     }
     @keyframes backgroundRight {
-        0% { left: -600%; }
+        0% { left: -300%; }
         100% { left: 100%; }
     }
     @keyframes backgroundLeft {
-        0% { right: -600%; }
+        0% { right: -300%; }
         100% { right: 100%; }
     }
 }
