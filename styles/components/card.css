@@ -78,7 +78,7 @@
     left: 0;
 }
 .card-container a::before {
-    background-color: #777;
+    background-color: #34ebab;
     height: 2px;
     bottom: 0;
     transform-origin: 100% 50%;
@@ -152,16 +152,14 @@
 
 @keyframes starJump {
     0% { 
-        color:orange;
+        color:#34ebab;
         transform: translateY(0) scale(1);
     }
     50% { 
         transform: translateY(-5px) scaleY(1.2);
-        color: #fff;
         text-shadow: 0 0 5px #fff;
     }
     100% { 
-        color: #777;
         transform: translateY(0) scale(1); 
     }
 }

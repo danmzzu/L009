@@ -64,7 +64,6 @@ header #infinite .infinite-container .infinite-circle span {
     width: 100%;
     height: 100%;
     transform: rotate(calc(18deg * var(--i)));
-    will-change: transform;
 }
 
 header #infinite .infinite-container .infinite-circle span::before {
@@ -85,7 +84,6 @@ header #infinite .infinite-container .infinite-circle span::before {
     transform: scale(0.1);
     animation: infiniteCircle 4s linear infinite;
     animation-delay: calc(0.1s * var(--i));
-    will-change: transform;
 }
 
 header #infinite .infinite-container .infinite-circle:nth-child(2) span::before {
@@ -101,8 +99,8 @@ header #infinite .infinite-container .infinite-circle:nth-child(2) span::before 
     header { background-size: 300% 200%; }
     header p { font-size: 14px; }
     header #infinite .infinite-letter { font-size: 90px; }
-    header #infinite .infinite-container {
-        width: 150px;
+    header #infinite .infinite-container { 
+        width: 150px; 
         margin: 70px 0;
     }
 }
