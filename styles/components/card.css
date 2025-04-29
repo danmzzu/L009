@@ -47,7 +47,7 @@
 
 .card-container small {
     color: var(--theme);
-    font-size: clamp(10px, 2vw, 12px);
+    font-size: clamp(11px, 2vw, 13px);
 }
 
 @keyframes cardLeft {
