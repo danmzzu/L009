@@ -45,6 +45,16 @@
     will-change: left;
 }
 
+#background p:nth-child(5) {
+    animation: backgroundRight 20s linear infinite;
+    will-change: left;
+}
+
+#background p:nth-child(6) {
+    animation: backgroundLeft 20s linear infinite;
+    will-change: left;
+}
+
 @keyframes backgroundRight {
     0% { left: -100%; }
     100% { left: 110%; }
