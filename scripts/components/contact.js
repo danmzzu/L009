@@ -6,11 +6,13 @@ const contactForm = document.getElementById('contact-form');
 contactLink.addEventListener('click', function (e) {
     e.preventDefault();
     contactModal.style.display = 'grid';
+    document.querySelector('body') = 'hidden';
 });
 
 contactClose.addEventListener('click', function (e) {
     e.preventDefault();
     contactModal.style.display = 'none';
+    document.querySelector('body').style.overflow = '';
 });
 
 contactForm.addEventListener('submit', function (e) {
