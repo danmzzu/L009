@@ -6,13 +6,13 @@ const contactForm = document.getElementById('contact-form');
 contactLink.addEventListener('click', function (e) {
     e.preventDefault();
     contactModal.style.display = 'grid';
-    document.querySelector('body') = 'hidden';
+    document.querySelector('body, html').style.overflow = 'hidden';
 });
 
 contactClose.addEventListener('click', function (e) {
     e.preventDefault();
     contactModal.style.display = 'none';
-    document.querySelector('body').style.overflow = '';
+    document.querySelector('body, html').style.overflow = '';
 });
 
 contactForm.addEventListener('submit', function (e) {
