@@ -19,6 +19,9 @@ h2 {
 
 p { color: #999; }
 
+input,
+textarea,
+button,
 p,
 a,
 a:visited {
@@ -28,6 +31,7 @@ a:visited {
 a { color: #fff; }
 
 a i {
+    vertical-align: middle;
     margin-right: 10px;
     font-size: clamp(14px, 2.7vw, 20px);
 }

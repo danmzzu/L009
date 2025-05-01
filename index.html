@@ -37,13 +37,18 @@
         <link rel="stylesheet" href="styles/components/category.css">
         <link rel="stylesheet" href="styles/components/footer.css">
         <link rel="stylesheet" href="styles/components/stars.css">
+        <link rel="stylesheet" href="styles/components/modal.css">
+        <link rel="stylesheet" href="styles/components/fields.css">
 
         <!-- Scripts Global -->
         <script defer src="scripts/global/security.js"></script>
+        <script defer src="scripts/global/jquery.js"></script>
+        <script defer src="scripts/global/jquery_mask.js"></script>
 
         <!-- Scripts Components -->
         <script defer src="scripts/components/feedback.js"></script>
         <script defer src="scripts/components/stars.js"></script>
+        <script defer src="scripts/components/contact.js"></script>
 
         <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVJ5ZW3H2X"></script>
@@ -55,6 +60,26 @@
         </script>
     </head>
     <body>
+
+        <!-- Modal -->
+        <section class="modal" id="contact-modal">
+            <div class="card">
+                <div class="card-border"></div>
+                <form id="contact-form" method="post" class="card-container">
+                    <h2>Contato</h2>
+                    <p>Caso não queira usar nossos canais de contato, você pode enviar uma mensagem atravéz do nosso formulário abaixo.</p>
+                    <input type="text" placeholder="Nome completo" max="100">
+                    <input type="text" class="phone-mask" placeholder="(00) 00000-0000">
+                    <input type="text" placeholder="Assunto" maxlength="100">
+                    <textarea placeholder="Mensagem" maxlength="1000"></textarea>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <a href="#" id="contact-close">Fechar</a>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
         
         <!-- Header -->
         <header>
@@ -290,6 +315,7 @@
         </section>
         <footer>
             <div>
+                <a href="#" id="contact-link" rel="noopener noreferrer" aria-label="Abrir formulário de contato" title="Abrir formulário de contato"><i class="bi bi-link-45deg"></i>Contato</a>
                 <a href="#" rel="noopener noreferrer" aria-label="Ir para a página de poílicas de privacidade" title="Ir para a página de poílicas de privacidade"><i class="bi bi-link-45deg"></i>Políticas de privacidade</a>
                 <a href="#" rel="noopener noreferrer" aria-label="Ir para a página de termos de uso" title="Ir para a página de termos de uso"><i class="bi bi-link-45deg"></i>Termos de uso</a>
             </div>
