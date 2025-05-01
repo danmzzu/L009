@@ -20,6 +20,7 @@
     flex-direction: row;
     gap: 15px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .modal div button:last-child {
