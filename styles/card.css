@@ -1,0 +1,99 @@
+.card {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.card-border {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    right: -200px;
+    bottom: -200px;
+    z-index: 0;
+    background-image: conic-gradient(#555 20deg, transparent 120deg);
+    border-radius: 10px;
+    animation: cardBorder 3s linear infinite;
+}
+
+.card-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+@keyframes cardBorder {
+    100% { transform: rotate(-360deg); }
+}
+
+.card-feedback-client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.card-feedback-client h2 {
+    width: 100%;
+    text-align: left;
+}
+
+.card-feedback-avatar {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 3px solid var(--quaternary);
+    filter: grayscale(100%);
+}
+
+.card:nth-of-type(1) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/women/14.jpg'); }
+.card:nth-of-type(2) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/men/76.jpg'); }
+.card:nth-of-type(3) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/women/56.jpg'); }
+.card:nth-of-type(4) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/men/33.jpg'); }
+.card:nth-of-type(5) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/women/13.jpg'); }
+.card:nth-of-type(6) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/men/27.jpg'); }
+
+.card-feedback-stars {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.card-feedback-stars i {
+    transform-origin: center;
+    animation: starJump 1s ease-in-out;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes starJump {
+    0% { 
+        opacity: 0;
+        transform: scale(1);
+    }
+    50% { 
+        opacity: 0.5;
+        transform: scale(1);
+    }
+    100% { 
+        opacity: 1;
+        transform: scale(1);
+        rotate: 360deg;
+    }
+}
