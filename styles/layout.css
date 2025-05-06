@@ -49,7 +49,7 @@ h3 { font-size: clamp(1rem, 3vw, 1.2rem); }
 
 p, a { 
     width: fit-content;
-    font-size: clamp(12px, 2.5vw, 14px); 
+    font-size: clamp(12px, 2vw, 14px); 
 }
 
 i {
@@ -58,7 +58,7 @@ i {
     font-size: clamp(18px, 2.5vw, 18px); 
 }
 
-small { font-size: clamp(0.8rem, 1.4vw, 0.8rem); }
+small { font-size: clamp(0.9rem, 2vw, 0.9rem); }
 
 /* Grid */
 .grid {
