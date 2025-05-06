@@ -1,9 +1,0 @@
-.category {
-    width: 100%;
-    max-width: 1200px;
-    margin: 100px auto 30px auto;
-}
-
-.category:first-child {
-    margin-top: 0;
-}
