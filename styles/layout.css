@@ -58,7 +58,7 @@ i {
     font-size: clamp(18px, 2.5vw, 18px);
 }
 
-small { font-size: clamp(11px, 2vw, 11px); }
+small { font-size: clamp(12px, 2vw, 12px); }
 
 /* Grid */
 .grid {
