@@ -8,16 +8,27 @@
     border-radius: 20px;
 }
 
+:root { 
+    --border-size: -400px;
+}
+
 .card-border {
     position: absolute;
-    top: -400px;
-    left: -400px;
-    right: -400px;
-    bottom: -400px;
+    top: var(--border-size);
+    left: var(--border-size);
+    right: var(--border-size);
+    bottom: var(--border-size);
     z-index: 0;
     background-image: conic-gradient(var(--theme) 20deg, transparent 120deg);
     border-radius: 10px;
     animation: cardBorder 3s linear infinite;
+}
+
+@media (max-width: 900px) {
+    :root { 
+        --border-size: -200px;
+    }
+    
 }
 
 .card-container {

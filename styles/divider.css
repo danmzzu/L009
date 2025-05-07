@@ -3,5 +3,5 @@
     max-width: 1200px;
     height: 1px;
     margin: 70px auto;
-    border-bottom: 1px dashed #444;
+    border-bottom: 1px dashed var(--divider);
 }

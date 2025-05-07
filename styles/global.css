@@ -7,6 +7,7 @@
     --primary: #fff;
     --secondary: #bababa;
     --tertiary: #666;
+    --divider: #444;
 }
 
 *,
@@ -38,7 +39,7 @@ body { background-color: #000; }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb { border-radius: 5px; }
 ::-webkit-scrollbar-track { background: #000; }
-::-webkit-scrollbar-thumb { background: #555; }
+::-webkit-scrollbar-thumb { background: #333; }
 ::-webkit-scrollbar-thumb:hover {  background: #fff; }
 
 @media (max-width: 1200px) {
