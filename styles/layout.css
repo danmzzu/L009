@@ -57,7 +57,7 @@ ul {
     flex-direction: column;
     gap: 5px;
     margin-left: 15px; 
-    list-style: square; 
+    list-style: disc;
 }
 
 ul li { font-size: clamp(12px, 2vw, 14px); }
