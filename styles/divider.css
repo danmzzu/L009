@@ -1,0 +1,7 @@
+.divider {
+    width: 100%;
+    max-width: 1200px;
+    height: 1px;
+    margin: 70px auto;
+    border-bottom: 2px dashed #444;
+}

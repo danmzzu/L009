@@ -15,7 +15,7 @@
     right: -200px;
     bottom: -200px;
     z-index: 0;
-    background-image: conic-gradient(#555 20deg, transparent 120deg);
+    background-image: conic-gradient(var(--theme) 20deg, transparent 120deg);
     border-radius: 10px;
     animation: cardBorder 3s linear infinite;
 }

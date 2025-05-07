@@ -9,7 +9,7 @@ footer {
     margin-inline: auto;
 }
 
-footer { margin: 150px auto 50px auto; }
+footer { margin-bottom: 50px; }
 
 footer section { 
     display: flex;
@@ -19,7 +19,7 @@ footer section {
 
 footer section:last-child { text-align: right; }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     footer section { align-items: center; }
     footer section:last-child { text-align: center; }
 }
@@ -31,11 +31,11 @@ p { color: var(--secondary);  }
 
 a, a:visited { color: var(--primary); }
 
-a:hover { color: var(--tertiary); }
+a:hover { color: var(--theme); }
 
-i { color: var(--tertiary); }
+i { color: var(--theme); }
 
-small { color: var(--quaternary); }
+small { color: var(--tertiary); }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 { 
@@ -55,10 +55,10 @@ p, a {
 i {
     vertical-align: middle;
     margin-right: 10px;
-    font-size: clamp(18px, 2.5vw, 18px); 
+    font-size: clamp(18px, 2.5vw, 18px);
 }
 
-small { font-size: clamp(0.9rem, 2vw, 0.9rem); }
+small { font-size: clamp(11px, 2vw, 11px); }
 
 /* Grid */
 .grid {

@@ -18,9 +18,7 @@
                  0 0 60px #000;
 }
 
-.infinite-letter:last-child {
-    color: var(--tertiary);
-}
+.infinite-letter:last-child { color: var(--theme); }
 
 .infinite-container {
     display: flex;
@@ -85,4 +83,9 @@
     .infinite { height: 300px; }
     .infinite-letter { font-size: 60px; }
     .infinite-container { width: 90px; }
+    .infinite-container .infinite-circle span::before {
+        box-shadow: 0 0 10px var(--primary),
+                0 0 20px var(--primary),
+                0 0 40px var(--primary);
+    }
 }
