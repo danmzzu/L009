@@ -10,10 +10,10 @@
 
 .card-border {
     position: absolute;
-    top: -200px;
-    left: -200px;
-    right: -200px;
-    bottom: -200px;
+    top: -400px;
+    left: -400px;
+    right: -400px;
+    bottom: -400px;
     z-index: 0;
     background-image: conic-gradient(var(--theme) 20deg, transparent 120deg);
     border-radius: 10px;

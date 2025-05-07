@@ -17,7 +17,6 @@
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
-    list-style: none;
     font-family: "Poppins", sans-serif;
     transition: all 0.3s ease-in-out;
     text-rendering: optimizeLegibility;
