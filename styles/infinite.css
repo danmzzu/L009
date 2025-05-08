@@ -62,9 +62,9 @@
     box-shadow: 0 0 10px var(--primary),
                 0 0 20px var(--primary),
                 0 0 40px var(--primary),
-                0 0 60px var(--primary),
-                0 0 80px var(--primary),
-                0 0 100px var(--primary);
+                0 0 60px var(--theme),
+                0 0 80px var(--theme),
+                0 0 100px var(--theme);
     transform: scale(0.1);
     animation: infiniteCircle 4s linear infinite;
     animation-delay: calc(0.1s * var(--i));
