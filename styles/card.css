@@ -61,7 +61,7 @@
     text-align: left;
 }
 
-.card-feedback-avatar {
+.card-feedback-client img {
     width: 60px;
     min-width: 60px;
     height: 60px;
@@ -73,13 +73,6 @@
     border: 3px solid var(--quaternary);
     filter: grayscale(100%);
 }
-
-.card:nth-of-type(1) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/women/14.jpg'); }
-.card:nth-of-type(2) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/men/76.jpg'); }
-.card:nth-of-type(3) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/women/56.jpg'); }
-.card:nth-of-type(4) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/men/33.jpg'); }
-.card:nth-of-type(5) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/women/13.jpg'); }
-.card:nth-of-type(6) .card-feedback-avatar { background-image: url('https://randomuser.me/api/portraits/men/27.jpg'); }
 
 .card-feedback-stars {
     display: flex;
