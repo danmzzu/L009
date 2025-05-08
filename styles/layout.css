@@ -20,6 +20,7 @@ footer section {
 footer section:last-child { text-align: right; }
 
 @media (max-width: 768px) {
+    footer section i { display: none; }
     footer section { align-items: center; }
     footer section:last-child { text-align: center; }
 }
