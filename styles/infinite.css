@@ -9,7 +9,7 @@
 
 .infinite-letter {
     font-size: 90px;
-    color: #fff;
+    color: var(--primary);
     font-family: "Saira", sans-serif !important;
     font-weight: 500;
 }
