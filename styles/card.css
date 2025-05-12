@@ -20,7 +20,19 @@
     bottom: var(--border-size);
     z-index: 0;
     background-image: conic-gradient(var(--theme) 60deg, transparent 150deg);
-    animation: cardBorder 3s linear infinite;
+    animation: cardBorderForward 3s linear infinite;
+}
+
+.card-border.card-reverse {
+    animation: cardBorderBackward 4s linear infinite;
+}
+
+@keyframes cardBorderForward {
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes cardBorderBackward {
+    100% { transform: rotate(-360deg); }
 }
 
 @media (max-width: 900px) {
@@ -41,10 +53,6 @@
     padding: 20px;
     border-radius: 20px;
     background-color: #101010;
-}
-
-@keyframes cardBorder {
-    100% { transform: rotate(-360deg); }
 }
 
 .card-feedback-client {
