@@ -1,7 +1,27 @@
 .divider {
+    position: relative;
     width: 100%;
     max-width: 1200px;
     height: 1px;
     margin: 70px auto;
     border-bottom: 1px dashed var(--divider);
+}
+
+.divider::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 2px dashed var(--theme);
+    animation: pulseDivider 1s infinite alternate;
+}
+
+@keyframes pulseDivider {
+    0% { transform: translate(-50%, -50%) scale(0.8); }
+    100% { transform: translate(-50%, -50%) scale(1.2) rotate(360deg); }
 }
