@@ -60,6 +60,7 @@ code {
 
 pre {
     width: 100%;
+    overflow-x: auto !important;
     line-height: 25px;
     padding: 15px;
     border-radius: 20px;
