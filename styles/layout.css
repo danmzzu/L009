@@ -59,6 +59,7 @@ code {
 }
 
 pre {
+    display: block;
     width: 100%;
     overflow-x: auto !important;
     line-height: 25px;
