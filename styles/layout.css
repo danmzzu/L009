@@ -56,8 +56,9 @@ ul li,
 code { 
     width: fit-content;
     font-size: clamp(12px, 2vw, 14px);
-    overflow: auto !important;
 }
+
+code { overflow: auto !important; }
 
 pre {
     display: block;
