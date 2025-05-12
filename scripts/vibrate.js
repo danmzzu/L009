@@ -5,7 +5,7 @@ let vibrateSound;
 function createAudioElement() {
     vibrateSound = document.createElement('audio');
     vibrateSound.id = 'vibrateSound';
-    vibrateSound.src = 'audios/vibrate.mp3';
+    vibrateSound.src = '../audios/vibrate.mp3';
     vibrateSound.preload = 'auto';
     document.body.appendChild(vibrateSound);
 }
