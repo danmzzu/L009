@@ -19,9 +19,8 @@
     right: var(--border-size);
     bottom: var(--border-size);
     z-index: 0;
-    background-image: conic-gradient(var(--theme) 20deg, transparent 120deg);
-    border-radius: 10px;
-    animation: cardBorder 3s linear infinite;
+    background-image: conic-gradient(var(--theme) 100deg, transparent 160deg);
+    animation: cardBorder 4s linear infinite;
 }
 
 @media (max-width: 900px) {
