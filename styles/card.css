@@ -4,7 +4,7 @@
     place-items: center;
     width: 100%;
     overflow: hidden;
-    padding: 2px;
+    padding: 1px;
     border-radius: 20px;
 }
 
@@ -19,7 +19,7 @@
     right: var(--border-size);
     bottom: var(--border-size);
     z-index: 0;
-    background-image: conic-gradient(var(--theme) 60deg, transparent 150deg);
+    background-image: conic-gradient(#333 60deg, transparent 150deg);
     animation: cardBorder 3s linear infinite;
 }
 
@@ -40,7 +40,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 20px;
-    background-color: #101010;
+    background-color: #000;
 }
 
 @keyframes cardBorder {
@@ -99,8 +99,4 @@
         transform: scale(1);
         rotate: 360deg;
     }
-}
-
-@media (max-width: 1200px) {
-    .card-container { background-color: #080808; }
 }
