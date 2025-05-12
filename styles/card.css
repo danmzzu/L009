@@ -52,7 +52,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 20px;
-    background-image: linear-gradient(to top left, #000 50%, #101010 50%);
+    background-color: #101010;
 }
 
 .card-feedback-client {
