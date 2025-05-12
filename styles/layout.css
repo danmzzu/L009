@@ -56,12 +56,12 @@ ul li,
 code { 
     width: fit-content;
     font-size: clamp(12px, 2vw, 14px);
+    overflow: auto !important;
 }
 
 pre {
     display: block;
     width: 100%;
-    overflow: auto !important;
     line-height: 25px;
     padding: 15px;
     border-radius: 20px;
