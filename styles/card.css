@@ -19,7 +19,7 @@
     right: var(--border-size);
     bottom: var(--border-size);
     z-index: 0;
-    background-image: conic-gradient(#333 60deg, transparent 150deg);
+    background-image: conic-gradient(var(--theme) 60deg, transparent 150deg);
     animation: cardBorder 3s linear infinite;
 }
 
@@ -40,7 +40,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 20px;
-    background-color: #000;
+    background-color: #101010;
 }
 
 @keyframes cardBorder {
