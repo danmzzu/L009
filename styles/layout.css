@@ -13,16 +13,25 @@ footer { margin-bottom: 50px; }
 
 footer section { 
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 15px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-footer section:last-child { text-align: right; }
+footer section:last-child { 
+    justify-content: flex-end; 
+    text-align: right; 
+}
 
 @media (max-width: 768px) {
     footer section i { display: none; }
-    footer section { align-items: center; }
-    footer section:last-child { text-align: center; }
+    footer section { justify-content: center; align-items: center; }
+    footer section:last-child { 
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 /* Colors */
