@@ -4,7 +4,7 @@
     place-items: center;
     width: 100%;
     overflow: hidden;
-    padding: 2px;
+    padding: 1px;
     border-radius: 20px;
 }
 
@@ -52,7 +52,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 20px;
-    background-color: #101010;
+    background-color: #000;
 }
 
 .card-feedback-client {
