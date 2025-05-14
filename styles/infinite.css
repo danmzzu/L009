@@ -1,5 +1,6 @@
 .infinite {
     position: relative;
+    top: -25px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,7 +11,7 @@
 
 .infinite-subtitle {
     position: absolute;
-    top: 320px;
+    top: 290px;
     left: 50%;
     transform: translateX(-50%);
     color: var(--tertiary);
@@ -88,7 +89,7 @@
 
 @media all and (max-width: 800px) {
     .infinite { height: 300px; }
-    .infinite-subtitle { top: 200px; }
+    .infinite-subtitle { top: 170px; }
     .infinite-letter { font-size: 60px; }
     .infinite-container { width: 90px; }
     .infinite-container .infinite-circle span::before {
