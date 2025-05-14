@@ -25,7 +25,7 @@ footer section:last-child {
     text-align: right; 
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     footer section i { display: none; }
     footer section { justify-content: center; align-items: center; }
     footer section:last-child { 
