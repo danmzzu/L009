@@ -1,10 +1,23 @@
 .infinite {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 15px;
     height: 500px;
+}
+
+.infinite-subtitle {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--tertiary);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .infinite-letter {
@@ -75,6 +88,7 @@
 
 @media all and (max-width: 800px) {
     .infinite { height: 300px; }
+    .infinite-subtitle { top: 200px; }
     .infinite-letter { font-size: 60px; }
     .infinite-container { width: 90px; }
     .infinite-container .infinite-circle span::before {
