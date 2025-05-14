@@ -35,7 +35,7 @@
     100% { transform: rotate(-360deg); }
 }
 
-@media (max-width: 900px) {
+@media all and (max-width: 900px) {
     :root { 
         --border-size: -200px;
     }
