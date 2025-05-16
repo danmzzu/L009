@@ -23,5 +23,5 @@
 
 @keyframes pulseDivider {
     0% { transform: translate(-50%, -50%) scale(0.8); }
-    100% { transform: translate(-50%, -50%) scale(1.2) rotate(360deg); }
+    100% { transform: translate(-50%, -50%) scale(1.5) rotate(360deg); }
 }
