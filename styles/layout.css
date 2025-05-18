@@ -83,7 +83,7 @@ ul li::before {
 
 i {
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 7px;
     font-size: clamp(18px, 2.5vw, 18px);
 }
 
