@@ -39,8 +39,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--primary); }
 
 p, ul li { color: var(--secondary); }
 
-code { color: var(--theme); }
-
 a, a:visited { color: var(--primary); }
 
 a:hover { color: var(--theme); }
@@ -61,8 +59,7 @@ h3 { font-size: clamp(1rem, 3vw, 1.2rem); }
 
 p, 
 a,
-ul li,
-code { 
+ul li { 
     width: fit-content;
     font-size: clamp(12px, 2vw, 14px);
 }
