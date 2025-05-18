@@ -94,7 +94,7 @@
     .infinite-container { width: 110px; }
     .infinite-container .infinite-circle span::before {
         box-shadow: 0 0 10px var(--theme),
-                0 0 20px var(--theme),
-                0 0 40px var(--theme);
+                    0 0 20px var(--theme),
+                    0 0 40px var(--theme);
     }
 }
