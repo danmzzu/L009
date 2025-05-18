@@ -6,6 +6,14 @@
     overflow: hidden;
     padding: 1px;
     border-radius: 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 :root { 
