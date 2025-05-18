@@ -52,7 +52,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 20px;
-    background-color: #000;
+    background-color: #090909;
 }
 
 .card-feedback-client {
@@ -63,7 +63,9 @@
     width: 100%;
 }
 
-.card-feedback-client h2 {
+.card-feedback-client h1,
+.card-feedback-client h2,
+.card-feedback-client h3 {
     width: 100%;
     text-align: left;
 }
