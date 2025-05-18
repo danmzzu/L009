@@ -1,3 +1,4 @@
+// Card Feedback Stars
 document.addEventListener('DOMContentLoaded', function() {
     const starContainers = document.querySelectorAll('.card-feedback-stars');
 
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Card Fadein - Out
 document.addEventListener('DOMContentLoaded', () => {
     const cards = document.querySelectorAll('.card');
 
