@@ -67,16 +67,7 @@ code {
     font-size: clamp(12px, 2vw, 14px);
 }
 
-code { overflow: auto !important; }
-
-pre {
-    display: block;
-    width: 100%;
-    line-height: 25px;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: #000;
-}
+p.italic { font-style: italic; }
 
 ul {
     display: flex;
