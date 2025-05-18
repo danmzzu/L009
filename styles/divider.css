@@ -13,8 +13,8 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, );
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     background-color: #000;
     border-radius: 50%;
     border: 2px dashed var(--theme);
@@ -27,12 +27,13 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     background-color: #000;
     border-radius: 50%;
     border: 2px dashed var(--theme);
     animation: pulseDivider 1s infinite alternate;
+    animation-delay: 1s;
 }
 
 @keyframes pulseDivider {
