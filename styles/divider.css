@@ -37,6 +37,12 @@
 }
 
 @keyframes pulseDivider {
-    0% { transform: translate(-50%, -50%) scale(0.8); }
-    100% { transform: translate(-50%, -50%) scale(1.5) rotate(360deg); }
+  0% {
+    transform: translate(-50%, -50%) scale(0.2);
+    border: 4px dashed var(--divider);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5) rotate(360deg);
+    border: 1px dashed var(--theme);
+  }
 }
