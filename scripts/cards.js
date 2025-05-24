@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const cards = document.querySelectorAll('.card');
-    let lastScrollY = window.scrollY; // Armazena a última posição do scroll
+    let lastScrollY = window.scrollY;
 
     const observer = new IntersectionObserver(entries => {
         const currentScrollY = window.scrollY;
@@ -40,24 +40,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                // Se o card está entrando na viewport
                 if (isScrollingDown) {
-                    // Rolando para baixo: surgir de baixo
                     entry.target.classList.add('visible-from-bottom');
                     entry.target.classList.remove('visible-from-top');
                 } else {
-                    // Rolando para cima: surgir de cima
                     entry.target.classList.add('visible-from-top');
                     entry.target.classList.remove('visible-from-bottom');
                 }
             } else {
-                // Se o card está saindo da viewport, remove as classes de visibilidade
                 entry.target.classList.remove('visible-from-bottom');
                 entry.target.classList.remove('visible-from-top');
             }
         });
-        lastScrollY = currentScrollY; // Atualiza a última posição do scroll
-    }, { threshold: 0.1 }); // Ajuste o threshold conforme necessário
+        lastScrollY = currentScrollY;
+    }, { threshold: 0.1 });
 
     cards.forEach(card => {
         observer.observe(card);
