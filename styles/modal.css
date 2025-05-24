@@ -1,0 +1,61 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal .card { position: relative; }
+
+.modal .card i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 11;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modal .card input,
+.modal .card textarea {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #353535;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.modal .card textarea {
+    resize: none;
+    height: 150px;
+}
+
+.modal .card button {
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #000;
+    background-color: var(--theme);
+}
+
+.modal .error {
+    display: none;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px dashed var(--theme);
+    color: var(--theme);
+}
+
+@media all and (max-width: 1200px) {
+    .modal { padding-inline: 20px; }
+}
