@@ -1,16 +1,21 @@
 const contactForm = document.getElementById('contact');
 const contactError = document.getElementById('contact-error');
+const contactStatus = document.getElementById('contact-status');
 
 contactForm.addEventListener('submit', async function(event) {
     event.preventDefault();
+
+    contactError.textContent = '';
+    contactError.style.display = 'none';
+    if (contactStatus) {
+        contactStatus.textContent = '';
+        contactStatus.style.display = 'none';
+    }
 
     const contactName = document.getElementById('contact-name').value.trim();
     const contactPhone = document.getElementById('contact-phone').value.trim();
     const contactSubject = document.getElementById('contact-subject').value.trim();
     const contactMessage = document.getElementById('contact-message').value.trim();
-
-    contactError.textContent = '';
-    contactError.style.display = 'none';
 
     let isValid = true;
     let errorMessage = [];
@@ -39,6 +44,15 @@ contactForm.addEventListener('submit', async function(event) {
         contactError.innerHTML = errorMessage.join('');
         contactError.style.display = 'block';
     } else {
+        if (contactStatus) {
+            contactStatus.textContent = 'Enviando...';
+            contactStatus.style.display = 'block';
+        } else {
+            contactError.innerHTML = 'Enviando...';
+            contactError.style.display = 'block';
+        }
+
+
         const fullMessage = `
             <p><strong>Nome:</strong> ${contactName}</p>
             <p><strong>Telefone:</strong> ${contactPhone}</p>
@@ -63,6 +77,10 @@ contactForm.addEventListener('submit', async function(event) {
                 body: JSON.stringify(emailData)
             });
 
+            if (contactStatus) {
+                contactStatus.style.display = 'none';
+            }
+
             if (!response.ok) {
                 const errorData = await response.json();
                 console.error('Erro ao Enviar Email:', errorData.error || 'Erro desconhecido.');
@@ -72,13 +90,16 @@ contactForm.addEventListener('submit', async function(event) {
             }
 
             const data = await response.json();
-
             console.log('Email enviado com sucesso!', data.message);
-            alert('Sua mensagem foi enviada com sucesso!');
+
+            contactError.innerHTML = 'Sua mensagem foi enviada com sucesso!';
+            contactError.style.display = 'block';
 
             contactForm.reset();
-            contactError.style.display = 'none';
         } catch (error) {
+            if (contactStatus) {
+                contactStatus.style.display = 'none';
+            }
             console.error('Erro na requisição fetch:', error);
             contactError.innerHTML = 'Houve um problema de conexão. Verifique sua internet ou tente novamente.';
             contactError.style.display = 'block';
