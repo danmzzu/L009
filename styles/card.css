@@ -73,12 +73,6 @@
     100% { transform: rotate(-360deg); }
 }
 
-@media all and (max-width: 900px) {
-    :root { 
-        --border-size: -200px;
-    }
-}
-
 .card-container {
     position: relative;
     z-index: 2;
@@ -190,4 +184,14 @@
     margin-bottom: 10px;
     border: 1px dashed #353535;
     color: var(--theme);
+}
+
+@media all and (max-width: 900px) {
+    :root { 
+        --border-size: -200px;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .card-container { background-color: #121212; }
 }
