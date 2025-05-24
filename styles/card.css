@@ -27,11 +27,12 @@
     right: var(--border-size);
     bottom: var(--border-size);
     z-index: 0;
-    background-image: conic-gradient(var(--theme) 60deg, transparent 150deg);
+    background-image: conic-gradient(transparent 0deg 60deg, var(--theme) 150deg 240deg, transparent 150deg);
     animation: cardBorderForward 3s linear infinite;
 }
 
 .card-border.card-reverse {
+    background-image: conic-gradient(var(--theme) 0deg 60deg, transparent 150deg 240deg, var(--theme) 150deg);
     animation: cardBorderBackward 4s linear infinite;
 }
 
