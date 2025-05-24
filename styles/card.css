@@ -152,6 +152,6 @@
     padding: 7px 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    border: 1px dashed var(--theme);
+    border: 1px dashed #353535;
     color: var(--theme);
 }
