@@ -146,6 +146,12 @@
     background-color: var(--theme);
 }
 
+.card button:disabled {
+    color: #777;
+    cursor: default;
+    background-color: #252525;
+}
+
 .card .error {
     display: none;
     width: 100%;

@@ -1,6 +1,7 @@
 const contactForm = document.getElementById('contact');
 const contactError = document.getElementById('contact-error');
 const contactStatus = document.getElementById('contact-status');
+const contactButton = document.getElementById('contact-button');
 
 contactForm.addEventListener('submit', async function(event) {
     event.preventDefault();
@@ -44,6 +45,8 @@ contactForm.addEventListener('submit', async function(event) {
         contactError.innerHTML = errorMessage.join('');
         contactError.style.display = 'block';
     } else {
+        contactButton.disabled = true;
+
         if (contactStatus) {
             contactStatus.textContent = 'Enviando...';
             contactStatus.style.display = 'block';
@@ -51,7 +54,6 @@ contactForm.addEventListener('submit', async function(event) {
             contactError.innerHTML = 'Enviando...';
             contactError.style.display = 'block';
         }
-
 
         const fullMessage = `
             <p><strong>Nome:</strong> ${contactName}</p>
@@ -103,6 +105,8 @@ contactForm.addEventListener('submit', async function(event) {
             console.error('Erro na requisição fetch:', error);
             contactError.innerHTML = 'Houve um problema de conexão. Verifique sua internet ou tente novamente.';
             contactError.style.display = 'block';
+        } finally {
+            contactButton.disabled = false;
         }
     }
 });
