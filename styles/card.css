@@ -119,6 +119,8 @@
     }
 }
 
+.card input { text-transform: capitalize; }
+
 .card input,
 .card textarea {
     width: 100%;

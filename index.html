@@ -42,6 +42,7 @@
         <script defer src="scripts/security.js"></script>
         <script defer src="scripts/cards.js"></script>
         <script defer src="scripts/phone_mask.js"></script>
+        <script defer src="scripts/contact.js"></script>
         <script defer src="scripts/current_year.js"></script>
 
         <!-- Google Analytics -->
@@ -350,27 +351,21 @@
                         <p>Preencha os campos abaixo para que possamos entrar em contato com você posteriormente.</p>
                         <div class="grid g-2 gap-15">
                             <div class="fields">
-                                <input type="text" placeholder="Nome completo">
+                                <input id="contact-name" type="text" placeholder="Nome completo">
                             </div>
                             <div class="fields">
-                                <input type="text" class="phone-mask" placeholder="(00) 00000-0000">
+                                <input id="contact-phone" type="text" class="phone-mask" placeholder="(00) 00000-0000">
                             </div>
                         </div>
                         <div class="grid g-1 gap-15">
-                            <div class="fields">
-                                <input type="text" placeholder="Assunto">
-                            </div>
+                            <input id="contact-subject" type="text" placeholder="Assunto">
                         </div>
                         <div class="grid g-1 gap-15">
-                            <div class="fields">
-                                <textarea placeholder="Mensagem"></textarea>
-                            </div>
+                            <textarea id="contact-message" placeholder="Mensagem"></textarea>
                         </div>
                         <div class="grid g-1 gap-15">
-                            <div class="fields">
-                                <p class="error">Erro</p>
-                                <button type="submit">Enviar</button>
-                            </div>
+                            <p id="contact-error" class="error">Erro</p>
+                            <button type="submit">Enviar</button>
                         </div>
                     </div>
                 </div>
