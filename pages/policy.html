@@ -29,13 +29,17 @@
         <link rel="stylesheet" href="../styles/global.css">
         <link rel="stylesheet" href="../styles/layout.css">
         <link rel="stylesheet" href="../styles/card.css">
+        <link rel="stylesheet" href="../styles/effects.css">
         <link rel="stylesheet" href="../styles/divider.css">
         <link rel="stylesheet" href="../styles/infinite.css">
 
         <!-- Scripts -->
         <script defer src="../scripts/security.js"></script>
         <script defer src="../scripts/current_year.js"></script>
-        <script defer src="../scripts/cards.js"></script>
+        <script defer src="../scripts/card.js"></script>
+        <script defer src="../scripts/phone_mask.js"></script>
+        <script defer src="../scripts/contact.js"></script>
+        <script defer src="../scripts/effects.js"></script>
 
         <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVJ5ZW3H2X"></script>
@@ -106,7 +110,7 @@
 
         <!-- Main -->
         <main>
-            <section>
+            <section> <!-- Privacy Policy -->
                 <div class="grid g-1">
                     <div class="card">
                         <div class="card-border"></div>
@@ -132,6 +136,77 @@
                     </div>
                 </div>
             </section>
+
+            <div class="divider"></div>
+
+            <section id="social"> <!-- Social -->
+                <div class="grid g-3">
+                    <div class="card">
+                        <div class="card-border"></div>
+                        <div class="card-container">
+                            <small>Social</small>
+                            <h3><i class="bi bi-instagram"></i> Instagram</h3>
+                            <p>A L009 nasceu da visão de Daniel Mazzeu, um experiente analista de sistemas independente.</p>
+                            <a href="https://www.instagram.com/l009ig/" target="_blank" title="Acesse o Instagram">
+                                <i class="bi bi-link-45deg" aria-hidden="true"></i>Acessar
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-border"></div>
+                        <div class="card-container">
+                            <small>Social</small>
+                            <h3><i class="bi bi-facebook"></i> Facebook Page</h3>
+                            <p>A L009 nasceu da visão de Daniel Mazzeu, um experiente analista de sistemas independente.</p>
+                            <a href="https://www.facebook.com/l009fb" target="_blank" title="Acesse a Facebook Page">
+                                <i class="bi bi-link-45deg" aria-hidden="true"></i>Acessar
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-border"></div>
+                        <div class="card-container">
+                            <small>Social</small>
+                            <h3><i class="bi bi-telegram"></i> Telegram Chatbot</h3>
+                            <p>A L009 nasceu da visão de Daniel Mazzeu, um experiente analista de sistemas independente.</p>
+                            <a href="https://t.me/l009telegrambot" target="_blank" title="Acesse o chatbot do telegram">
+                                <i class="bi bi-link-45deg" aria-hidden="true"></i>Acessar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <form id="contact"> <!-- Contact -->
+                <div class="card">
+                    <div class="card-border card-reverse"></div>
+                    <div class="card-container">
+                        <small>Formulário</small>
+                        <h1>Contato</h1>
+                        <p>Preencha os campos abaixo para que possamos entrar em contato com você posteriormente.</p>
+                        <div class="grid g-2 gap-15">
+                            <div class="fields">
+                                <input id="contact-name" type="text" placeholder="Nome completo">
+                            </div>
+                            <div class="fields">
+                                <input id="contact-phone" type="text" class="phone-mask" placeholder="(00) 00000-0000">
+                            </div>
+                        </div>
+                        <div class="grid g-1 gap-15">
+                            <input id="contact-subject" type="text" placeholder="Assunto">
+                        </div>
+                        <div class="grid g-1 gap-15">
+                            <textarea id="contact-message" placeholder="Mensagem"></textarea>
+                        </div>
+                        <div class="grid g-1 gap-15">
+                            <p id="contact-error" class="error">Erro</p>
+                            <button id="contact-button" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </main>
 
         <!-- Divider -->
