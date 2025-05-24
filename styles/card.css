@@ -15,9 +15,38 @@
     transition: opacity 0.7s ease-out, transform 0.7s ease-out;
 }
 
-.card.visible {
+.card.visible-from-bottom {
     opacity: 1;
     transform: translateY(0);
+    animation: slideInFromBottom 0.6s ease-out forwards;
+}
+
+.card.visible-from-top {
+    opacity: 1;
+    transform: translateY(0);
+    animation: slideInFromTop 0.6s ease-out forwards;
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .card-border {
