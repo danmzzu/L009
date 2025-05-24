@@ -90,9 +90,9 @@
 @media all and (max-width: 800px) {
     .infinite { 
         height: 300px; 
-        top: -30px; 
+        top: -20px; 
     }
-    .infinite-subtitle { top: 175px; }
+    .infinite-subtitle { top: 185px; }
     .infinite-letter { font-size: 75px; }
     .infinite-container { width: 110px; }
     .infinite-container .infinite-circle span::before {
