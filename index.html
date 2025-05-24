@@ -37,14 +37,12 @@
         <link rel="stylesheet" href="styles/card.css">
         <link rel="stylesheet" href="styles/divider.css">
         <link rel="stylesheet" href="styles/infinite.css">
-        <link rel="stylesheet" href="styles/modal.css">
 
         <!-- Scripts -->
         <script defer src="scripts/security.js"></script>
         <script defer src="scripts/cards.js"></script>
         <script defer src="scripts/phone_mask.js"></script>
         <script defer src="scripts/current_year.js"></script>
-        <script defer src="scripts/modal.js"></script>
 
         <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVJ5ZW3H2X"></script>
@@ -79,42 +77,6 @@
         </script>
     </head>
     <body>
-
-        <!-- Contact -->
-        <form class="modal">
-            <div class="card" style="max-width: 500px;">
-                <i class="bi bi-x-circle-fill modal-close"></i>
-                <div class="card-border"></div>
-                <div class="card-container">
-                    <h1>Contato</h1>
-                    <p>Preencha os campos abaixo para que possamos entrar em contato com você posteriormente.</p>
-                    <div class="grid g-2 gap-15">
-                        <div class="fields">
-                            <input type="text" placeholder="Nome completo">
-                        </div>
-                        <div class="fields">
-                            <input type="text" class="phone-mask" placeholder="(00) 00000-0000">
-                        </div>
-                    </div>
-                    <div class="grid g-1 gap-15">
-                        <div class="fields">
-                            <input type="text" placeholder="Assunto">
-                        </div>
-                    </div>
-                    <div class="grid g-1 gap-15">
-                        <div class="fields">
-                            <textarea placeholder="Mensagem"></textarea>
-                        </div>
-                    </div>
-                    <div class="grid g-1 gap-15">
-                        <div class="fields">
-                            <p class="error">Erro</p>
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>
 
         <!-- Header -->
         <header id="home" role="banner" aria-label="Cabeçalho da L009">
@@ -376,6 +338,43 @@
                     </div>
                 </div>
             </section>
+
+            <div class="divider"></div>
+
+            <form id="contact"> <!-- Contato -->
+                <div class="card">
+                    <div class="card-border"></div>
+                    <div class="card-container">
+                        <small>Formulário</small>
+                        <h1>Contato</h1>
+                        <p>Preencha os campos abaixo para que possamos entrar em contato com você posteriormente.</p>
+                        <div class="grid g-2 gap-15">
+                            <div class="fields">
+                                <input type="text" placeholder="Nome completo">
+                            </div>
+                            <div class="fields">
+                                <input type="text" class="phone-mask" placeholder="(00) 00000-0000">
+                            </div>
+                        </div>
+                        <div class="grid g-1 gap-15">
+                            <div class="fields">
+                                <input type="text" placeholder="Assunto">
+                            </div>
+                        </div>
+                        <div class="grid g-1 gap-15">
+                            <div class="fields">
+                                <textarea placeholder="Mensagem"></textarea>
+                            </div>
+                        </div>
+                        <div class="grid g-1 gap-15">
+                            <div class="fields">
+                                <p class="error">Erro</p>
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </main>
 
         <div class="divider"></div>
@@ -395,7 +394,7 @@
                 <a href="#about" title="Saiba um pouco sobre a L009">
                     <i class="bi bi-link-45deg" aria-hidden="true"></i>Sobre
                 </a>
-                <a href="#" class="modal-open" title="Fale conosco pelo nosso formulário">
+                <a href="#contact" title="Fale conosco pelo nosso formulário">
                     <i class="bi bi-link-45deg" aria-hidden="true"></i>Contato
                 </a>
                 <a href="pages/policy.html" title="Leia nossa política de privacidade">

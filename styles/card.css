@@ -118,3 +118,38 @@
         rotate: 360deg;
     }
 }
+
+.card input,
+.card textarea {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #353535;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.card textarea {
+    resize: none;
+    height: 150px;
+}
+
+.card button {
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #000;
+    background-color: var(--theme);
+}
+
+.card .error {
+    display: none;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px dashed var(--theme);
+    color: var(--theme);
+}
