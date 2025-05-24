@@ -163,7 +163,7 @@
 .card button {
     width: fit-content;
     cursor: pointer;
-    padding: 10px;
+    padding: 8px 15px;
     border: 0;
     border-radius: 5px;
     color: #000;
