@@ -26,7 +26,7 @@
     animation: cardBorderForward 3s linear infinite;
 }
 
-.card-border.card-reverse {
+.card:nth-of-type(even) .card-border {
     background-image: conic-gradient(var(--theme) 0deg 60deg, transparent 150deg 240deg, var(--theme) 150deg);
     animation: cardBorderBackward 4s linear infinite;
 }
