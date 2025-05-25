@@ -1,6 +1,6 @@
 // Fade In Cards
 document.addEventListener('DOMContentLoaded', () => {
-    const elements = document.querySelectorAll('.card, .divider, footer, header, p:not(.infinite-subtitle), a, h1, h2, h3, h4, img, i, ul, input, textarea, button, small');
+    const elements = document.querySelectorAll('.card, .divider, footer, header, p:not(.infinite-subtitle), a, h1, h2, h3, h4, img, i, ul, input, textarea, button');
     let lastScrollY = window.scrollY;
 
     const observer = new IntersectionObserver(entries => {
