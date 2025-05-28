@@ -84,7 +84,10 @@
 
 @keyframes infiniteCircle {
     0% { transform: scale(1); }
-    50%, 100% { transform: scale(0.1) rotate(360deg); }
+    50%, 100% { 
+        transform: scale(0.1) rotate(360deg); 
+        filter: grayscale(75%); 
+    }
 }
 
 @media all and (max-width: 800px) {
