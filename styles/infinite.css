@@ -63,7 +63,7 @@
     position: absolute;
     top: calc(50% - 7.5px);
     right: 0;
-    width: 8px;
+    width: 7px;
     height: 15px;
     border-radius: 50%;
     background-color: var(--theme);
