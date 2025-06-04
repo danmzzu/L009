@@ -84,8 +84,7 @@
                 0 0 20px var(--theme),
                 0 0 40px var(--theme),
                 0 0 60px var(--theme),
-                0 0 80px var(--theme),
-                0 0 100px var(--theme);
+                0 0 80px var(--theme);
     }
     50%, 100% {  transform: scale(0) rotate(360deg); }
 }
