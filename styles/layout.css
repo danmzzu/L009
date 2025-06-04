@@ -76,7 +76,7 @@ ul {
   
 ul li::before {
     content: "●";
-    color: var(--theme);
+    color: var(--primary);
     display: inline-block;
     text-align: center;
     margin-right: 10px;
