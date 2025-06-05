@@ -116,16 +116,20 @@
             try {
                 await gapi.client.init({
                     discoveryDocs: DISCOVERY_DOCS,
-                    clientId: CLIENT_ID, // Usado para identificação do app
-                    scope: SCOPES,       // Escopos de permissão solicitados
                 });
                 console.log('gapi.client inicializado com sucesso.');
-                // Habilita o botão de autorização e atualiza a mensagem de status
+                // Após inicializar o gapi, habilita o botão de autorização
                 authButton.disabled = false;
                 authButton.textContent = 'Autorizar Google Agenda';
                 showMessage('Clique em "Autorizar Google Agenda" para conectar sua conta.', 'info');
             } catch (error) {
                 console.error('Erro ao inicializar gapi.client:', error);
+                if (error && error.details) {
+                    console.error('Detalhes do erro:', error.details);
+                }
+                if (error && error.error && error.error.message) {
+                    console.error('Mensagem de erro da API:', error.error.message);
+                }
                 showMessage('Erro ao carregar APIs do Google. Verifique o console.', 'error');
             }
         }
