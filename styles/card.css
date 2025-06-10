@@ -168,3 +168,27 @@
 @media all and (min-width: 900px) {
     .card-container { background-color: #121212; }
 }
+
+/* Especial Card Span */
+.special-span-card-1 { grid-column: auto / span 1; }
+.special-span-card-2 { grid-column: auto / span 2; }
+.special-span-card-3 { grid-column: auto / span 3; }
+.special-span-card-4 { grid-column: auto / span 4; }
+
+@media all and (max-width: 768px) {
+     .special-span-card-1,
+    .special-span-card-2,
+    .special-span-card-3,
+    .special-span-card-4 {
+        grid-column: auto / span 2;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .special-span-card-1,
+    .special-span-card-2,
+    .special-span-card-3,
+    .special-span-card-4 {
+        grid-column: auto / span 1;
+    }
+}
