@@ -64,7 +64,7 @@ contactForm.addEventListener('submit', async function(event) {
 
         const emailData = {
             To: "contato@l009.com.br",
-            Subject: `L009 - Novo Contato: ${contactSubject}`,
+            Subject: `L009 - Notificação: ${contactSubject}`,
             Message: fullMessage,
             html: true
         };
@@ -93,8 +93,13 @@ contactForm.addEventListener('submit', async function(event) {
             const data = await response.json();
             console.log('Email enviado com sucesso!', data.message);
 
-            contactError.innerHTML = 'Sua mensagem foi enviada com sucesso!';
-            contactError.style.display = 'block';
+            if (contactStatus) {
+                contactStatus.innerHTML = 'Sua mensagem foi enviada com sucesso!';
+                contactStatus.style.display = 'block';
+            } else {
+                contactError.innerHTML = 'Sua mensagem foi enviada com sucesso!';
+                contactError.style.display = 'block';
+            }
 
             contactForm.reset();
         } catch (error) {
