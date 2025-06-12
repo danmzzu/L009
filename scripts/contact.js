@@ -64,7 +64,7 @@ contactForm.addEventListener('submit', async function(event) {
 
         const emailData = {
             Brand: "L009",
-            To: "danmzzu@gmail.com",
+            To: "contato@l009.com.br",
             Subject: `L009 - Novo Contato: ${contactSubject}`,
             Message: fullMessage,
             html: true
