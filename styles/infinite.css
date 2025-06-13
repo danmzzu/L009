@@ -61,7 +61,7 @@
 .infinite-container .infinite-circle span::before {
     content: '';
     position: absolute;
-    top: calc(50% - 7.5px);
+    top: calc(50% - 7px);
     right: 0;
     width: 7px;
     height: 15px;
@@ -77,7 +77,7 @@
 
 @keyframes infiniteCircle {
     0% { 
-        transform: scale(1.5) rotate(180deg);    
+        transform: scale(1.2) rotate(180deg);    
         background-color: var(--theme);
         box-shadow: 
                 0 0 10px var(--theme),
@@ -86,8 +86,7 @@
                 0 0 60px var(--theme);
     }
     50%, 100% { 
-        transform: scale(0); 
-        background-color: #000;
+        transform: scale(0.2);
         box-shadow: none;
     }
 }
