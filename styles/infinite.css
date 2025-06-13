@@ -77,16 +77,15 @@
 
 @keyframes infiniteCircle {
     0% { 
-        transform: scale(1) rotate(180deg);    
+        transform: scale(1.5) rotate(180deg);    
         background-color: var(--theme);
         box-shadow: 
                 0 0 10px var(--theme),
                 0 0 20px var(--theme),
                 0 0 40px var(--theme),
-                0 0 60px var(--theme),
-                0 0 80px var(--theme);
+                0 0 60px var(--theme);
     }
-    50%, 100% {  transform: scale(0) rotate(-180deg); }
+    50%, 100% {  transform: scale(0); background-color: #000; }
 }
 
 @media all and (max-width: 800px) {
