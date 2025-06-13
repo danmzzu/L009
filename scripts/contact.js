@@ -70,7 +70,7 @@ contactForm.addEventListener('submit', async function(event) {
         };
 
         try {
-            const response = await fetch('https://l009-api-sendmail-railway.up.railway.app/', {
+            const response = await fetch('https://apis-railway.up.railway.app', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
