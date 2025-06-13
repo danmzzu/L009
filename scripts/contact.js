@@ -1,14 +1,11 @@
-// Get references to the form elements
 const contactForm = document.getElementById('contact');
 const contactError = document.getElementById('contact-error');
 const contactStatus = document.getElementById('contact-status');
 const contactButton = document.getElementById('contact-button');
 
-// Add event listener for form submission
 contactForm.addEventListener('submit', async function(event) {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault();
 
-    // Clear previous error and status messages
     contactError.textContent = '';
     contactError.style.display = 'none';
     if (contactStatus) {
@@ -16,7 +13,6 @@ contactForm.addEventListener('submit', async function(event) {
         contactStatus.style.display = 'none';
     }
 
-    // Get form field values and trim whitespace
     const contactName = document.getElementById('contact-name').value.trim();
     const contactPhone = document.getElementById('contact-phone').value.trim();
     const contactSubject = document.getElementById('contact-subject').value.trim();
@@ -90,24 +86,21 @@ contactForm.addEventListener('submit', async function(event) {
                 body: JSON.stringify(emailData)
             });
 
-            // Hide the sending status message
             if (contactStatus) {
                 contactStatus.style.display = 'none';
             }
 
-            // Check if the API request was successful
             if (!response.ok) {
                 const errorData = await response.json();
                 console.error('Erro ao Enviar Email:', errorData.error || 'Erro desconhecido.');
                 contactError.innerHTML = 'Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde.';
                 contactError.style.display = 'block';
-                return; // Stop execution if there's an error
+                return;
             }
 
             const data = await response.json();
             console.log('Email enviado com sucesso!', data.message);
 
-            // Display success message
             contactError.innerHTML = 'Sua mensagem foi enviada com sucesso!';
             contactError.style.display = 'block';
             contactError.classList.remove('error'); // Remove error style
