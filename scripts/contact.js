@@ -84,14 +84,14 @@ contactForm.addEventListener('submit', async function(event) {
 
             if (!response.ok) {
                 const errorData = await response.json();
-                console.error('Erro ao Enviar Email:', errorData.error || 'Erro desconhecido.');
+                console.error(errorData.error || 'Erro desconhecido.');
                 contactError.innerHTML = 'Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde.';
                 contactError.style.display = 'block';
                 return;
             }
 
             const data = await response.json();
-            console.log('Email enviado com sucesso!', data.message);
+            console.log(data.message);
 
             contactError.innerHTML = 'Sua mensagem foi enviada com sucesso!';
             contactError.style.display = 'block';
@@ -100,7 +100,7 @@ contactForm.addEventListener('submit', async function(event) {
             if (contactStatus) {
                 contactStatus.style.display = 'none';
             }
-            console.error('Erro na requisição fetch:', error);
+            console.error(error);
             contactError.innerHTML = 'Houve um problema de conexão. Verifique sua internet ou tente novamente.';
             contactError.style.display = 'block';
         } finally {
