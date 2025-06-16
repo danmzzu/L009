@@ -1,27 +1,22 @@
-let cursor = document.getElementById('cursor');
 let body = document.querySelector('body');
+let cursor = document.getElementById('cursor');
 
-document.onmousemove = function(e) {
-    cursor.style.top = e.pageY + 'px';
-    cursor.style.left = e.pageX + 'px';
-
+function createAndAnimateFragment(x, y) {
     let fragment = document.createElement('div');
     fragment.className = 'fragment';
     body.prepend(fragment);
 
-    fragment.style.left = cursor.getBoundingClientRect().x + 'px';
-    fragment.style.top = cursor.getBoundingClientRect().y + 'px';
+    fragment.style.left = x + 'px';
+    fragment.style.top = y + 'px';
 
     setTimeout(function () {
-        let currentFragment = document.querySelectorAll('.fragment')[0],
-        directionX = Math.random() < .5 ? -1 : 1,
-        directionY = Math.random() < .5 ? -1 : 1;
+        let directionX = Math.random() < 0.5 ? -1 : 1;
+        let directionY = Math.random() < 0.5 ? -1 : 1;
 
-        currentFragment.style.left = parseInt(currentFragment.style.left) - (directionX * (Math.random() * 200)) + 'px';
-        currentFragment.style.top = parseInt(currentFragment.style.top) - (directionY * (Math.random() * 200)) + 'px';
-
-        currentFragment.style.opacity = 0;
-        currentFragment.style.transform = 'scale(10)';
+        fragment.style.left = parseInt(fragment.style.left) - (directionX * (Math.random() * 200)) + 'px';
+        fragment.style.top = parseInt(fragment.style.top) - (directionY * (Math.random() * 200)) + 'px';
+        fragment.style.opacity = 0;
+        fragment.style.transform = 'scale(10)';
 
         setTimeout(function () {
             fragment.remove();
@@ -29,3 +24,20 @@ document.onmousemove = function(e) {
         
     }, 1);
 }
+
+document.onmousemove = function(e) {
+    if (cursor) {
+        cursor.style.top = e.pageY + 'px';
+        cursor.style.left = e.pageX + 'px';
+        createAndAnimateFragment(cursor.getBoundingClientRect().x, cursor.getBoundingClientRect().y);
+    } else {
+        createAndAnimateFragment(e.pageX, e.pageY);
+    }
+};
+
+document.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+    let touchX = e.touches[0].pageX;
+    let touchY = e.touches[0].pageY;
+    createAndAnimateFragment(touchX, touchY);
+});
