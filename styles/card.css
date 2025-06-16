@@ -81,6 +81,8 @@
     filter: grayscale(100%);
 }
 
+.card-feedback-client img:hover { filter: grayscale(0%); }
+
 .card-feedback-stars {
     display: flex;
     flex-direction: row;
