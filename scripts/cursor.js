@@ -41,3 +41,10 @@ document.addEventListener('touchstart', function(e) {
     let touchY = e.touches[0].pageY;
     createAndAnimateFragment(touchX, touchY);
 });
+
+document.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+    let touchX = e.touches[0].pageX;
+    let touchY = e.touches[0].pageY;
+    createAndAnimateFragment(touchX, touchY);
+});
