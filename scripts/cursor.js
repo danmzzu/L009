@@ -21,11 +21,11 @@ document.onmousemove = function(e) {
         currentFragment.style.top = parseInt(currentFragment.style.top) - (directionY * (Math.random() * 200)) + 'px';
 
         currentFragment.style.opacity = 0;
-        currentFragment.style.transform = 'scale(0.25)';
+        currentFragment.style.transform = 'scale(10)';
 
         setTimeout(function () {
             fragment.remove();
-        }, 350);
+        }, 400);
         
     }, 1);
 }
