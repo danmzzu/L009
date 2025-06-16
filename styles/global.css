@@ -29,7 +29,7 @@
 }
 
 html,
-body { overflow-x: hidden; }
+body { overflow-x: hidden !important; }
 
 html { 
     height: 100vh;
