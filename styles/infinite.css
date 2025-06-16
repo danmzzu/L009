@@ -11,7 +11,7 @@
 
 .infinite-subtitle {
     position: absolute;
-    top: 290px;
+    top: 320px;
     left: 50%;
     transform: translateX(-50%);
     color: var(--tertiary);
@@ -96,7 +96,7 @@
         height: 300px; 
         top: -20px; 
     }
-    .infinite-subtitle { top: 185px; }
+    .infinite-subtitle { top: 200px; }
     .infinite-letter { font-size: 75px; }
     .infinite-container { width: 110px; }
     .infinite-container .infinite-circle span::before {

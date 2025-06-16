@@ -31,9 +31,12 @@
 html,
 body { overflow-x: hidden; }
 
-html { scroll-behavior: smooth; }
+html { 
+    height: 100vh;
+    scroll-behavior: smooth;
+}
 
-body { background-color: #000; }
+body {  background-color: #000; }
 
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track,
