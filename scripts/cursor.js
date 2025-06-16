@@ -20,7 +20,7 @@ function createAndAnimateFragment(x, y) {
 
         setTimeout(function () {
             fragment.remove();
-        }, 400);
+        }, 1000);
         
     }, 1);
 }
