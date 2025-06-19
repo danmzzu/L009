@@ -70,7 +70,7 @@ contactForm.addEventListener('submit', async function(event) {
         };
 
         try {
-            const response = await fetch('https://apis-railway.up.railway.app', {
+            const response = await fetch('http://177.183.171.15:8221/api_email/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -84,7 +84,7 @@ contactForm.addEventListener('submit', async function(event) {
 
             if (!response.ok) {
                 const errorData = await response.json();
-                console.error(errorData.error || 'Erro desconhecido.');
+                console.error(errorData.error || 'Erro desconhecido ao enviar email.');
                 contactError.innerHTML = 'Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde.';
                 contactError.style.display = 'block';
                 return;
