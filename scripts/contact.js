@@ -70,7 +70,7 @@ contactForm.addEventListener('submit', async function(event) {
         };
 
         try {
-            const response = await fetch('http://177.183.171.15:8221/api_email/', {
+            const response = await fetch('https://177.183.171.15:8221/api_email/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
