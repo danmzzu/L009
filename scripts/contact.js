@@ -70,7 +70,7 @@ contactForm.addEventListener('submit', async function(event) {
         };
 
         try {
-            const response = await fetch('https://177.183.171.15/apis/sendmail/', {
+            const response = await fetch('https://server.l009.com.br/apis/sendmail/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
