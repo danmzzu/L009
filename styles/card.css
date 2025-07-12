@@ -50,7 +50,7 @@
     height: 100%;
     padding: 20px;
     border-radius: 20px;
-    background-color: #090909;
+    background-color: var(--card-background);
 }
 
 .card-feedback-client {
@@ -165,10 +165,6 @@
     :root { 
         --border-size: -200px;
     }
-}
-
-@media all and (min-width: 900px) {
-    .card-container { background-color: #121212; }
 }
 
 /* Especial Card Span */
