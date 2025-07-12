@@ -76,18 +76,20 @@
 }
 
 @keyframes infiniteCircle {
-    0% { 
-        transform: scale(1.2) rotate(180deg);    
+    0% {
+        transform: scale(1.2) rotate(180deg);
         background-color: var(--theme);
-        box-shadow: 
-                0 0 10px var(--theme),
-                0 0 20px var(--theme),
-                0 0 40px var(--theme),
-                0 0 60px var(--theme);
+        box-shadow:
+            0 0 15px var(--theme),
+            0 0 30px var(--theme),
+            0 0 60px var(--theme),
+            0 0 90px var(--theme);
+        filter: blur(2px);
     }
-    50%, 100% { 
-        transform: scale(0.2);
+    50%, 100% {
+        transform: scale(0.1);
         box-shadow: none;
+        filter: blur(0);
     }
 }
 
@@ -100,8 +102,10 @@
     .infinite-letter { font-size: 75px; }
     .infinite-container { width: 110px; }
     .infinite-container .infinite-circle span::before {
-        box-shadow: 0 0 10px var(--theme),
-                    0 0 20px var(--theme),
-                    0 0 40px var(--theme);
+        box-shadow:
+            0 0 10px var(--theme),
+            0 0 20px var(--theme),
+            0 0 40px var(--theme),
+            0 0 60px var(--theme);
     }
 }
